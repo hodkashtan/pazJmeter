@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1514077711194,434,GenerateVerifiactionCode,Non HTTP response code: java.net.UnknownHostException,"Non HTTP response message: dapiqa1.sites.paz.co.il: nodename nor servname provided, or not known",Thread Group 1-1,text,false,,2191,0,1,1,0,0,434
+1514077715644,8,verifyUser,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: dapiqa1.sites.paz.co.il,Thread Group 1-1,text,false,,1939,0,1,1,0,0,8
+1514077719689,1,Register,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: dapiqa1.sites.paz.co.il,Thread Group 1-1,text,false,,1939,0,1,1,0,0,1
