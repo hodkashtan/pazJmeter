@@ -226,7 +226,7 @@
         <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="phoneNum - Random Variable" enabled="true">
           <stringProp name="variableName">phoneNum</stringProp>
           <stringProp name="outputFormat"></stringProp>
-          <stringProp name="minimumValue">00000000</stringProp>
+          <stringProp name="minimumValue">10000000</stringProp>
           <stringProp name="maximumValue">99999999</stringProp>
           <stringProp name="randomSeed"></stringProp>
           <boolProp name="perThread">true</boolProp>
