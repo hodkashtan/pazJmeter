@@ -1,4 +1,4 @@
-
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
 1515317050737,1750,GenerateVerifiactionCode,200,OK,Thread Group 1-54,text,true,,387,188,100,100,1750,0,1085
 1515317050894,1616,GenerateVerifiactionCode,200,OK,Thread Group 1-62,text,true,,387,188,100,100,1616,0,928
 1515317050164,2347,GenerateVerifiactionCode,200,OK,Thread Group 1-2,text,true,,387,188,100,100,2346,0,1672
