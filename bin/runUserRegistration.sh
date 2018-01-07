@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cd /home/centos/pazJmeter/bin
 git pull
 rm -Rf Summary.csv
 NOW=User_Registration_$(date +"%m-%d-%y"--"%T")
