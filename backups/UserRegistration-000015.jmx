@@ -17,7 +17,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <longProp name="ThreadGroup.start_time">1514069295000</longProp>
         <longProp name="ThreadGroup.end_time">1514069295000</longProp>
@@ -30,11 +30,11 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">dapiqa1.sites.paz.co.il</stringProp>
-          <stringProp name="HTTPSampler.port">80</stringProp>
-          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.domain">ltdapi.paz.co.il</stringProp>
+          <stringProp name="HTTPSampler.port">443</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/api/users/generateVerificationCode?mobilePhone=0528586186</stringProp>
+          <stringProp name="HTTPSampler.path">/api/users/generateVerificationCode?mobilePhone=05${phoneNum}&amp;sms=false</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -57,8 +57,9 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
+	&quot;code&quot;: &quot;MintCode!378Fjkiur&quot;,&#xd;
 	&quot;verificationCode&quot;: &quot;0203&quot;,&#xd;
-	&quot;mobilePhone&quot;: &quot;&quot;,&#xd;
+	&quot;mobilePhone&quot;: &quot;05${phoneNum}&quot;,&#xd;
 	&quot;fbaccesstoken&quot;: &quot;null&quot;&#xd;
 }&#xd;
 </stringProp>
@@ -66,9 +67,9 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">dapiqa1.sites.paz.co.il</stringProp>
-          <stringProp name="HTTPSampler.port">80</stringProp>
-          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.domain">ltdapi.paz.co.il</stringProp>
+          <stringProp name="HTTPSampler.port">443</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/api/users/verifyUser</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
@@ -96,12 +97,25 @@
           </HeaderManager>
           <hashTree/>
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames"></stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs"></stringProp>
+            <stringProp name="JSONPostProcessor.referenceNames">verificationToken</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.body.verificationToken</stringProp>
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1550414690">verificationToken</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
         </hashTree>
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="3SecDelay" enabled="true">
+          <stringProp name="ConstantTimer.delay">3000</stringProp>
+        </ConstantTimer>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Register" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -109,26 +123,26 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-	&quot;lastName&quot;: &quot;˘· &quot;,&#xd;
-	&quot;firstName&quot;: &quot;ÏÈ‡ ¯&quot;,&#xd;
+	&quot;lastName&quot;: &quot;${__RandomString(10,abcdefghijklmnopqrstuvwxyz,)}&quot;,&#xd;
+	&quot;firstName&quot;: &quot;Perf-${__RandomString(5,abcdefghijklmnopqrstuvwxyz,)}&quot;,&#xd;
 	&quot;birthDate&quot;: null,&#xd;
 	&quot;agreeTerms&quot;: &quot;true&quot;,&#xd;
-	&quot;verifyToken&quot;: &quot;71b79596-db91-4056-bd24-d6f236de0f83&quot;,&#xd;
+	&quot;verifyToken&quot;: &quot;${verificationToken}&quot;,&#xd;
 	&quot;pazomatCarNumber&quot;: null,&#xd;
-	&quot;personalId&quot;: &quot;037741501&quot;,&#xd;
-	&quot;mobilePhone&quot;: &quot;0507432485&quot;,&#xd;
+	&quot;personalId&quot;: &quot;${personalId}&quot;,&#xd;
+	&quot;mobilePhone&quot;: &quot;05${phoneNum}&quot;,&#xd;
 	&quot;fbAccessToken&quot;: null,&#xd;
 	&quot;clientConfirmation&quot;: &quot;true&quot;,&#xd;
 	&quot;agreeNewsletter&quot;: &quot;true&quot;,&#xd;
-	&quot;email&quot;: &quot;kkkk@mintapp.co.il&quot;&#xd;
+	&quot;email&quot;: &quot;user05${phoneNum}@perf.com&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">dapiqa1.sites.paz.co.il</stringProp>
-          <stringProp name="HTTPSampler.port">80</stringProp>
-          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.domain">ltdapi.paz.co.il</stringProp>
+          <stringProp name="HTTPSampler.port">443</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/api/users/register</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
@@ -154,6 +168,15 @@
               </elementProp>
             </collectionProp>
           </HeaderManager>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1042689291">accessToken</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -190,6 +213,96 @@
             </value>
           </objProp>
           <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="phoneNum - Random Variable" enabled="true">
+          <stringProp name="variableName">phoneNum</stringProp>
+          <stringProp name="outputFormat"></stringProp>
+          <stringProp name="minimumValue">10000000</stringProp>
+          <stringProp name="maximumValue">99999999</stringProp>
+          <stringProp name="randomSeed"></stringProp>
+          <boolProp name="perThread">true</boolProp>
+        </RandomVariableConfig>
+        <hashTree/>
+        <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="PersonalId - Random Variable" enabled="true">
+          <stringProp name="variableName">personalId</stringProp>
+          <stringProp name="outputFormat"></stringProp>
+          <stringProp name="minimumValue">100000000</stringProp>
+          <stringProp name="maximumValue">999999999</stringProp>
+          <stringProp name="randomSeed"></stringProp>
+          <boolProp name="perThread">true</boolProp>
+        </RandomVariableConfig>
+        <hashTree/>
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Simple Data Writer" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>true</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename">Summary.csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
