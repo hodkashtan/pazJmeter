@@ -182,7 +182,7 @@
             <stringProp name="FileSaver.filename">./users/user-05${phoneNum}</stringProp>
             <boolProp name="FileSaver.errorsonly">false</boolProp>
             <boolProp name="FileSaver.skipautonumber">true</boolProp>
-            <boolProp name="FileSaver.skipsuffix">false</boolProp>
+            <boolProp name="FileSaver.skipsuffix">true</boolProp>
             <boolProp name="FileSaver.successonly">false</boolProp>
           </ResultSaver>
           <hashTree/>
