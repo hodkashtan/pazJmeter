@@ -2,6 +2,7 @@
 
 cd /home/centos/pazJmeter/bin
 git pull
+rm -Rf Summary.csv
 NOW=$(date +"%m-%d-%y"--"%T")
 mkdir $NOW
 ./jmeter.sh -n -t UserRegistration.jmx -l scriptresults.jtl
