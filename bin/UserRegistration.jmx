@@ -17,7 +17,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">200</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <longProp name="ThreadGroup.start_time">1514069295000</longProp>
         <longProp name="ThreadGroup.end_time">1514069295000</longProp>
@@ -177,14 +177,6 @@
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
           </ResponseAssertion>
-          <hashTree/>
-          <ResultSaver guiclass="ResultSaverGui" testclass="ResultSaver" testname="Save Responses to a file" enabled="true">
-            <stringProp name="FileSaver.filename">user-05${phoneNum}</stringProp>
-            <boolProp name="FileSaver.errorsonly">false</boolProp>
-            <boolProp name="FileSaver.skipautonumber">false</boolProp>
-            <boolProp name="FileSaver.skipsuffix">false</boolProp>
-            <boolProp name="FileSaver.successonly">false</boolProp>
-          </ResultSaver>
           <hashTree/>
         </hashTree>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
