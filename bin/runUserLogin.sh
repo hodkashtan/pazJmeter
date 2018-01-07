@@ -3,7 +3,7 @@
 cd /home/centos/pazJmeter/bin
 git pull
 rm -Rf Summary.csv
-NOW=User_Registration_$(date +"%m-%d-%y"--"%T")
+NOW=User_Login_$(date +"%m-%d-%y"--"%T")
 mkdir $NOW
 ./jmeter.sh -n -t UserRegistration.jmx -l scriptresults.jtl
 ./jmeter -g Summary.csv -o $NOW
