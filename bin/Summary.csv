@@ -1,31 +1,21 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1515308199486,943,GenerateVerifiactionCode,200,OK,Thread Group 1-3,text,true,,387,187,10,10,943,0,773
-1515308199596,837,GenerateVerifiactionCode,200,OK,Thread Group 1-4,text,true,,387,187,10,10,832,0,655
-1515308199794,652,GenerateVerifiactionCode,200,OK,Thread Group 1-6,text,true,,387,187,10,10,652,0,466
-1515308199697,750,GenerateVerifiactionCode,200,OK,Thread Group 1-5,text,true,,387,187,10,10,750,0,563
-1515308199335,1114,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,387,187,10,10,1114,0,928
-1515308199899,550,GenerateVerifiactionCode,200,OK,Thread Group 1-7,text,true,,387,187,10,10,550,0,402
-1515308199377,1072,GenerateVerifiactionCode,200,OK,Thread Group 1-2,text,true,,387,187,10,10,1072,0,884
-1515308200011,500,GenerateVerifiactionCode,200,OK,Thread Group 1-8,text,true,,387,187,10,10,500,0,376
-1515308200110,496,GenerateVerifiactionCode,200,OK,Thread Group 1-9,text,true,,387,187,10,10,496,0,386
-1515308200211,487,GenerateVerifiactionCode,200,OK,Thread Group 1-10,text,true,,387,187,10,10,487,0,378
-1515308204451,294,verifyUser,200,OK,Thread Group 1-2,text,true,,442,345,10,10,294,0,156
-1515308204448,308,verifyUser,200,OK,Thread Group 1-5,text,true,,442,345,10,10,308,0,158
-1515308204437,320,verifyUser,200,OK,Thread Group 1-4,text,true,,442,345,10,10,320,0,166
-1515308204512,275,verifyUser,200,OK,Thread Group 1-8,text,true,,442,345,10,10,275,0,157
-1515308204450,308,verifyUser,200,OK,Thread Group 1-7,text,true,,442,345,10,10,308,0,179
-1515308204449,309,verifyUser,200,OK,Thread Group 1-1,text,true,,442,345,10,10,309,0,178
-1515308204447,312,verifyUser,200,OK,Thread Group 1-6,text,true,,442,345,10,10,312,0,162
-1515308204433,329,verifyUser,200,OK,Thread Group 1-3,text,true,,442,345,10,10,328,0,169
-1515308204607,284,verifyUser,200,OK,Thread Group 1-9,text,true,,442,345,10,10,284,0,166
-1515308204700,299,verifyUser,200,OK,Thread Group 1-10,text,true,,442,345,10,10,299,0,176
-1515308208818,4240,Register,200,OK,Thread Group 1-8,text,true,,1811,592,10,10,4240,0,171
-1515308208819,4242,Register,200,OK,Thread Group 1-7,text,true,,1811,592,9,9,4242,0,169
-1515308208820,4242,Register,200,OK,Thread Group 1-1,text,true,,1811,592,8,8,4242,0,153
-1515308208815,4255,Register,200,OK,Thread Group 1-5,text,true,,1811,592,7,7,4255,0,178
-1515308209006,4087,Register,200,OK,Thread Group 1-10,text,true,,1811,592,6,6,4087,0,170
-1515308208816,7945,Register,200,OK,Thread Group 1-4,text,true,,1811,592,5,5,7945,0,170
-1515308208821,7963,Register,200,OK,Thread Group 1-3,text,true,,1811,592,4,4,7963,0,170
-1515308208892,7951,Register,200,OK,Thread Group 1-9,text,true,,1811,592,3,3,7951,0,181
-1515308208820,8125,Register,200,OK,Thread Group 1-6,text,true,,1811,592,2,2,8125,0,172
-1515308208813,8136,Register,200,OK,Thread Group 1-2,text,true,,1811,592,1,1,8136,0,181
+1515313320466,3137,GenerateVerifiactionCode,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-4,text,false,,2372,0,10,10,0,0,3137
+1515313320269,3333,GenerateVerifiactionCode,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-2,text,false,,2372,0,10,10,0,0,3333
+1515313320567,3034,GenerateVerifiactionCode,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-5,text,false,,2372,0,10,10,0,0,3034
+1515313320369,3234,GenerateVerifiactionCode,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-3,text,false,,2372,0,10,10,0,0,3234
+1515313320225,3376,GenerateVerifiactionCode,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-1,text,false,,2372,0,10,10,0,0,3376
+1515313320673,3024,GenerateVerifiactionCode,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-6,text,false,,2372,0,10,10,0,0,3024
+1515313320768,3025,GenerateVerifiactionCode,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-7,text,false,,2372,0,10,10,0,0,3025
+1515313320870,3023,GenerateVerifiactionCode,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-8,text,false,,2372,0,10,10,0,0,3023
+1515313320970,3026,GenerateVerifiactionCode,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-9,text,false,,2372,0,10,10,0,0,3026
+1515313321071,3025,GenerateVerifiactionCode,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-10,text,false,,2372,0,10,10,0,0,3025
+1515313324613,3034,verifyUser,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-1,text,false,Test failed: text expected to contain /email/,2372,0,10,10,0,0,3034
+1515313324613,3034,verifyUser,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-4,text,false,Test failed: text expected to contain /email/,2372,0,10,10,0,0,3034
+1515313324613,3033,verifyUser,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-3,text,false,Test failed: text expected to contain /email/,2372,0,10,10,0,0,3033
+1515313324613,3034,verifyUser,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-5,text,false,Test failed: text expected to contain /email/,2372,0,10,10,0,0,3034
+1515313324613,3034,verifyUser,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-2,text,false,Test failed: text expected to contain /email/,2372,0,10,10,0,0,3034
+1515313324702,3023,verifyUser,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-6,text,false,Test failed: text expected to contain /email/,2372,0,5,5,0,0,3023
+1515313324797,3022,verifyUser,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-7,text,false,Test failed: text expected to contain /email/,2372,0,4,4,0,0,3022
+1515313324895,3022,verifyUser,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-8,text,false,Test failed: text expected to contain /email/,2372,0,3,3,0,0,3022
+1515313324998,3023,verifyUser,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-9,text,false,Test failed: text expected to contain /email/,2372,0,2,2,0,0,3023
+1515313325101,3023,verifyUser,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-10,text,false,Test failed: text expected to contain /email/,2372,0,1,1,0,0,3023
