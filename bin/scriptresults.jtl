@@ -3299,3 +3299,6 @@
 1515325588483,691,verifyUser,200,OK,Thread Group 1-77,text,true,,1087,345,3,3,691,0,198
 1515325588509,672,verifyUser,200,OK,Thread Group 1-39,text,true,,1087,345,2,2,672,0,172
 1515325588511,680,verifyUser,200,OK,Thread Group 1-85,text,true,,1087,345,1,1,680,0,195
+1515417268442,23278,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,377,187,1,1,23278,0,982
+1515417295724,945,verifyUser,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /verificationToken/,402,345,1,1,945,0,157
+1515417300722,1031,Register,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /accessToken/,324,556,1,1,1031,0,164
