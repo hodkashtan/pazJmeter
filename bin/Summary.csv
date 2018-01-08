@@ -1,4 +1,4 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1515417268442,23278,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,377,187,1,1,23278,0,982
-1515417295724,945,verifyUser,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /verificationToken/,402,345,1,1,945,0,157
-1515417300722,1031,Register,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /accessToken/,324,556,1,1,1031,0,164
+1515417353490,22104,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,377,187,1,1,22104,0,934
+1515417379598,301,verifyUser,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /verificationToken/,402,345,1,1,301,0,175
+1515417383953,310,Register,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /accessToken/,324,556,1,1,310,0,164
