@@ -3334,3 +3334,6 @@
 1515582790187,982,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,1,1,982,0,839
 1515582795174,259,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,1,1,259,0,150
 1515582799479,2890,Register,200,OK,Thread Group 1-1,text,true,,1027,592,1,1,2890,0,154
+1515584092444,1038,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,1,1,1038,0,874
+1515584097486,288,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,1,1,288,0,163
+1515584101823,3110,Register,200,OK,Thread Group 1-1,text,true,,1027,592,1,1,3110,0,159
