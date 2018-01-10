@@ -9,6 +9,6 @@ mkdir $NOW
 ./jmeter -g Summary.csv -o $NOW
 ./createUsers.sh
 mkdir target
-cp -r $NOW/* target/*
+cp -r $NOW/* target/
 git add -A
 git commit -m "added $NOW results"
