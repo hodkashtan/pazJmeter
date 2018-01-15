@@ -3349,3 +3349,9 @@
 1516033926949,1003,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,1,1,1002,0,843
 1516033931957,298,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,1,1,298,0,176
 1516033936304,3187,Register,200,OK,Thread Group 1-1,text,true,,1031,592,1,1,3187,0,169
+1516034715961,1080,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,2,2,1079,0,941
+1516034716404,923,GenerateVerifiactionCode,200,OK,Thread Group 1-2,text,true,,353,187,2,2,923,0,490
+1516034721328,298,verifyUser,200,OK,Thread Group 1-2,text,true,,408,345,2,2,298,0,165
+1516034721056,986,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,2,2,986,0,159
+1516034725675,2942,Register,200,OK,Thread Group 1-2,text,true,,1031,592,2,2,2942,0,177
+1516034726043,5587,Register,200,OK,Thread Group 1-1,text,true,,1031,592,1,1,5587,0,171
