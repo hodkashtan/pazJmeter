@@ -196,8 +196,9 @@ String email = &quot;${email}&quot;;
 String first = &quot;${firstName}&quot;;
 String last = &quot;${lastName}&quot;;
 String userID = &quot;${userId}&quot;;
+String clubMemberId = &quot;${clubMemberId}&quot;;
 FileWriter fstream = new FileWriter(&quot;usersInfo.csv&quot;,true);
-fstream.write(phoneNumber+&quot;,&quot;+accessToken+&quot;,&quot;+email+&quot;,&quot;+first+&quot;,&quot;+last+&quot;,&quot;+userID+&quot;\n&quot;);
+fstream.write(phoneNumber+&quot;,&quot;+accessToken+&quot;,&quot;+email+&quot;,&quot;+first+&quot;,&quot;+last+&quot;,&quot;+userID+&quot;,&quot;+accessToken&quot;\n&quot;);
 fstream.close();
 
 
