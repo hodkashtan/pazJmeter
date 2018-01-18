@@ -1,9 +1,9 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1516286990575,1509,GenerateVerifiactionCode,200,OK,Thread Group 1-2,text,true,,352,187,4,4,1509,0,751
-1516286991091,996,GenerateVerifiactionCode,200,OK,Thread Group 1-4,text,true,,352,187,4,4,996,0,402
-1516286990844,1366,GenerateVerifiactionCode,200,OK,Thread Group 1-3,text,true,,352,187,4,4,1366,0,475
-1516286990402,1819,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,352,187,4,4,1819,0,935
-1516286993217,620,verifyUser,200,OK,Thread Group 1-1,text,true,,1084,345,4,4,620,0,161
-1516286993111,733,verifyUser,200,OK,Thread Group 1-4,text,true,,1084,345,3,3,733,0,163
-1516286993216,661,verifyUser,200,OK,Thread Group 1-3,text,true,,1084,345,2,2,661,0,181
-1516286993108,770,verifyUser,200,OK,Thread Group 1-2,text,true,,1084,345,1,1,770,0,187
+1516287220757,723,Get User Info,200,OK,Open App 1-2,text,true,,824,353,4,4,723,0,601
+1516287220571,914,Get User Info,200,OK,Open App 1-1,text,true,,824,353,4,4,914,0,782
+1516287221000,522,Get User Info,200,OK,Open App 1-3,text,true,,824,353,4,4,522,0,399
+1516287221487,83,Get Settings All,200,OK,Open App 1-1,text,true,,807,348,4,4,83,0,0
+1516287221486,90,Get Settings All,200,OK,Open App 1-2,text,true,,807,348,3,3,90,0,0
+1516287221523,98,Get Settings All,200,OK,Open App 1-3,text,true,,807,348,2,2,98,0,0
+1516287221271,486,Get User Info,200,OK,Open App 1-4,text,true,,824,353,1,1,486,0,370
+1516287221758,88,Get Settings All,200,OK,Open App 1-4,text,true,,807,348,1,1,88,0,0
