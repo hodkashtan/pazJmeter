@@ -1,31 +1,21 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1516201479244,1022,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,10,10,1022,0,887
-1516201479285,983,GenerateVerifiactionCode,200,OK,Thread Group 1-2,text,true,,353,187,10,10,983,0,843
-1516201479720,549,GenerateVerifiactionCode,200,OK,Thread Group 1-6,text,true,,353,187,10,10,549,0,412
-1516201479397,873,GenerateVerifiactionCode,200,OK,Thread Group 1-3,text,true,,353,187,10,10,873,0,734
-1516201479612,659,GenerateVerifiactionCode,200,OK,Thread Group 1-5,text,true,,353,187,10,10,659,0,531
-1516201479510,755,GenerateVerifiactionCode,200,OK,Thread Group 1-4,text,true,,353,187,10,10,754,0,622
-1516201479834,482,GenerateVerifiactionCode,200,OK,Thread Group 1-7,text,true,,353,187,10,10,482,0,375
-1516201479946,452,GenerateVerifiactionCode,200,OK,Thread Group 1-8,text,true,,353,187,10,10,452,0,351
-1516201480049,499,GenerateVerifiactionCode,200,OK,Thread Group 1-9,text,true,,353,187,10,10,499,0,389
-1516201480151,452,GenerateVerifiactionCode,200,OK,Thread Group 1-10,text,true,,353,187,10,10,452,0,352
-1516201484277,273,verifyUser,200,OK,Thread Group 1-3,text,true,,408,345,10,10,273,0,161
-1516201484277,284,verifyUser,200,OK,Thread Group 1-6,text,true,,408,345,10,10,284,0,169
-1516201484317,291,verifyUser,200,OK,Thread Group 1-7,text,true,,408,345,10,10,291,0,173
-1516201484276,302,verifyUser,200,OK,Thread Group 1-5,text,true,,408,345,10,10,302,0,184
-1516201484278,284,verifyUser,200,OK,Thread Group 1-2,text,true,,408,345,10,10,284,0,169
-1516201484279,283,verifyUser,200,OK,Thread Group 1-4,text,true,,408,345,10,10,283,0,169
-1516201484273,304,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,10,10,304,0,185
-1516201484410,292,verifyUser,200,OK,Thread Group 1-8,text,true,,408,345,10,10,292,0,181
-1516201484549,290,verifyUser,200,OK,Thread Group 1-9,text,true,,408,345,10,10,290,0,172
-1516201484610,290,verifyUser,200,OK,Thread Group 1-10,text,true,,408,345,10,10,290,0,175
-1516201488601,3523,Register,200,OK,Thread Group 1-3,text,true,,1031,592,10,10,3523,0,160
-1516201488610,3653,Register,200,OK,Thread Group 1-2,text,true,,1031,592,9,9,3653,0,176
-1516201488609,3925,Register,200,OK,Thread Group 1-7,text,true,,1031,592,8,8,3924,0,163
-1516201488609,3942,Register,200,OK,Thread Group 1-5,text,true,,1031,592,7,7,3942,0,154
-1516201488603,3954,Register,200,OK,Thread Group 1-6,text,true,,1031,592,6,6,3954,0,155
-1516201488901,6774,Register,200,OK,Thread Group 1-10,text,true,,1031,592,5,5,6774,0,155
-1516201488612,7068,Register,200,OK,Thread Group 1-4,text,true,,1031,592,4,4,7068,0,165
-1516201488703,7227,Register,200,OK,Thread Group 1-8,text,true,,1031,592,3,3,7227,0,169
-1516201488612,7348,Register,200,OK,Thread Group 1-1,text,true,,1031,592,2,2,7348,0,164
-1516201488840,7323,Register,200,OK,Thread Group 1-9,text,true,,1031,592,1,1,7322,0,146
+1516276702776,1054,Get Settings All,200,OK,Open App 1-2,text,true,,807,348,10,10,1054,0,911
+1516276703084,749,Get Settings All,200,OK,Open App 1-5,text,true,,807,348,10,10,749,0,598
+1516276703277,559,Get Settings All,200,OK,Open App 1-7,text,true,,807,348,10,10,559,0,410
+1516276703186,678,Get Settings All,200,OK,Open App 1-6,text,true,,807,348,10,10,678,0,556
+1516276703834,146,Get User Info,200,OK,Open App 1-5,text,true,,824,353,10,10,146,0,0
+1516276703847,148,Get User Info,200,OK,Open App 1-7,text,true,,824,353,9,9,148,0,0
+1516276703852,152,Get User Info,200,OK,Open App 1-2,text,true,,824,353,8,8,152,0,0
+1516276703865,157,Get User Info,200,OK,Open App 1-6,text,true,,824,353,7,7,157,0,0
+1516276703483,544,Get Settings All,200,OK,Open App 1-9,text,true,,807,348,6,6,544,0,443
+1516276704027,139,Get User Info,200,OK,Open App 1-9,text,true,,824,353,6,6,139,0,0
+1516276702762,1469,Get Settings All,200,OK,Open App 1-1,text,true,,807,348,5,5,1469,0,964
+1516276702875,1363,Get Settings All,200,OK,Open App 1-3,text,true,,807,348,5,5,1363,0,813
+1516276703596,644,Get Settings All,200,OK,Open App 1-10,text,true,,807,348,5,5,643,0,386
+1516276703378,867,Get Settings All,200,OK,Open App 1-8,text,true,,807,348,5,5,867,0,415
+1516276704232,1581,Get User Info,200,OK,Open App 1-1,text,true,,824,353,5,5,1581,0,0
+1516276704245,1576,Get User Info,200,OK,Open App 1-8,text,true,,824,353,4,4,1576,0,0
+1516276704240,1582,Get User Info,200,OK,Open App 1-10,text,true,,824,353,3,3,1582,0,0
+1516276704239,1586,Get User Info,200,OK,Open App 1-3,text,true,,824,353,2,2,1585,0,0
+1516276702986,3839,Get Settings All,200,OK,Open App 1-4,text,true,,807,348,1,1,3839,0,706
+1516276706825,302,Get User Info,200,OK,Open App 1-4,text,true,,824,353,1,1,302,0,159

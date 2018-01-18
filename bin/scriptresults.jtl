@@ -5954,3 +5954,23 @@
 1516201488703,7227,Register,200,OK,Thread Group 1-8,text,true,,1031,592,3,3,7227,0,169
 1516201488612,7348,Register,200,OK,Thread Group 1-1,text,true,,1031,592,2,2,7348,0,164
 1516201488840,7323,Register,200,OK,Thread Group 1-9,text,true,,1031,592,1,1,7322,0,146
+1516276702776,1054,Get Settings All,200,OK,Open App 1-2,text,true,,807,348,10,10,1054,0,911
+1516276703084,749,Get Settings All,200,OK,Open App 1-5,text,true,,807,348,10,10,749,0,598
+1516276703277,559,Get Settings All,200,OK,Open App 1-7,text,true,,807,348,10,10,559,0,410
+1516276703186,678,Get Settings All,200,OK,Open App 1-6,text,true,,807,348,10,10,678,0,556
+1516276703834,146,Get User Info,200,OK,Open App 1-5,text,true,,824,353,10,10,146,0,0
+1516276703847,148,Get User Info,200,OK,Open App 1-7,text,true,,824,353,9,9,148,0,0
+1516276703852,152,Get User Info,200,OK,Open App 1-2,text,true,,824,353,8,8,152,0,0
+1516276703865,157,Get User Info,200,OK,Open App 1-6,text,true,,824,353,7,7,157,0,0
+1516276703483,544,Get Settings All,200,OK,Open App 1-9,text,true,,807,348,6,6,544,0,443
+1516276704027,139,Get User Info,200,OK,Open App 1-9,text,true,,824,353,6,6,139,0,0
+1516276702762,1469,Get Settings All,200,OK,Open App 1-1,text,true,,807,348,5,5,1469,0,964
+1516276702875,1363,Get Settings All,200,OK,Open App 1-3,text,true,,807,348,5,5,1363,0,813
+1516276703596,644,Get Settings All,200,OK,Open App 1-10,text,true,,807,348,5,5,643,0,386
+1516276703378,867,Get Settings All,200,OK,Open App 1-8,text,true,,807,348,5,5,867,0,415
+1516276704232,1581,Get User Info,200,OK,Open App 1-1,text,true,,824,353,5,5,1581,0,0
+1516276704245,1576,Get User Info,200,OK,Open App 1-8,text,true,,824,353,4,4,1576,0,0
+1516276704240,1582,Get User Info,200,OK,Open App 1-10,text,true,,824,353,3,3,1582,0,0
+1516276704239,1586,Get User Info,200,OK,Open App 1-3,text,true,,824,353,2,2,1585,0,0
+1516276702986,3839,Get Settings All,200,OK,Open App 1-4,text,true,,807,348,1,1,3839,0,706
+1516276706825,302,Get User Info,200,OK,Open App 1-4,text,true,,824,353,1,1,302,0,159
