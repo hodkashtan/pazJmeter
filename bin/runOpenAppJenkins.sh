@@ -9,4 +9,3 @@ mkdir $NOW
 ./jmeter -g Summary.csv -o $NOW
 git add -A
 git commit -m "added $NOW results"
-git push
