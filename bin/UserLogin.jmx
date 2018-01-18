@@ -46,7 +46,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/api/users/generateVerificationCode?mobilePhone=${phoneNumber}&amp;sms=false</stringProp>
+          <stringProp name="HTTPSampler.path">/api/users/generateVerificationCode?mobilePhone=0${phoneNumber}&amp;sms=false</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -71,7 +71,7 @@
                 <stringProp name="Argument.value">{&#xd;
 	&quot;code&quot;: &quot;MintCode!378Fjkiur&quot;,&#xd;
 	&quot;verificationCode&quot;: &quot;0203&quot;,&#xd;
-	&quot;mobilePhone&quot;: &quot;${phoneNumber}&quot;,&#xd;
+	&quot;mobilePhone&quot;: &quot;0${phoneNumber}&quot;,&#xd;
 	&quot;fbaccesstoken&quot;: &quot;null&quot;&#xd;
 }&#xd;
 </stringProp>
