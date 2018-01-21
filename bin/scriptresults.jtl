@@ -7530,3 +7530,13 @@
 1516554796497,2128,Get All History,405,Method Not Allowed,History 1-3,text,false,Test failed: code expected to match /200/,340,351,3,3,2128,0,994
 1516554796997,1640,Get All History,405,Method Not Allowed,History 1-8,text,false,Test failed: code expected to match /200/,340,351,2,2,1640,0,495
 1516554796396,2271,Get All History,500,Internal Server Error,History 1-1,text,false,Test failed: code expected to match /200/,270,217,1,1,2271,0,1114
+1516554852593,598,Get All History,405,Method Not Allowed,History 1-7,text,false,Test failed: code expected to match /200/,340,351,10,10,582,0,472
+1516554852397,799,Get All History,405,Method Not Allowed,History 1-5,text,false,Test failed: code expected to match /200/,340,351,10,10,794,0,659
+1516554852087,1109,Get All History,500,Internal Server Error,History 1-1,text,false,Test failed: code expected to match /200/,270,217,10,10,1104,0,993
+1516554852297,900,Get All History,405,Method Not Allowed,History 1-4,text,false,Test failed: code expected to match /200/,340,351,10,10,893,0,781
+1516554852194,1003,Get All History,405,Method Not Allowed,History 1-3,text,false,Test failed: code expected to match /200/,340,351,10,10,983,0,872
+1516554852101,1096,Get All History,405,Method Not Allowed,History 1-2,text,false,Test failed: code expected to match /200/,340,351,10,10,1075,0,961
+1516554852502,698,Get All History,405,Method Not Allowed,History 1-6,text,false,Test failed: code expected to match /200/,340,351,8,8,698,0,591
+1516554852699,536,Get All History,405,Method Not Allowed,History 1-8,text,false,Test failed: code expected to match /200/,340,351,3,3,536,0,428
+1516554852806,515,Get All History,405,Method Not Allowed,History 1-9,text,false,Test failed: code expected to match /200/,340,351,2,2,515,0,410
+1516554852925,498,Get All History,405,Method Not Allowed,History 1-10,text,false,Test failed: code expected to match /200/,340,351,1,1,498,0,395
