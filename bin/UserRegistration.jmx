@@ -197,66 +197,12 @@ String first = &quot;${firstName}&quot;;
 String last = &quot;${lastName}&quot;;
 String userID = &quot;${userId}&quot;;
 String clubMemberId = &quot;${clubMemberId}&quot;;
+String personlId = &quot;${personlId}&quot;;
 FileWriter fstream = new FileWriter(&quot;usersInfo.csv&quot;,true);
-fstream.write(phoneNumber+&quot;,&quot;+accessToken+&quot;,&quot;+email+&quot;,&quot;+first+&quot;,&quot;+last+&quot;,&quot;+userID+&quot;,&quot;+clubMemberId+&quot;\n&quot;);
+fstream.write(phoneNumber+&quot;,&quot;+accessToken+&quot;,&quot;+email+&quot;,&quot;+first+&quot;,&quot;+last+&quot;,&quot;+userID+&quot;,&quot;+clubMemberId+&quot;,&quot;+personlId+&quot;\n&quot;);
 fstream.close();
 
-
-/**
- * import java.io.FileWriter;
-import java.util.Arrays;
-import java.io.Writer;
-import java.util.List;
-
-//Default separator
-char SEPARATOR = &apos;,&apos;;
-
-//function write line in csv
-public void writeLine(FileWriter writer, String[] params, char separator)
-{
-   boolean firstParam = true;
-
-   StringBuilder stringBuilder = new StringBuilder();
-   String param = &quot;&quot;;
-   
-   for (int i = 0; i &lt; params.length; i++)
-   {
-      //get param
-      param = params[i];
-      log.info(param);
-       
-         //if the first param in the line, separator is not needed
-       if (!firstParam) 
-       {
-           stringBuilder.append(separator);
-       }
-
-         //Add param to line
-       stringBuilder.append(param);
-      
-       firstParam = false;
-   }
-
-   //prepare file to next line
-   stringBuilder.append(&quot;\n&quot;);
-
-   //add to file the line
-   log.info(stringBuilder.toString());
-   writer.append(stringBuilder.toString());
-
-}
-
-//get path of csv file (creates new one if its not exists)
-String csvFile = &quot;usersInfo.csv&quot;; // for example &apos;/User/Downloads/blabla.csv&apos;
-
-String[] params = {${phoneNumber}, ${accessToken}, ${email}, ${firstName}, ${lastName}, ${userId}};
-
-FileWriter fileWriter = new FileWriter(csvFile, true);
-writeLine(fileWriter, params, SEPARATOR);
-
-//proper close to file
-fileWriter.flush();
-fileWriter.close(); **/</stringProp>
+</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
         </hashTree>
