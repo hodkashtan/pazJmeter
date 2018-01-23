@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1516702192877,1339,indoorMessagesGet,500,Internal Server Error,Indoor 1-1,text,false,Test failed: text expected to contain /dapiSessionId/,270,214,10,10,1339,0,979
+1516702193753,486,indoorMessagesGet,405,Method Not Allowed,Indoor 1-10,text,false,Test failed: text expected to contain /dapiSessionId/,340,348,10,10,486,0,357
+1516702193597,643,indoorMessagesGet,405,Method Not Allowed,Indoor 1-8,text,false,Test failed: text expected to contain /dapiSessionId/,340,348,10,10,643,0,393
+1516702193346,936,indoorMessagesGet,405,Method Not Allowed,Indoor 1-6,text,false,Test failed: text expected to contain /dapiSessionId/,340,348,10,10,936,0,513
+1516702193657,624,indoorMessagesGet,405,Method Not Allowed,Indoor 1-9,text,false,Test failed: text expected to contain /dapiSessionId/,340,348,10,10,624,0,420
+1516702193248,992,indoorMessagesGet,405,Method Not Allowed,Indoor 1-5,text,false,Test failed: text expected to contain /dapiSessionId/,340,348,10,10,992,0,610
+1516702193458,822,indoorMessagesGet,405,Method Not Allowed,Indoor 1-7,text,false,Test failed: text expected to contain /dapiSessionId/,340,348,10,10,822,0,417
+1516702194316,95,indoorFuellingApproveOrDeny,500,Internal Server Error,Indoor 1-1,text,false,Test failed: text expected to contain /true/,270,296,10,10,95,0,0
+1516702194312,507,indoorFuellingApproveOrDeny,200,OK,Indoor 1-7,text,false,Test failed: text expected to contain /true/,303,430,9,9,507,0,0
+1516702194311,510,indoorFuellingApproveOrDeny,200,OK,Indoor 1-9,text,false,Test failed: text expected to contain /true/,303,430,8,8,510,0,0
+1516702194311,511,indoorFuellingApproveOrDeny,200,OK,Indoor 1-6,text,false,Test failed: text expected to contain /true/,303,430,7,7,511,0,0
+1516702194312,539,indoorFuellingApproveOrDeny,200,OK,Indoor 1-10,text,false,Test failed: text expected to contain /true/,303,430,6,6,539,0,0
+1516702194307,551,indoorFuellingApproveOrDeny,200,OK,Indoor 1-8,text,false,Test failed: text expected to contain /true/,303,430,5,5,551,0,0
+1516702194311,548,indoorFuellingApproveOrDeny,200,OK,Indoor 1-5,text,false,Test failed: text expected to contain /true/,303,430,4,4,548,0,0
+1516702192899,4093,indoorMessagesGet,405,Method Not Allowed,Indoor 1-2,text,false,Test failed: text expected to contain /dapiSessionId/,340,348,3,3,4093,0,963
+1516702192995,4018,indoorMessagesGet,405,Method Not Allowed,Indoor 1-3,text,false,Test failed: text expected to contain /dapiSessionId/,340,348,3,3,4018,0,864
+1516702193157,3858,indoorMessagesGet,405,Method Not Allowed,Indoor 1-4,text,false,Test failed: text expected to contain /dapiSessionId/,340,348,3,3,3858,0,694
+1516702196993,258,indoorFuellingApproveOrDeny,200,OK,Indoor 1-2,text,false,Test failed: text expected to contain /true/,303,430,3,3,258,0,156
+1516702197014,278,indoorFuellingApproveOrDeny,200,OK,Indoor 1-3,text,false,Test failed: text expected to contain /true/,303,430,2,2,278,0,169
+1516702197015,282,indoorFuellingApproveOrDeny,200,OK,Indoor 1-4,text,false,Test failed: text expected to contain /true/,303,430,1,1,282,0,175
