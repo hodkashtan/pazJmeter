@@ -47,7 +47,7 @@
         </collectionProp>
       </HeaderManager>
       <hashTree/>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="outdoorStateBeforeFuelling" enabled="true">
+      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="outdoorGetStateBeforeFuelling" enabled="true">
         <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
           <collectionProp name="Arguments.arguments">
@@ -101,7 +101,7 @@
         </CSVDataSet>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="outdoorFuellingCode" enabled="true">
+      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="outdoorGenerateFuellingCode" enabled="true">
         <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
           <collectionProp name="Arguments.arguments">
