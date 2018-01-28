@@ -7600,3 +7600,6 @@
 1516702417504,295,outdoorGenerateFuellingCode,200,OK,Outdoor 1-5,text,false,Test failed: text expected to match /dapiSessionId/,302,464,2,2,295,0,185
 1516702415234,3897,outdoorGetStateBeforeFuelling,200,OK,Outdoor 1-4,text,true,,400,441,1,1,3897,0,758
 1516702419132,268,outdoorGenerateFuellingCode,200,OK,Outdoor 1-4,text,false,Test failed: text expected to match /dapiSessionId/,302,464,1,1,268,0,162
+1517132356040,2973,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,1,1,2973,0,902
+1517132363031,3480,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,1,1,3480,0,182
+1517132370553,8810,Register,200,OK,Thread Group 1-1,text,true,,1031,592,1,1,8810,0,169
