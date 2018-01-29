@@ -1,21 +1,21 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1517261014322,2735,Get User Info,200,OK,Open App 1-6,text,true,,824,353,10,10,2734,0,476
-1517261013855,3206,Get User Info,200,OK,Open App 1-2,text,true,,824,353,10,10,3206,0,978
-1517261014618,2444,Get User Info,200,OK,Open App 1-9,text,true,,824,353,10,10,2444,0,362
-1517261014155,2908,Get User Info,200,OK,Open App 1-5,text,true,,824,353,10,10,2908,0,712
-1517261013949,3114,Get User Info,200,OK,Open App 1-3,text,true,,824,353,10,10,3114,0,851
-1517261017074,342,Get Settings All,200,OK,Open App 1-2,text,true,,807,348,10,10,341,0,156
-1517261017069,352,Get Settings All,200,OK,Open App 1-6,text,true,,807,348,9,9,352,0,180
-1517261017071,364,Get Settings All,200,OK,Open App 1-3,text,true,,807,348,8,8,364,0,206
-1517261017073,445,Get Settings All,200,OK,Open App 1-5,text,true,,807,348,7,7,445,0,158
-1517261014401,3119,Get User Info,200,OK,Open App 1-7,text,true,,824,353,6,6,3119,0,399
-1517261014517,3005,Get User Info,200,OK,Open App 1-8,text,true,,824,353,6,6,3005,0,374
-1517261014718,2808,Get User Info,200,OK,Open App 1-10,text,true,,824,353,6,6,2808,0,390
-1517261017070,457,Get Settings All,200,OK,Open App 1-9,text,true,,807,348,6,6,457,0,180
-1517261014060,3480,Get User Info,200,OK,Open App 1-4,text,true,,824,353,5,5,3480,0,785
-1517261017520,258,Get Settings All,200,OK,Open App 1-7,text,true,,807,348,5,5,258,0,162
-1517261017522,258,Get Settings All,200,OK,Open App 1-8,text,true,,807,348,4,4,258,0,161
-1517261017540,264,Get Settings All,200,OK,Open App 1-4,text,true,,807,348,3,3,264,0,167
-1517261017526,367,Get Settings All,200,OK,Open App 1-10,text,true,,807,348,2,2,367,0,236
-1517261013851,4205,Get User Info,500,Internal Server Error,Open App 1-1,text,false,Test failed: text expected to contain /<EOF>/,270,219,1,1,4205,0,949
-1517261018057,368,Get Settings All,500,Internal Server Error,Open App 1-1,text,false,Test failed: code expected to contain /200/,270,214,1,1,368,0,172
+1517261861291,0,GenerateVerifiactionCode,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 73: https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0<EOF>&sms=false,Thread Group 1-1,text,false,,1076,0,10,10,0,0,0
+1517261862068,633,GenerateVerifiactionCode,200,OK,Thread Group 1-9,text,true,,353,188,10,10,632,0,352
+1517261861829,873,GenerateVerifiactionCode,200,OK,Thread Group 1-7,text,true,,353,188,10,10,873,0,420
+1517261861617,1086,GenerateVerifiactionCode,200,OK,Thread Group 1-5,text,true,,353,188,10,10,1086,0,588
+1517261862160,543,GenerateVerifiactionCode,200,OK,Thread Group 1-10,text,true,,353,188,10,10,543,0,380
+1517261862299,614,verifyUser,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /firstName/,384,341,10,10,614,0,365
+1517261861956,1273,GenerateVerifiactionCode,200,OK,Thread Group 1-8,text,true,,353,188,9,9,1273,0,452
+1517261861728,1505,GenerateVerifiactionCode,200,OK,Thread Group 1-6,text,true,,353,188,9,9,1505,0,479
+1517261861422,1828,GenerateVerifiactionCode,200,OK,Thread Group 1-3,text,true,,353,188,9,9,1828,0,826
+1517261863702,205,verifyUser,200,OK,Thread Group 1-9,text,false,Test failed: text expected to contain /firstName/,384,346,9,9,204,0,0
+1517261863704,205,verifyUser,200,OK,Thread Group 1-10,text,false,Test failed: text expected to contain /firstName/,384,346,8,8,205,0,0
+1517261863703,212,verifyUser,200,OK,Thread Group 1-7,text,false,Test failed: text expected to contain /firstName/,384,346,7,7,212,0,0
+1517261863703,276,verifyUser,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /firstName/,384,346,6,6,276,0,172
+1517261864251,276,verifyUser,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /firstName/,384,346,5,5,276,0,171
+1517261864234,314,verifyUser,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /firstName/,384,346,4,4,314,0,199
+1517261864229,321,verifyUser,200,OK,Thread Group 1-8,text,false,Test failed: text expected to contain /firstName/,384,346,3,3,321,0,203
+1517261861321,4084,GenerateVerifiactionCode,200,OK,Thread Group 1-2,text,true,,353,188,2,2,4084,0,881
+1517261861533,3878,GenerateVerifiactionCode,200,OK,Thread Group 1-4,text,true,,353,188,2,2,3878,0,673
+1517261866413,258,verifyUser,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /firstName/,384,346,2,2,258,0,160
+1517261866407,296,verifyUser,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /firstName/,384,346,1,1,296,0,187
