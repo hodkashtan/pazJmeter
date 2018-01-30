@@ -163,8 +163,16 @@
             <stringProp name="filename"></stringProp>
             <stringProp name="parameters"></stringProp>
             <boolProp name="resetInterpreter">false</boolProp>
-            <stringProp name="script">vars.put(&quot;cgResponse&quot;,SampleResult.getResponseDataAsString());
-</stringProp>
+            <stringProp name="script">import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.parser.Parser;
+import org.xml.sax.SAXException;
+import javax.xml.parsers.ParserConfigurationException;
+
+vars.put(&quot;cgResponse&quot;,SampleResult.getResponseDataAsString());
+
+Document doc = Jsoup.parse(SampleResult.getResponseDataAsString(), &quot;&quot;, Parser.xmlParser());
+vars.put(&quot;cgToken&quot;,&quot;doc.getElementsByTag(&quot;cardId&quot;).text())&quot;;</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
         </hashTree>
@@ -179,7 +187,7 @@
 	&quot;cvv&quot;: ${cvv},&#xd;
 	&quot;cardExpireDate&quot;: &quot;12\/21&quot;,&#xd;
 	&quot;userNumber&quot;: ${personlId},&#xd;
-	&quot;token&quot;: &quot;1050671650438620&quot;,&#xd;
+	&quot;token&quot;: $cgToken,&#xd;
 	&quot;xmlResponse&quot;: ${cgResponse}&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
