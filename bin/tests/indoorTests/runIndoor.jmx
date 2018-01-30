@@ -26,6 +26,45 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+          <stringProp name="delimiter">,</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="filename">usersInfo.csv</stringProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="variableNames">phoneNumber, accessToken, email, firstName, lastName, userId, clubMemberId</stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable - iOlaSessionId" enabled="true">
+          <stringProp name="variableName">iOlaSessionId</stringProp>
+          <stringProp name="outputFormat"></stringProp>
+          <stringProp name="minimumValue">1000000</stringProp>
+          <stringProp name="maximumValue">9999999</stringProp>
+          <stringProp name="randomSeed"></stringProp>
+          <boolProp name="perThread">true</boolProp>
+        </RandomVariableConfig>
+        <hashTree/>
+        <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable - cashierID" enabled="true">
+          <stringProp name="variableName">cashierId</stringProp>
+          <stringProp name="outputFormat"></stringProp>
+          <stringProp name="minimumValue">100</stringProp>
+          <stringProp name="maximumValue">999</stringProp>
+          <stringProp name="randomSeed"></stringProp>
+          <boolProp name="perThread">true</boolProp>
+        </RandomVariableConfig>
+        <hashTree/>
+        <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable - PointsChange" enabled="true">
+          <stringProp name="variableName">PointsChange</stringProp>
+          <stringProp name="outputFormat"></stringProp>
+          <stringProp name="minimumValue">10</stringProp>
+          <stringProp name="maximumValue">3000</stringProp>
+          <stringProp name="randomSeed"></stringProp>
+          <boolProp name="perThread">true</boolProp>
+        </RandomVariableConfig>
+        <hashTree/>
         <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
@@ -57,6 +96,140 @@
           </collectionProp>
         </HeaderManager>
         <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="RegisterCallsLS" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;windows-1255&quot;?&gt;&#xd;
+&lt;Root&gt;&#xd;
+  &lt;Function_Name&gt;FindCustomer&lt;/Function_Name&gt;&#xd;
+  &lt;Chain&gt;12&lt;/Chain&gt;&#xd;
+  &lt;Source&gt;1&lt;/Source&gt;&#xd;
+  &lt;Storeno&gt;500&lt;/Storeno&gt;&#xd;
+  &lt;bigint_CustomerId&gt;0&lt;/bigint_CustomerId&gt;&#xd;
+  &lt;sIdNumber&gt;&lt;/sIdNumber&gt;&#xd;
+  &lt;FindByCreditCard&gt;${clubMemberId}&lt;/FindByCreditCard&gt;&#xd;
+  &lt;pos&gt;1&lt;/pos&gt;&#xd;
+  &lt;CashierId&gt;${cashierId}&lt;/CashierId&gt;&#xd;
+  &lt;DateTime&gt;22012018&lt;/DateTime&gt;&#xd;
+  &lt;iOlaSessionId&gt;${iOlaSessionId}&lt;/iOlaSessionId&gt;&#xd;
+  &lt;iTicketId&gt;831&lt;/iTicketId&gt;&#xd;
+  &lt;BussinesDayDate&gt;01/17/2018&lt;/BussinesDayDate&gt;&#xd;
+  &lt;iClubId&gt;8&lt;/iClubId&gt;&#xd;
+  &lt;sRemark&gt;&lt;/sRemark&gt;&#xd;
+&lt;/Root&gt;&#xd;
+</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">172.30.55.55</stringProp>
+          <stringProp name="HTTPSampler.port">80</stringProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/WS_PAZ/Service.asmx</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">dapiSessionId</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.body.messageObject.dapiSessionId</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="123218875">dapiSessionId</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="RegisterCallsCLS" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&quot;TransactionProduct&quot;:[&#xd;
+  {&quot;Selected&quot;:1,&#xd;
+    &quot;ProductType&quot;:&quot;shopProduct&quot;,&#xd;
+    &quot;Amounts&quot;:[&#xd;
+    {&quot;Amount&quot;:&quot;4.60&quot;,&#xd;
+      &quot;AmountUnit&quot;:&quot;ILS&quot;}],&#xd;
+    &quot;ProductCode&quot;:8002,&#xd;
+    &quot;ProdutDesc&quot;:&quot;&quot;}],&#xd;
+  &quot;TransactionTotal&quot;:&#xd;
+  {&quot;Amount&quot;:&quot;4.60&quot;,&#xd;
+    &quot;AmountUnit&quot;:&quot;ILS&quot;},&#xd;
+  &quot;OlaTransactionData&quot;:&#xd;
+  {&quot;Station&quot;:&#xd;
+    {&quot;PosId&quot;:&quot;1&quot;,&#xd;
+      &quot;SiteId&quot;:500,&#xd;
+      &quot;ServiceType&quot;:&quot;self&quot;,&#xd;
+      &quot;NozzleNumber&quot;:1,&#xd;
+      &quot;PosType&quot;:&quot;Register&quot;,&#xd;
+      &quot;FuelLimitNIS&quot;:&quot;4.60&quot;,&#xd;
+      &quot;BusinessDay&quot;:&quot;2018-01-17&quot;,&#xd;
+      &quot;PumpNumber&quot;:0},&#xd;
+    &quot;TransactionNumber&quot;:831,&#xd;
+    &quot;FuelTransactionNumber&quot;:0,&#xd;
+    &quot;Operator&quot;:&quot;108&quot;,&#xd;
+    &quot;OlaSessionId&quot;:396749},&#xd;
+  &quot;CustomerData&quot;:&#xd;
+  {&quot;ClubMemberID&quot;:&quot;7670001614264&quot;,&#xd;
+    &quot;Bupaid&quot;:&quot;1234567890&quot;},&#xd;
+  &quot;Header&quot;:&#xd;
+  {&quot;Party&quot;:&quot;OlaMobile&quot;,&#xd;
+    &quot;ProtocolVersion&quot;:&quot;1.0&quot;,&#xd;
+    &quot;TransactionType&quot;:&quot;AuthorizeTransaction&quot;,&#xd;
+    &quot;TransDateTime&quot;:&quot;2018-01-22T11:18:13.000&quot;}}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">172.30.13.221</stringProp>
+          <stringProp name="HTTPSampler.port">80</stringProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path"></stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">dapiSessionId</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.body.messageObject.dapiSessionId</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="123218875">dapiSessionId</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="indoorMessagesGet" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
@@ -128,18 +301,165 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-          <stringProp name="delimiter">,</stringProp>
-          <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">usersInfo.csv</stringProp>
-          <boolProp name="ignoreFirstLine">false</boolProp>
-          <boolProp name="quotedData">false</boolProp>
-          <boolProp name="recycle">true</boolProp>
-          <stringProp name="shareMode">shareMode.all</stringProp>
-          <boolProp name="stopThread">false</boolProp>
-          <stringProp name="variableNames">phoneNumber, accessToken, email, firstName, lastName, userId, clubMemberId</stringProp>
-        </CSVDataSet>
-        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="RegisterCallsCLS" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">&#xd;
+{&quot;LoyaltyData&quot;:&#xd;
+  {&quot;LastTicketLoyaltyPoints&quot;:&#xd;
+    {&quot;PosId&quot;:1,&#xd;
+      &quot;SiteId&quot;:500,&#xd;
+      &quot;PointsTypes&quot;:[&#xd;
+      {&quot;Qty&quot;:46,&#xd;
+        &quot;StatusCode&quot;:0,&#xd;
+        &quot;TypeCode&quot;:0,&#xd;
+        &quot;StatusRemark&quot;:&quot;&quot;},&#xd;
+      {&quot;Qty&quot;:0,&#xd;
+        &quot;StatusCode&quot;:0,&#xd;
+        &quot;TypeCode&quot;:1,&#xd;
+        &quot;StatusRemark&quot;:&quot;&quot;}],&#xd;
+      &quot;TicketId&quot;:831,&#xd;
+      &quot;BusinessDay&quot;:&quot;2018-01-17&quot;},&#xd;
+    &quot;LoyaltyPoints&quot;:&#xd;
+    {&quot;NonActivePointsConvertDate&quot;:&quot;2018-01-11&quot;,&#xd;
+      &quot;NonActivePoints&quot;:0,&#xd;
+      &quot;PointsTypes&quot;:[&#xd;
+      {&quot;Qty&quot;:7383,&#xd;
+        &quot;TypeCode&quot;:0},&#xd;
+      {&quot;Qty&quot;:357,&#xd;
+        &quot;TypeCode&quot;:1}],&#xd;
+      &quot;ActivePointsExpirationDate&quot;:&quot;2019-03-31&quot;,&#xd;
+      &quot;ActivePoints&quot;:651}},&#xd;
+  &quot;AuthorizeData&quot;:&#xd;
+  {&quot;ClsToken&quot;:0},&#xd;
+  &quot;ProductData&quot;:[&#xd;
+  {&quot;ProductType&quot;:&quot;shopProduct&quot;,&#xd;
+    &quot;Amounts&quot;:[&#xd;
+    {&quot;Amount&quot;:&quot;4.60&quot;,&#xd;
+      &quot;AmountUnit&quot;:&quot;ILS&quot;}],&#xd;
+    &quot;ProductCode&quot;:8002,&#xd;
+    &quot;ProdutDesc&quot;:&quot;&quot;}],&#xd;
+  &quot;OlaTransactionData&quot;:&#xd;
+  {&quot;Station&quot;:&#xd;
+    {&quot;PosId&quot;:&quot;1&quot;,&#xd;
+      &quot;SiteId&quot;:500,&#xd;
+      &quot;ServiceType&quot;:&quot;self&quot;,&#xd;
+      &quot;NozzleNumber&quot;:1,&#xd;
+      &quot;PosType&quot;:&quot;Register&quot;,&#xd;
+      &quot;FuelLimitNIS&quot;:&quot;4.60&quot;,&#xd;
+      &quot;BusinessDay&quot;:&quot;2018-01-17&quot;,&#xd;
+      &quot;PumpNumber&quot;:0},&#xd;
+    &quot;TransactionNumber&quot;:831,&#xd;
+    &quot;FuelTransactionNumber&quot;:0,&#xd;
+    &quot;Operator&quot;:&quot;108&quot;,&#xd;
+    &quot;ClsSessionId&quot;:3101,&#xd;
+    &quot;OlaSessionId&quot;:396749},&#xd;
+  &quot;TotalAmount&quot;:&#xd;
+  {&quot;Amount&quot;:&quot;4.60&quot;,&#xd;
+    &quot;AmountUnit&quot;:&quot;ILS&quot;},&#xd;
+  &quot;Header&quot;:&#xd;
+  {&quot;Party&quot;:&quot;OlaMobile&quot;,&#xd;
+    &quot;ProtocolVersion&quot;:&quot;1.0&quot;,&#xd;
+    &quot;TransactionType&quot;:&quot;CompleteTransaction&quot;,&#xd;
+    &quot;TransDateTime&quot;:&quot;2018-01-22T11:18:19.000&quot;}}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">172.30.13.221</stringProp>
+          <stringProp name="HTTPSampler.port">80</stringProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path"></stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">dapiSessionId</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.body.messageObject.dapiSessionId</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="123218875">dapiSessionId</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="RegisterCallsLS" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;windows-1255&quot;?&gt;&#xd;
+&lt;Root&gt;&#xd;
+  &lt;Function_Name&gt;UpdateCustomer&lt;/Function_Name&gt;&#xd;
+  &lt;Chain&gt;12&lt;/Chain&gt;&#xd;
+  &lt;Source&gt;1&lt;/Source&gt;&#xd;
+  &lt;Storeno&gt;500&lt;/Storeno&gt;&#xd;
+  &lt;bigint_CustomerId&gt;0&lt;/bigint_CustomerId&gt;&#xd;
+  &lt;sIdNumber&gt;0&lt;/sIdNumber&gt;&#xd;
+  &lt;FindByCreditCard&gt;${clubMemberId}&lt;/FindByCreditCard&gt;&#xd;
+  &lt;pos&gt;1&lt;/pos&gt;&#xd;
+  &lt;CashierId&gt;${cashierId}&lt;/CashierId&gt;&#xd;
+  &lt;DateTime&gt;22012018&lt;/DateTime&gt;&#xd;
+  &lt;iOlaSessionId&gt;${iOlaSessionId}&lt;/iOlaSessionId&gt;&#xd;
+  &lt;iTicketId&gt;831&lt;/iTicketId&gt;&#xd;
+  &lt;BussinesDayDate&gt;01/17/2018&lt;/BussinesDayDate&gt;&#xd;
+  &lt;iClubId&gt;10&lt;/iClubId&gt;&#xd;
+  &lt;AccumulateData&gt;&lt;CustPoints&gt;46&lt;/CustPoints&gt;&lt;PromoAccumulateData&gt;&lt;PromoNumber&gt;10648&lt;/PromoNumber&gt;&lt;RewardingClub&gt;0&lt;/RewardingClub&gt;&lt;RewardingSegment&gt;21&lt;/RewardingSegment&gt;&lt;AccumulateCount&gt;0&lt;/AccumulateCount&gt;&lt;AccumulateType&gt;9&lt;/AccumulateType&gt;&lt;RealizeCount&gt;0&lt;/RealizeCount&gt;&lt;PointsChange&gt;${PointsChange}&lt;/PointsChange&gt;&lt;AccumulateBeforeRealize&gt;0&lt;/AccumulateBeforeRealize&gt;&lt;RealizePromoType&gt;0&lt;/RealizePromoType&gt;&lt;IsPersonal&gt;0&lt;/IsPersonal&gt;&lt;IsPosConfirmationRequired&gt;0&lt;/IsPosConfirmationRequired&gt;&lt;PromPriority&gt;0&lt;/PromPriority&gt;&lt;PromCreationDate&gt;00000000&lt;/PromCreationDate&gt;&lt;/PromoAccumulateData&gt;&lt;/AccumulateData&gt;&#xd;
+&lt;/Root&gt;&#xd;
+</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">172.30.55.55</stringProp>
+          <stringProp name="HTTPSampler.port">80</stringProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/WS_PAZ/Service.asmx</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">dapiSessionId</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.body.messageObject.dapiSessionId</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="123218875">dapiSessionId</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
