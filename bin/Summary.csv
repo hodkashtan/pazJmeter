@@ -1,21 +1,21 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1517318462462,0,GenerateVerifiactionCode,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 73: https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0<EOF>&sms=false,Thread Group 1-1,text,false,,1076,0,10,10,0,0,0
-1517318463478,693,verifyUser,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /firstName/,384,341,10,10,693,0,382
-1517318463298,1157,GenerateVerifiactionCode,200,OK,Thread Group 1-10,text,true,,353,188,9,9,1157,0,369
-1517318462996,1463,GenerateVerifiactionCode,200,OK,Thread Group 1-7,text,true,,353,188,9,9,1463,0,514
-1517318463101,1359,GenerateVerifiactionCode,200,OK,Thread Group 1-8,text,true,,353,188,9,9,1359,0,395
-1517318462712,1749,GenerateVerifiactionCode,200,OK,Thread Group 1-4,text,true,,353,188,9,9,1749,0,800
-1517318462499,2011,GenerateVerifiactionCode,200,OK,Thread Group 1-2,text,true,,353,188,9,9,2011,0,1013
-1517318463214,1297,GenerateVerifiactionCode,200,OK,Thread Group 1-9,text,true,,353,188,9,9,1297,0,397
-1517318462907,1605,GenerateVerifiactionCode,200,OK,Thread Group 1-6,text,true,,353,188,9,9,1605,0,586
-1517318462598,1923,GenerateVerifiactionCode,200,OK,Thread Group 1-3,text,true,,353,188,9,9,1923,0,913
-1517318465461,259,verifyUser,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /firstName/,384,346,9,9,259,0,161
-1517318465461,261,verifyUser,200,OK,Thread Group 1-8,text,false,Test failed: text expected to contain /firstName/,384,346,8,8,261,0,163
-1517318465511,255,verifyUser,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /firstName/,384,346,7,7,255,0,161
-1517318465512,294,verifyUser,200,OK,Thread Group 1-9,text,false,Test failed: text expected to contain /firstName/,384,346,6,6,294,0,189
-1517318465460,386,verifyUser,200,OK,Thread Group 1-7,text,false,Test failed: text expected to contain /firstName/,384,346,5,5,386,0,165
-1517318465513,337,verifyUser,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /firstName/,384,346,4,4,337,0,172
-1517318465456,399,verifyUser,200,OK,Thread Group 1-10,text,false,Test failed: text expected to contain /firstName/,384,346,3,3,399,0,182
-1517318465521,335,verifyUser,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /firstName/,384,346,2,2,335,0,191
-1517318462797,3868,GenerateVerifiactionCode,200,OK,Thread Group 1-5,text,true,,353,188,1,1,3868,0,709
-1517318467665,278,verifyUser,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /firstName/,384,346,1,1,278,0,174
+1517318896524,1244,Get User Info,500,Internal Server Error,Open App 1-1,text,false,Test failed: text expected to contain /<EOF>/,270,219,10,10,1228,0,985
+1517318897780,94,Get Settings All,500,Internal Server Error,Open App 1-1,text,false,Test failed: code expected to contain /200/,270,214,10,10,94,0,0
+1517318896548,2496,Get User Info,200,OK,Open App 1-2,text,true,,824,353,9,9,2496,0,961
+1517318896948,2099,Get User Info,200,OK,Open App 1-6,text,true,,824,353,9,9,2099,0,558
+1517318897248,1806,Get User Info,200,OK,Open App 1-9,text,true,,824,353,9,9,1806,0,417
+1517318897047,2008,Get User Info,200,OK,Open App 1-7,text,true,,824,353,9,9,2008,0,465
+1517318896646,2434,Get User Info,200,OK,Open App 1-3,text,true,,824,353,9,9,2434,0,867
+1517318896840,2246,Get User Info,200,OK,Open App 1-5,text,true,,824,353,9,9,2246,0,672
+1517318897366,1722,Get User Info,200,OK,Open App 1-10,text,true,,824,353,9,9,1722,0,390
+1517318897147,1943,Get User Info,200,OK,Open App 1-8,text,true,,824,353,9,9,1943,0,421
+1517318896745,2350,Get User Info,200,OK,Open App 1-4,text,true,,824,353,9,9,2350,0,768
+1517318899054,183,Get Settings All,200,OK,Open App 1-9,text,true,,807,348,9,9,183,0,0
+1517318899089,172,Get Settings All,200,OK,Open App 1-10,text,true,,807,348,8,8,172,0,0
+1517318899091,174,Get Settings All,200,OK,Open App 1-8,text,true,,807,348,7,7,174,0,0
+1517318899045,263,Get Settings All,200,OK,Open App 1-2,text,true,,807,348,6,6,263,0,166
+1517318899048,265,Get Settings All,200,OK,Open App 1-6,text,true,,807,348,5,5,265,0,164
+1517318899056,262,Get Settings All,200,OK,Open App 1-7,text,true,,807,348,4,4,262,0,168
+1517318899081,259,Get Settings All,200,OK,Open App 1-3,text,true,,807,348,3,3,259,0,165
+1517318899096,266,Get Settings All,200,OK,Open App 1-4,text,true,,807,348,2,2,266,0,170
+1517318899087,294,Get Settings All,200,OK,Open App 1-5,text,true,,807,348,1,1,293,0,188
