@@ -7646,3 +7646,23 @@
 1517261861533,3878,GenerateVerifiactionCode,200,OK,Thread Group 1-4,text,true,,353,188,2,2,3878,0,673
 1517261866413,258,verifyUser,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /firstName/,384,346,2,2,258,0,160
 1517261866407,296,verifyUser,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /firstName/,384,346,1,1,296,0,187
+1517318462462,0,GenerateVerifiactionCode,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 73: https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0<EOF>&sms=false,Thread Group 1-1,text,false,,1076,0,10,10,0,0,0
+1517318463478,693,verifyUser,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /firstName/,384,341,10,10,693,0,382
+1517318463298,1157,GenerateVerifiactionCode,200,OK,Thread Group 1-10,text,true,,353,188,9,9,1157,0,369
+1517318462996,1463,GenerateVerifiactionCode,200,OK,Thread Group 1-7,text,true,,353,188,9,9,1463,0,514
+1517318463101,1359,GenerateVerifiactionCode,200,OK,Thread Group 1-8,text,true,,353,188,9,9,1359,0,395
+1517318462712,1749,GenerateVerifiactionCode,200,OK,Thread Group 1-4,text,true,,353,188,9,9,1749,0,800
+1517318462499,2011,GenerateVerifiactionCode,200,OK,Thread Group 1-2,text,true,,353,188,9,9,2011,0,1013
+1517318463214,1297,GenerateVerifiactionCode,200,OK,Thread Group 1-9,text,true,,353,188,9,9,1297,0,397
+1517318462907,1605,GenerateVerifiactionCode,200,OK,Thread Group 1-6,text,true,,353,188,9,9,1605,0,586
+1517318462598,1923,GenerateVerifiactionCode,200,OK,Thread Group 1-3,text,true,,353,188,9,9,1923,0,913
+1517318465461,259,verifyUser,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /firstName/,384,346,9,9,259,0,161
+1517318465461,261,verifyUser,200,OK,Thread Group 1-8,text,false,Test failed: text expected to contain /firstName/,384,346,8,8,261,0,163
+1517318465511,255,verifyUser,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /firstName/,384,346,7,7,255,0,161
+1517318465512,294,verifyUser,200,OK,Thread Group 1-9,text,false,Test failed: text expected to contain /firstName/,384,346,6,6,294,0,189
+1517318465460,386,verifyUser,200,OK,Thread Group 1-7,text,false,Test failed: text expected to contain /firstName/,384,346,5,5,386,0,165
+1517318465513,337,verifyUser,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /firstName/,384,346,4,4,337,0,172
+1517318465456,399,verifyUser,200,OK,Thread Group 1-10,text,false,Test failed: text expected to contain /firstName/,384,346,3,3,399,0,182
+1517318465521,335,verifyUser,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /firstName/,384,346,2,2,335,0,191
+1517318462797,3868,GenerateVerifiactionCode,200,OK,Thread Group 1-5,text,true,,353,188,1,1,3868,0,709
+1517318467665,278,verifyUser,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /firstName/,384,346,1,1,278,0,174
