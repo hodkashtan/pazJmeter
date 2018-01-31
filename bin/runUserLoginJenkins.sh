@@ -7,6 +7,7 @@ NOW=User_Login_$(date +"%m-%d-%y"--"%T")
 mkdir $NOW
 ./jmeter.sh -n -t UserLogin.jmx -l scriptresults.jtl -JNUM_OF_USERS=$NUM_OF_USERS
 ./jmeter -g Summary.csv -o $NOW
+./createUsers.sh
 mkdir target
 cp -r $NOW/* target/
 git add -A
