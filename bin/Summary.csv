@@ -1,31 +1,21 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1517320943054,1246,GenerateVerifiactionCode,200,OK,Thread Group 1-2,text,true,,353,187,10,10,1246,0,931
-1517320943490,812,GenerateVerifiactionCode,200,OK,Thread Group 1-6,text,true,,353,187,10,10,812,0,496
-1517320943269,1030,GenerateVerifiactionCode,200,OK,Thread Group 1-4,text,true,,353,187,10,10,1030,0,717
-1517320943710,608,GenerateVerifiactionCode,200,OK,Thread Group 1-8,text,true,,353,187,10,10,608,0,386
-1517320943598,720,GenerateVerifiactionCode,200,OK,Thread Group 1-7,text,true,,353,187,10,10,720,0,404
-1517320942999,1320,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,10,10,1320,0,988
-1517320943821,558,GenerateVerifiactionCode,200,OK,Thread Group 1-9,text,true,,353,187,10,10,558,0,421
-1517320943921,470,GenerateVerifiactionCode,200,OK,Thread Group 1-10,text,true,,353,187,10,10,470,0,364
-1517320943377,3786,GenerateVerifiactionCode,200,OK,Thread Group 1-5,text,true,,353,187,10,10,3786,0,610
-1517320943171,4016,GenerateVerifiactionCode,200,OK,Thread Group 1-3,text,true,,353,187,10,10,4016,0,812
-1517320948307,588,verifyUser,200,OK,Thread Group 1-6,text,true,,408,345,10,10,588,0,162
-1517320948320,586,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,10,10,586,0,178
-1517320948319,601,verifyUser,200,OK,Thread Group 1-7,text,true,,408,345,10,10,601,0,194
-1517320948309,633,verifyUser,200,OK,Thread Group 1-4,text,true,,408,345,10,10,633,0,161
-1517320948304,639,verifyUser,200,OK,Thread Group 1-2,text,true,,408,345,10,10,639,0,163
-1517320948318,640,verifyUser,200,OK,Thread Group 1-8,text,true,,408,345,10,10,640,0,183
-1517320948397,574,verifyUser,200,OK,Thread Group 1-10,text,true,,408,345,10,10,574,0,169
-1517320948379,614,verifyUser,200,OK,Thread Group 1-9,text,true,,408,345,10,10,614,0,182
-1517320951164,279,verifyUser,200,OK,Thread Group 1-5,text,true,,408,345,10,10,279,0,162
-1517320951187,271,verifyUser,200,OK,Thread Group 1-3,text,true,,408,345,10,10,271,0,155
-1517320952941,9415,Register,200,OK,Thread Group 1-6,text,true,,1031,592,10,10,9415,0,164
-1517320952943,9431,Register,200,OK,Thread Group 1-1,text,true,,1031,592,10,10,9431,0,191
-1517320952944,9427,Register,200,OK,Thread Group 1-2,text,true,,1031,592,10,10,9427,0,182
-1517320952943,9425,Register,200,OK,Thread Group 1-7,text,true,,1031,592,10,10,9425,0,175
-1517320952994,10665,Register,200,OK,Thread Group 1-9,text,true,,1031,592,6,6,10665,0,161
-1517320952944,12946,Register,200,OK,Thread Group 1-4,text,true,,1031,592,5,5,12946,0,171
-1517320952959,12996,Register,200,OK,Thread Group 1-8,text,true,,1031,592,4,4,12996,0,160
-1517320952972,12989,Register,200,OK,Thread Group 1-10,text,true,,1031,592,3,3,12989,0,157
-1517320955459,10996,Register,200,OK,Thread Group 1-3,text,true,,1031,592,2,2,10996,0,174
-1517320955446,11068,Register,200,OK,Thread Group 1-5,text,true,,1031,592,1,1,11068,0,156
+1517391288234,1268,Get User Info,500,Internal Server Error,Open App 1-1,text,false,Test failed: text expected to contain /<EOF>/,270,219,10,10,1268,0,1068
+1517391289507,87,Get Settings All,500,Internal Server Error,Open App 1-1,text,false,Test failed: code expected to contain /200/,270,214,10,10,87,0,0
+1517391288425,2793,Get User Info,200,OK,Open App 1-4,text,true,,824,353,9,9,2793,0,874
+1517391288728,2491,Get User Info,200,OK,Open App 1-7,text,true,,824,353,9,9,2491,0,558
+1517391288327,2894,Get User Info,200,OK,Open App 1-3,text,true,,824,353,9,9,2894,0,959
+1517391288941,2281,Get User Info,200,OK,Open App 1-9,text,true,,824,353,9,9,2281,0,425
+1517391289062,2198,Get User Info,200,OK,Open App 1-10,text,true,,824,353,9,9,2198,0,371
+1517391288629,2633,Get User Info,200,OK,Open App 1-6,text,true,,824,353,9,9,2633,0,657
+1517391288832,2445,Get User Info,200,OK,Open App 1-8,text,true,,824,353,9,9,2445,0,453
+1517391288236,3043,Get User Info,200,OK,Open App 1-2,text,true,,824,353,9,9,3043,0,1050
+1517391291222,354,Get Settings All,200,OK,Open App 1-3,text,true,,807,348,9,9,354,0,162
+1517391291280,300,Get Settings All,200,OK,Open App 1-2,text,true,,807,348,8,8,300,0,169
+1517391291218,363,Get Settings All,200,OK,Open App 1-4,text,true,,807,348,7,7,363,0,168
+1517391291223,363,Get Settings All,200,OK,Open App 1-9,text,true,,807,348,6,6,363,0,188
+1517391291278,311,Get Settings All,200,OK,Open App 1-8,text,true,,807,348,5,5,311,0,196
+1517391291220,377,Get Settings All,200,OK,Open App 1-7,text,true,,807,348,4,4,377,0,179
+1517391291261,342,Get Settings All,200,OK,Open App 1-10,text,true,,807,348,3,3,342,0,176
+1517391291263,342,Get Settings All,200,OK,Open App 1-6,text,true,,807,348,2,2,342,0,198
+1517391288536,3948,Get User Info,200,OK,Open App 1-5,text,true,,824,353,1,1,3947,0,746
+1517391292484,254,Get Settings All,200,OK,Open App 1-5,text,true,,807,348,1,1,254,0,158
