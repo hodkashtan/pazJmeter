@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="3.2" jmeter="3.3 r1808647">
   <hashTree>
-    <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-      <stringProp name="delimiter">,</stringProp>
-      <stringProp name="fileEncoding"></stringProp>
-      <stringProp name="filename">usersInfo.csv</stringProp>
-      <boolProp name="ignoreFirstLine">false</boolProp>
-      <boolProp name="quotedData">false</boolProp>
-      <boolProp name="recycle">true</boolProp>
-      <stringProp name="shareMode">shareMode.all</stringProp>
-      <boolProp name="stopThread">false</boolProp>
-      <stringProp name="variableNames">phoneNumber, accessToken, email, firstName, lastName, userId, clubMemberId, personlId</stringProp>
-    </CSVDataSet>
+    <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="1SecDelay" enabled="true">
+      <stringProp name="ConstantTimer.delay">1000</stringProp>
+    </ConstantTimer>
     <hashTree/>
   </hashTree>
 </jmeterTestPlan>
