@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="BoxTokens:war exploded">
+    <output-path>$PROJECT_DIR$/target/BoxTokens</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BoxTokens" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: commons-io:commons-io:1.4" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.9.1" />
+          <element id="library" level="project" name="Maven: asm:asm:3.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.9.1" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.8.3" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/BoxTokens/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="BoxTokens/web/Web" />
+    </root>
+  </artifact>
+</component>
