@@ -1,25 +1,25 @@
-2018-01-31 15:32:29,945 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
-2018-01-31 15:32:29,985 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2018-01-31 15:32:29,987 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2018-01-31 15:32:29,992 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
-2018-01-31 15:32:29,992 INFO o.a.j.JMeter: Version 3.3 r1808647
-2018-01-31 15:32:29,992 INFO o.a.j.JMeter: java.version=1.8.0_151
-2018-01-31 15:32:29,992 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2018-01-31 15:32:29,992 INFO o.a.j.JMeter: os.name=Linux
-2018-01-31 15:32:29,992 INFO o.a.j.JMeter: os.arch=amd64
-2018-01-31 15:32:29,992 INFO o.a.j.JMeter: os.version=3.10.0-693.5.2.el7.x86_64
-2018-01-31 15:32:29,992 INFO o.a.j.JMeter: file.encoding=UTF-8
-2018-01-31 15:32:29,992 INFO o.a.j.JMeter: Max memory     =536870912
-2018-01-31 15:32:29,992 INFO o.a.j.JMeter: Available Processors =1
-2018-01-31 15:32:30,004 INFO o.a.j.JMeter: Default Locale=English (United States)
-2018-01-31 15:32:30,004 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
-2018-01-31 15:32:30,004 INFO o.a.j.JMeter: JMeterHome=/home/centos/pazJmeter
-2018-01-31 15:32:30,004 INFO o.a.j.JMeter: user.dir  =/home/centos/pazJmeter/bin
-2018-01-31 15:32:30,004 INFO o.a.j.JMeter: PWD       =/home/centos/pazJmeter/bin
-2018-01-31 15:32:30,006 INFO o.a.j.JMeter: IP: 172.20.59.232 Name: ip-172-20-59-232.eu-west-1.compute.internal FullName: ip-172-20-59-232.eu-west-1.compute.internal
-2018-01-31 15:32:30,010 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/centos/pazJmeter/bin/User_Login_01-31-18--15:32:26'
-2018-01-31 15:32:30,016 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
-2018-01-31 15:32:30,016 ERROR o.a.j.JMeter: An error occurred: 
+2018-01-31 15:37:56,843 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-01-31 15:37:56,864 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-01-31 15:37:56,891 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-01-31 15:37:56,896 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-01-31 15:37:56,896 INFO o.a.j.JMeter: Version 3.3 r1808647
+2018-01-31 15:37:56,896 INFO o.a.j.JMeter: java.version=1.8.0_151
+2018-01-31 15:37:56,896 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-01-31 15:37:56,896 INFO o.a.j.JMeter: os.name=Linux
+2018-01-31 15:37:56,896 INFO o.a.j.JMeter: os.arch=amd64
+2018-01-31 15:37:56,896 INFO o.a.j.JMeter: os.version=3.10.0-693.5.2.el7.x86_64
+2018-01-31 15:37:56,896 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-01-31 15:37:56,896 INFO o.a.j.JMeter: Max memory     =536870912
+2018-01-31 15:37:56,897 INFO o.a.j.JMeter: Available Processors =1
+2018-01-31 15:37:56,913 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-01-31 15:37:56,913 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-01-31 15:37:56,913 INFO o.a.j.JMeter: JMeterHome=/var/lib/jenkins/workspace/Run user login
+2018-01-31 15:37:56,913 INFO o.a.j.JMeter: user.dir  =/var/lib/jenkins/workspace/Run user login/bin
+2018-01-31 15:37:56,913 INFO o.a.j.JMeter: PWD       =/var/lib/jenkins/workspace/Run user login/bin
+2018-01-31 15:37:56,918 INFO o.a.j.JMeter: IP: 172.20.59.232 Name: ip-172-20-59-232.eu-west-1.compute.internal FullName: ip-172-20-59-232.eu-west-1.compute.internal
+2018-01-31 15:37:56,920 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/var/lib/jenkins/workspace/Run user login/bin/User_Login_01-31-18--15:37:53'
+2018-01-31 15:37:56,925 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2018-01-31 15:37:56,925 ERROR o.a.j.JMeter: An error occurred: 
 java.lang.IllegalArgumentException: Cannot read test results file : Summary.csv
 	at org.apache.jmeter.report.dashboard.ReportGenerator.<init>(ReportGenerator.java:131) ~[ApacheJMeter_core.jar:3.3 r1808647]
 	at org.apache.jmeter.JMeter.start(JMeter.java:516) [ApacheJMeter_core.jar:3.3 r1808647]
