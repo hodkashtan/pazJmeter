@@ -45,32 +45,7 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
           <stringProp name="TestPlan.comments">GenerateVerifiactionCode</stringProp>
         </HTTPSamplerProxy>
-        <hashTree>
-          <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="true">
-            <boolProp name="resetInterpreter">false</boolProp>
-            <stringProp name="parameters"></stringProp>
-            <stringProp name="filename"></stringProp>
-            <stringProp name="script">String logFile = ${__property(LOG_FILE_NAME)};
-FileWriter fstream = new FileWriter(logFile,true);
-
-fstream.write(&quot;--- Thread #&quot; + ctx.getThreadNum() + &quot; executing &quot; + ctx.getCurrentSampler().getName() + &quot; ---&quot;);
-
-fstream.close();</stringProp>
-          </BeanShellPreProcessor>
-          <hashTree/>
-          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
-            <boolProp name="resetInterpreter">false</boolProp>
-            <stringProp name="parameters"></stringProp>
-            <stringProp name="filename"></stringProp>
-            <stringProp name="script">String logFile = ${__property(LOG_FILE_NAME)};
-FileWriter fstream = new FileWriter(logFile,true);
-ctx.getCurrentSampler().getName()
-fstream.write(&quot;&quot;);
-
-fstream.close();</stringProp>
-          </BeanShellPostProcessor>
-          <hashTree/>
-        </hashTree>
+        <hashTree/>
         <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="1SecDelay" enabled="true">
           <stringProp name="ConstantTimer.delay">1000</stringProp>
         </ConstantTimer>

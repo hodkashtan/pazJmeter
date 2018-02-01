@@ -1,0 +1,66 @@
+__________________________________________________________________________________________________
+running verifyUser from thread #5
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0579440599",
+	"fbaccesstoken": "null"
+}
+()
+__________________________________________________________________________________________________
+running verifyUser from thread #6
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0510986538",
+	"fbaccesstoken": "null"
+}
+()
+__________________________________________________________________________________________________
+running verifyUser from thread #7
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0522130215",
+	"fbaccesstoken": "null"
+}
+()
+__________________________________________________________________________________________________
+running verifyUser from thread #8
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0599503401",
+	"fbaccesstoken": "null"
+}
+()
+__________________________________________________________________________________________________
+running verifyUser from thread #9
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0534848029",
+	"fbaccesstoken": "null"
+}
+()
+__________________________________________________________________________________________________
+running verifyUser from thread #10
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0519035022",
+	"fbaccesstoken": "null"
+}
+()

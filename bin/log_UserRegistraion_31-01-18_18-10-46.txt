@@ -1,0 +1,11 @@
+__________________________________________________________________________________________________
+running verifyUser from thread #1
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0557934728",
+	"fbaccesstoken": "null"
+}
+()

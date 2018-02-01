@@ -1,0 +1,10 @@
+created log file
+Exeuting POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Query Data: 
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0585704217",
+	"fbaccesstoken": "null"
+}
