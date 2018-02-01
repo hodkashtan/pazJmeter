@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="BoxTokens:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="BoxTokens.war">
-      <element id="artifact" artifact-name="BoxTokens:war exploded" />
-    </root>
-  </artifact>
-</component>
