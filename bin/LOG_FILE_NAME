@@ -130,3 +130,135 @@ Response Data:
 Sent POST request to https://ltdapi.paz.co.il/api/users/register/api/users/register
 Response Data:
 {"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjU4MCwiZXhwIjoiXC9EYXRlKDE1NDkwMzAwMjU1NjQpXC8ifQ.MVB9jYyXDxKfV2r565Y0n8TpfcGUSpp4DodTqHERdU4"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":580,"email":"user0561336952@perf.com","type":"General","firstName":"Perf-shacu","lastName":"xxqmyaypyo","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-01T16:07:05","dateCreated":"2018-02-01T16:07:05","mobilePhone":"0561336952","userMoreDetails":{"userId":580,"gender":null,"birthDate":null,"personalId":"331336952","clubMemberId":"7670001641024","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"coupon":null,"isPazomatAddedAndOK":null}}
+****************************************************************************************************
+--- Thread #1 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0590002693&sms=false/api/users/generateVerificationCode?mobilePhone=0590002693&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0,"mobilePhoneExists":false}}
+****************************************************************************************************
+--- Thread #3 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0527377431&sms=false/api/users/generateVerificationCode?mobilePhone=0527377431&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0,"mobilePhoneExists":false}}
+****************************************************************************************************
+--- Thread #3 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0527377431",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+--- Thread #2 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0535233541&sms=false/api/users/generateVerificationCode?mobilePhone=0535233541&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0,"mobilePhoneExists":false}}
+****************************************************************************************************
+--- Thread #2 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0535233541",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+--- Thread #1 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0590002693",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+--- Thread #3 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"userInfo":null,"verifiedMobilePhone":"0527377431","verificationToken":"4be7b441-fb68-4473-a566-f9f321898acc"}}
+****************************************************************************************************
+--- Thread #1 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"userInfo":null,"verifiedMobilePhone":"0590002693","verificationToken":"456532d2-0beb-42b3-93b5-3b4705f511c5"}}
+****************************************************************************************************
+--- Thread #1 executing Register loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/register/api/users/register
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"lastName": "hquqzkrzoz",
+	"firstName": "Perf-eajtx",
+	"birthDate": null,
+	"agreeTerms": "true",
+	"verifyToken": "456532d2-0beb-42b3-93b5-3b4705f511c5",
+	"pazomatCarNumber": null,
+	"personalId": "270002693",
+	"mobilePhone": "0590002693",
+	"fbAccessToken": null,
+	"clientConfirmation": "true",
+	"agreeNewsletter": "true",
+	"email": "user0590002693@perf.com"
+}()
+****************************************************************************************************
+--- Thread #2 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"userInfo":null,"verifiedMobilePhone":"0535233541","verificationToken":"facd1409-50b5-421a-9165-13a85a6f5261"}}
+****************************************************************************************************
+--- Thread #2 executing Register loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/register/api/users/register
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"lastName": "yhmjhsbxle",
+	"firstName": "Perf-dphkv",
+	"birthDate": null,
+	"agreeTerms": "true",
+	"verifyToken": "facd1409-50b5-421a-9165-13a85a6f5261",
+	"pazomatCarNumber": null,
+	"personalId": "935233541",
+	"mobilePhone": "0535233541",
+	"fbAccessToken": null,
+	"clientConfirmation": "true",
+	"agreeNewsletter": "true",
+	"email": "user0535233541@perf.com"
+}()
+****************************************************************************************************
+--- Thread #3 executing Register loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/register/api/users/register
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"lastName": "cadyxmppjx",
+	"firstName": "Perf-rplum",
+	"birthDate": null,
+	"agreeTerms": "true",
+	"verifyToken": "4be7b441-fb68-4473-a566-f9f321898acc",
+	"pazomatCarNumber": null,
+	"personalId": "117377431",
+	"mobilePhone": "0527377431",
+	"fbAccessToken": null,
+	"clientConfirmation": "true",
+	"agreeNewsletter": "true",
+	"email": "user0527377431@perf.com"
+}()
+****************************************************************************************************
+--- Thread #3 executing Register loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/register/api/users/register
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjU4MSwiZXhwIjoiXC9EYXRlKDE1NDkwMzAyNDEzMzIpXC8ifQ.ORzKL7aQJbWEgPW5wJ6M34uxpCfpyhVIyJoCXEKvKHU"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":581,"email":"user0527377431@perf.com","type":"General","firstName":"Perf-rplum","lastName":"cadyxmppjx","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-01T16:10:41","dateCreated":"2018-02-01T16:10:41","mobilePhone":"0527377431","userMoreDetails":{"userId":581,"gender":null,"birthDate":null,"personalId":"117377431","clubMemberId":"7670001641053","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"coupon":null,"isPazomatAddedAndOK":null}}
+****************************************************************************************************
+--- Thread #2 executing Register loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/register/api/users/register
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjU4MiwiZXhwIjoiXC9EYXRlKDE1NDkwMzAyNDExOTYpXC8ifQ.Z3F69UfYyqMHfS5dAaB4y-anpkHVeCiC92QBKLvgIrA"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":582,"email":"user0535233541@perf.com","type":"General","firstName":"Perf-dphkv","lastName":"yhmjhsbxle","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-01T16:10:41","dateCreated":"2018-02-01T16:10:41","mobilePhone":"0535233541","userMoreDetails":{"userId":582,"gender":null,"birthDate":null,"personalId":"935233541","clubMemberId":"7670001641037","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"coupon":null,"isPazomatAddedAndOK":null}}
+****************************************************************************************************
+--- Thread #1 executing Register loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/register/api/users/register
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjU4MywiZXhwIjoiXC9EYXRlKDE1NDkwMzAyNDEyMjcpXC8ifQ.9IUJ9fBGBxqD9ZT34dH3BJl19JNPpNdA1ePWlnueqck"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":583,"email":"user0590002693@perf.com","type":"General","firstName":"Perf-eajtx","lastName":"hquqzkrzoz","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-01T16:10:41","dateCreated":"2018-02-01T16:10:41","mobilePhone":"0590002693","userMoreDetails":{"userId":583,"gender":null,"birthDate":null,"personalId":"270002693","clubMemberId":"7670001641040","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"coupon":null,"isPazomatAddedAndOK":null}}
