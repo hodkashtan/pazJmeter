@@ -6,7 +6,13 @@
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-        <collectionProp name="Arguments.arguments"/>
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="logFileName" elementType="Argument">
+            <stringProp name="Argument.name">logFileName</stringProp>
+            <stringProp name="Argument.value">${__property(LOG_FILE_NAME)</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
@@ -51,9 +57,8 @@
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String logFile = ${__property(&quot;LOG_FILE_NAME&quot;)};
-String name = sampler.getName();
-FileWriter fstream = new FileWriter(logFile,true);
+            <stringProp name="script">String name = sampler.getName();
+FileWriter fstream = new FileWriter(logFileName,true);
 sampler = ctx.getCurrentSampler();
 fstream.write(&quot;****************************************************************************************************\n&quot; +
 &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
