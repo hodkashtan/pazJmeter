@@ -58,7 +58,7 @@
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
             <stringProp name="script">String name = sampler.getName();
-FileWriter fstream = new FileWriter(logFileName,true);
+FileWriter fstream = new FileWriter(${logFileName},true);
 sampler = ctx.getCurrentSampler();
 fstream.write(&quot;****************************************************************************************************\n&quot; +
 &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
