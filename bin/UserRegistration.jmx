@@ -23,14 +23,13 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">${__P(NUM_OF_USERS,10))}</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(NUM_OF_USERS,10)}</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <longProp name="ThreadGroup.start_time">1514069295000</longProp>
         <longProp name="ThreadGroup.end_time">1514069295000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
-        <stringProp name="TestPlan.comments">${__property(NUM_OF_USERS)}</stringProp>
       </ThreadGroup>
       <hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GenerateVerifiactionCode" enabled="true">
@@ -58,22 +57,20 @@
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
             <stringProp name="script">String name = sampler.getName();
-FileWriter fstream = new FileWriter(${logFileName},true);
 sampler = ctx.getCurrentSampler();
-fstream.write(&quot;****************************************************************************************************\n&quot; +
+log.info( &quot;\n****************************************************************************************************\n&quot; +
 &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
 &quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
 &quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
-&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot;);
-fstream.close();</stringProp>
+&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
+&quot;****************************************************************************************************\n&quot;);</stringProp>
           </BeanShellPreProcessor>
           <hashTree/>
           <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String logFile = ${__property(&quot;LOG_FILE_NAME&quot;)};
-String sampleName = ctx.getCurrentSampler().getName();
+            <stringProp name="script">String sampleName = ctx.getCurrentSampler().getName();
 String method = ctx.getCurrentSampler().getMethod();
 String url = ctx.getCurrentSampler().getUrl().toString();
 String path = ctx.getCurrentSampler().getPath();
@@ -82,11 +79,9 @@ String code = prev.getResponseCode();
 String message = prev.getResponseMessage();
 String threadNum = &quot;theadNum#&quot; + ${__threadNum};
 String samplerData = new String(data);
-FileWriter fstream = new FileWriter(logFile,true);
 String stars = &quot;****************************************************************************************************\n&quot;;
 String header = &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampleName + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot;;
-fstream.write(stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot;);
-fstream.close();	</stringProp>
+log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot; + stars + &quot;\n&quot;);</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
         </hashTree>
@@ -131,16 +126,14 @@ fstream.close();	</stringProp>
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String logFile = ${__property(&quot;LOG_FILE_NAME&quot;)};
-String name = sampler.getName();
-FileWriter fstream = new FileWriter(logFile,true);
+            <stringProp name="script">String name = sampler.getName();
 sampler = ctx.getCurrentSampler();
-fstream.write(&quot;****************************************************************************************************\n&quot; +
+log.info( &quot;\n****************************************************************************************************\n&quot; +
 &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
 &quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
 &quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
-&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot;);
-fstream.close();</stringProp>
+&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
+&quot;****************************************************************************************************\n&quot;);</stringProp>
           </BeanShellPreProcessor>
           <hashTree/>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
@@ -175,8 +168,7 @@ fstream.close();</stringProp>
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String logFile = ${__property(&quot;LOG_FILE_NAME&quot;)};
-String sampleName = ctx.getCurrentSampler().getName();
+            <stringProp name="script">String sampleName = ctx.getCurrentSampler().getName();
 String method = ctx.getCurrentSampler().getMethod();
 String url = ctx.getCurrentSampler().getUrl().toString();
 String path = ctx.getCurrentSampler().getPath();
@@ -185,11 +177,9 @@ String code = prev.getResponseCode();
 String message = prev.getResponseMessage();
 String threadNum = &quot;theadNum#&quot; + ${__threadNum};
 String samplerData = new String(data);
-FileWriter fstream = new FileWriter(logFile,true);
 String stars = &quot;****************************************************************************************************\n&quot;;
 String header = &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampleName + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot;;
-fstream.write(stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot;);
-fstream.close();	</stringProp>
+log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot; + stars + &quot;\n&quot;);</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
         </hashTree>
@@ -241,16 +231,14 @@ fstream.close();	</stringProp>
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String logFile = ${__property(&quot;LOG_FILE_NAME&quot;)};
-String name = sampler.getName();
-FileWriter fstream = new FileWriter(logFile,true);
+            <stringProp name="script">String name = sampler.getName();
 sampler = ctx.getCurrentSampler();
-fstream.write(&quot;****************************************************************************************************\n&quot; +
+log.info( &quot;\n****************************************************************************************************\n&quot; +
 &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
 &quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
 &quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
-&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot;);
-fstream.close();</stringProp>
+&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
+&quot;****************************************************************************************************\n&quot;);</stringProp>
           </BeanShellPreProcessor>
           <hashTree/>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
@@ -286,8 +274,7 @@ fstream.close();</stringProp>
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String logFile = ${__property(&quot;LOG_FILE_NAME&quot;)};
-String sampleName = ctx.getCurrentSampler().getName();
+            <stringProp name="script">String sampleName = ctx.getCurrentSampler().getName();
 String method = ctx.getCurrentSampler().getMethod();
 String url = ctx.getCurrentSampler().getUrl().toString();
 String path = ctx.getCurrentSampler().getPath();
@@ -296,11 +283,9 @@ String code = prev.getResponseCode();
 String message = prev.getResponseMessage();
 String threadNum = &quot;theadNum#&quot; + ${__threadNum};
 String samplerData = new String(data);
-FileWriter fstream = new FileWriter(logFile,true);
 String stars = &quot;****************************************************************************************************\n&quot;;
 String header = &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampleName + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot;;
-fstream.write(stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot;);
-fstream.close();	</stringProp>
+log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot; + stars + &quot;\n&quot;);</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
           <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
