@@ -127,7 +127,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 100.0, "KoPercent": 0.0};
+    var data = {"OkPercent": 75.0, "KoPercent": 25.0};
     var dataset = [
         {
             "label" : "KO",
@@ -167,7 +167,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.5, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)  ", "F (Frustration threshold)", "Label"], "items": [{"data": [0.5, 500, 1500, "GenerateVerifiactionCode"], "isController": false}, {"data": [0.0, 500, 1500, "Register"], "isController": false}, {"data": [1.0, 500, 1500, "verifyUser"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.4, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)  ", "F (Frustration threshold)", "Label"], "items": [{"data": [0.6, 500, 1500, "GenerateVerifiactionCode"], "isController": false}, {"data": [0.0, 500, 1500, "Register"], "isController": false}, {"data": [1.0, 500, 1500, "verifyUser"], "isController": false}, {"data": [0.0, 500, 1500, "HTTP Request"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -181,7 +181,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 15, 0, 0.0, 1602.9333333333332, 270, 4256, 4029.2000000000003, 4256.0, 4256.0, 1.0940919037199124, 0.6382202771699489, 0.4003122720641867], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["GenerateVerifiactionCode", 5, 0, 0.0, 768.4, 546, 1071, 1071.0, 1071.0, 1071.0, 3.4059945504087192, 1.1741367932561309, 0.6219931454359673], "isController": false}, {"data": ["Register", 5, 0, 0.0, 3755.4, 3469, 4256, 4256.0, 4256.0, 4256.0, 1.1737089201877935, 1.1817323210093897, 0.6785504694835681], "isController": false}, {"data": ["verifyUser", 5, 0, 0.0, 285.0, 270, 300, 300.0, 300.0, 300.0, 7.6452599388379205, 3.0461582568807337, 2.575795584862385], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 20, 5, 25.0, 1286.1, 0, 4692, 4649.8, 4690.7, 4692.0, 1.0954702305964836, 0.7523334371747822, 0.3006124363257928], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["GenerateVerifiactionCode", 5, 0, 0.0, 740.8, 497, 1085, 1085.0, 1085.0, 1085.0, 3.445899379738112, 1.1878930478980014, 0.6292804531357684], "isController": false}, {"data": ["Register", 5, 0, 0.0, 4106.8, 3197, 4692, 4692.0, 4692.0, 4692.0, 1.0464629552113853, 1.0536165105692759, 0.6049863959815823], "isController": false}, {"data": ["verifyUser", 5, 0, 0.0, 296.8, 273, 321, 321.0, 321.0, 321.0, 7.407407407407407, 2.951388888888889, 2.495659722222222], "isController": false}, {"data": ["HTTP Request", 5, 5, 100.0, 0.0, 0, 0, 0.0, 0.0, 0.0, 5.1652892561983474, 5.1501565728305785, 0.0], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -209,7 +209,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": []}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Non HTTP response code: org.apache.http.client.ClientProtocolException/Non HTTP response message: URI does not specify a valid host name: http:\/", 5, 100.0, 25.0], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -220,7 +220,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 15, 0, null, null, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 20, 5, "Non HTTP response code: org.apache.http.client.ClientProtocolException/Non HTTP response message: URI does not specify a valid host name: http:\/", 5, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": ["HTTP Request", 5, 5, "Non HTTP response code: org.apache.http.client.ClientProtocolException/Non HTTP response message: URI does not specify a valid host name: http:\/", 5, null, null, null, null, null, null, null, null], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
