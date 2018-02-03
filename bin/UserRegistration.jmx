@@ -56,7 +56,7 @@ import java.util.*;
 try{
 	sampler = ctx.getCurrentSampler();
 	String headers = new String(&quot;No headers found&quot;);
-	if ((sampler.getHeaderManager()!= null) &amp;&amp; (sampler.getHeaderManager().getHeaders()!=null))
+	if (sampler.getHeaderManager()!= null) 
 	{
 		headers = sampler.getHeaderManager().getHeaders().toString();
 	}
