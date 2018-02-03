@@ -87,7 +87,7 @@ try{
 	sampler = ctx.getCurrentSampler();
 	log.info( &quot;\n****************************************************************************************************\n&quot; +
 	&quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
-	&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
+	&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() +  &quot;\n&quot; +
 	&quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
 	&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
 &quot;****************************************************************************************************\n&quot;);
@@ -130,8 +130,7 @@ try {
 	String sampleName = ctx.getCurrentSampler().getName();
 	String method = ctx.getCurrentSampler().getMethod();
 	String url = ctx.getCurrentSampler().getUrl().toString();
-	String path = ctx.getCurrentSampler().getPath();
-	String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + path + &quot;\n&quot;;
+	String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + &quot;\n&quot;;
 	String code = prev.getResponseCode(); 
 	String message = prev.getResponseMessage();
 	String threadNum = &quot;theadNum#&quot; + ${__threadNum};
@@ -148,7 +147,8 @@ try {
 }catch (Throwable ex) {
     log.error(&quot;Error in Beanshell&quot;, ex);
     throw ex;
-}</stringProp>
+}
+</stringProp>
             <stringProp name="BeanShellAssertion.filename"></stringProp>
             <stringProp name="BeanShellAssertion.parameters"></stringProp>
             <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
@@ -201,7 +201,7 @@ try{
 	sampler = ctx.getCurrentSampler();
 	log.info( &quot;\n****************************************************************************************************\n&quot; +
 	&quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
-	&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
+	&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() +  &quot;\n&quot; +
 	&quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
 	&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
 &quot;****************************************************************************************************\n&quot;);
@@ -216,11 +216,7 @@ try{
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Content-Type</stringProp>
-                <stringProp name="Header.value">application/json</stringProp>
-              </elementProp>
-              <elementProp name="" elementType="Header">
-                <stringProp name="Header.name">Accept</stringProp>
-                <stringProp name="Header.value">application/json</stringProp>
+                <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>
@@ -259,8 +255,7 @@ try {
 	String sampleName = ctx.getCurrentSampler().getName();
 	String method = ctx.getCurrentSampler().getMethod();
 	String url = ctx.getCurrentSampler().getUrl().toString();
-	String path = ctx.getCurrentSampler().getPath();
-	String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + path + &quot;\n&quot;;
+	String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + &quot;\n&quot;;
 	String code = prev.getResponseCode(); 
 	String message = prev.getResponseMessage();
 	String threadNum = &quot;theadNum#&quot; + ${__threadNum};
@@ -277,7 +272,8 @@ try {
 }catch (Throwable ex) {
     log.error(&quot;Error in Beanshell&quot;, ex);
     throw ex;
-}</stringProp>
+}
+</stringProp>
             <stringProp name="BeanShellAssertion.filename"></stringProp>
             <stringProp name="BeanShellAssertion.parameters"></stringProp>
             <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
@@ -329,7 +325,7 @@ try{
 	sampler = ctx.getCurrentSampler();
 	log.info( &quot;\n****************************************************************************************************\n&quot; +
 	&quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
-	&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
+	&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() +  &quot;\n&quot; +
 	&quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
 	&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
 &quot;****************************************************************************************************\n&quot;);
@@ -381,8 +377,7 @@ try {
 	String sampleName = ctx.getCurrentSampler().getName();
 	String method = ctx.getCurrentSampler().getMethod();
 	String url = ctx.getCurrentSampler().getUrl().toString();
-	String path = ctx.getCurrentSampler().getPath();
-	String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + path + &quot;\n&quot;;
+	String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + &quot;\n&quot;;
 	String code = prev.getResponseCode(); 
 	String message = prev.getResponseMessage();
 	String threadNum = &quot;theadNum#&quot; + ${__threadNum};
@@ -399,7 +394,8 @@ try {
 }catch (Throwable ex) {
     log.error(&quot;Error in Beanshell&quot;, ex);
     throw ex;
-}</stringProp>
+}
+</stringProp>
             <stringProp name="BeanShellAssertion.filename"></stringProp>
             <stringProp name="BeanShellAssertion.parameters"></stringProp>
             <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
