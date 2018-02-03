@@ -50,14 +50,22 @@
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">JMeterContext ctx = JMeterContextService.getContext();
-sampler = ctx.getCurrentSampler();
-log.info( &quot;\n****************************************************************************************************\n&quot; +
-&quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
-&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
-&quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
-&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
-&quot;****************************************************************************************************\n&quot;);</stringProp>
+            <stringProp name="script">import java.lang.*;
+import java.util.*;
+
+try{
+	sampler = ctx.getCurrentSampler();
+	log.info( &quot;\n****************************************************************************************************\n&quot; +
+	&quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
+	&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
+	&quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
+	&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
+&quot;****************************************************************************************************\n&quot;);
+} catch (Throwable ex) {
+    log.error(&quot;Error in Beanshell&quot;, ex);
+    throw ex;
+}
+</stringProp>
           </BeanShellPreProcessor>
           <hashTree/>
           <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
