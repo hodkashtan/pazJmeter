@@ -50,8 +50,7 @@
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String name = sampler.getName();
-sampler = ctx.getCurrentSampler();
+            <stringProp name="script">sampler = ctx.getCurrentSampler();
 log.info( &quot;\n****************************************************************************************************\n&quot; +
 &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
 &quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
@@ -120,8 +119,7 @@ log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String name = sampler.getName();
-sampler = ctx.getCurrentSampler();
+            <stringProp name="script">sampler = ctx.getCurrentSampler();
 log.info( &quot;\n****************************************************************************************************\n&quot; +
 &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
 &quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
@@ -225,8 +223,7 @@ log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String name = sampler.getName();
-sampler = ctx.getCurrentSampler();
+            <stringProp name="script">sampler = ctx.getCurrentSampler();
 log.info( &quot;\n****************************************************************************************************\n&quot; +
 &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
 &quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
