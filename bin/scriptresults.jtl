@@ -8656,3 +8656,6 @@
 1517697975194,1056,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,1,1,1056,0,913
 1517697980303,284,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,1,1,283,0,160
 1517697984661,2688,Register,200,OK,Thread Group 1-1,text,true,,1031,592,1,1,2688,0,181
+1517701198660,2096,createSessionId,200,OK,Thread Group 1-1,text,true,,334,301,1,1,2096,0,1403
+1517701200869,15,Credit Guard,406,Not Acceptable,Thread Group 1-1,text,false,Test failed: text expected to contain /firstName/,1273,1498,1,1,15,0,13
+1517701200914,322,addCreditCard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /cardNumber/,305,534,1,1,322,0,182

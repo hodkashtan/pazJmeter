@@ -1,0 +1,132 @@
+2018-02-03 23:39:57,100 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-02-03 23:39:57,122 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-02-03 23:39:57,123 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-02-03 23:39:57,123 INFO o.a.j.JMeter: Setting JMeter property: NUM_OF_USERS=1
+2018-02-03 23:39:57,153 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-02-03 23:39:57,153 INFO o.a.j.JMeter: Version 3.3 r1808647
+2018-02-03 23:39:57,153 INFO o.a.j.JMeter: java.version=1.8.0_151
+2018-02-03 23:39:57,153 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-02-03 23:39:57,153 INFO o.a.j.JMeter: os.name=Linux
+2018-02-03 23:39:57,153 INFO o.a.j.JMeter: os.arch=amd64
+2018-02-03 23:39:57,153 INFO o.a.j.JMeter: os.version=3.10.0-693.5.2.el7.x86_64
+2018-02-03 23:39:57,153 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-02-03 23:39:57,153 INFO o.a.j.JMeter: Max memory     =466288640
+2018-02-03 23:39:57,153 INFO o.a.j.JMeter: Available Processors =1
+2018-02-03 23:39:57,162 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-02-03 23:39:57,162 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-02-03 23:39:57,162 INFO o.a.j.JMeter: JMeterHome=/var/lib/jenkins/workspace/Add_Credit_Card
+2018-02-03 23:39:57,162 INFO o.a.j.JMeter: user.dir  =/var/lib/jenkins/workspace/Add_Credit_Card/bin
+2018-02-03 23:39:57,163 INFO o.a.j.JMeter: PWD       =/var/lib/jenkins/workspace/Add_Credit_Card/bin
+2018-02-03 23:39:57,171 INFO o.a.j.JMeter: IP: 172.20.59.232 Name: ip-172-20-59-232.eu-west-1.compute.internal FullName: ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-03 23:39:57,175 INFO o.a.j.s.FileServer: Default base='/var/lib/jenkins/workspace/Add_Credit_Card/bin'
+2018-02-03 23:39:57,175 INFO o.a.j.s.FileServer: Set new base='/var/lib/jenkins/workspace/Add_Credit_Card/bin'
+2018-02-03 23:39:57,433 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-02-03 23:39:57,498 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-02-03 23:39:57,520 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-02-03 23:39:57,525 INFO o.a.j.s.SaveService: Loading file: Add_Credit_Card.jmx
+2018-02-03 23:39:57,593 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-03 23:39:57,593 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-03 23:39:57,593 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-03 23:39:57,593 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-03 23:39:57,593 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-02-03 23:39:57,593 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-02-03 23:39:57,762 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-02-03 23:39:57,782 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-02-03 23:39:57,782 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-03 23:39:57,782 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-03 23:39:57,786 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-02-03 23:39:57,786 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-02-03 23:39:58,440 INFO o.a.j.JMeter: Running test (1517701198440)
+2018-02-03 23:39:58,486 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2018-02-03 23:39:58,486 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2018-02-03 23:39:58,487 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-02-03 23:39:58,487 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-02-03 23:39:58,544 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-02-03 23:39:58,544 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-02-03 23:39:58,558 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2018-02-03 23:39:58,560 WARN o.a.j.c.RandomVariableConfig: maximum(9999999999999999) - minimum(1000000000000000) must be <= 2147483647
+2018-02-03 23:39:58,560 INFO o.a.j.s.FileServer: Stored: usersInfo.csv
+2018-02-03 23:39:58,588 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing createSessionId loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/payment/createSessionId/api/payment/createSessionId
+Headers: [accessToken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjM5NywiZXhwIjoiXC9EYXRlKDE1NDgwNDk3MDM5MzcpXC8ifQ.I0BwZZY4Xu9dSsxABr8Nq8Q2qsHkh01P0WyTyDeo3eU]
+Body: 
+****************************************************************************************************
+
+2018-02-03 23:39:58,615 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-03 23:39:58,630 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-02-03 23:39:58,637 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-02-03 23:39:58,637 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-02-03 23:39:58,637 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-02-03 23:39:58,637 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-02-03 23:39:58,890 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-02-03 23:39:58,963 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-02-03 23:39:58,963 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-02-03 23:39:59,505 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-02-03 23:39:59,506 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-02-03 23:39:59,506 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-02-03 23:40:00,850 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing createSessionId loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/payment/createSessionId/api/payment/createSessionId
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":"44eebf99-1e19-4399-78a4-0cd3c6feefd0"}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-03 23:40:00,852 INFO o.a.j.r.Summariser: summary +      1 in 00:00:02 =    0.4/s Avg:  2096 Min:  2096 Max:  2096 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-02-03 23:40:00,868 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Credit Guard loop#1 ---
+Sending POST request to http://34.250.19.38:8181/xpo/Relay/xpo/Relay
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: sessionId=44eebf99-1e19-4399-78a4-0cd3c6feefd0()&int_in=<ashrait>    <request>       <language>Heb</language>       <command>doDeal</command>       <requestId />       <version>1000</version>       <doDeal>          <terminalNumber>0963626</terminalNumber>          <authNumber />          <transactionCode>Phone</transactionCode>          <transactionType>Debit</transactionType>          <total>0</total>          <creditType>RegularCredit</creditType>          <cardNo>1000001239359951</cardNo>          <cardId />          <cvv>651</cvv>          <id>${personalId}</id>          <cardExpiration>1120</cardExpiration>          <validation>Verify</validation>          <numberOfPayments />          <user>33</user>          <customerData>             <userData1 />             <userData2 />             <userData3 />             <userData4 />             <userData5 />          </customerData>          <currency>ILS</currency>          <firstPayment />          <periodicalPayment />       </doDeal>    </request> </ashrait>()
+****************************************************************************************************
+
+2018-02-03 23:40:00,887 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.jsoup.Jsoup; import org.jsoup.nodes.Document; import org.jsoup.parser . . . '' : Attempt to resolve method: getResponseDataAsString() on undefined variable or class name: SampleResult
+2018-02-03 23:40:00,888 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.jsoup.Jsoup; import org.jsoup.nodes.Document; import org.jsoup.parser . . . '' : Attempt to resolve method: getResponseDataAsString() on undefined variable or class name: SampleResult
+2018-02-03 23:40:00,892 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Credit Guard loop#1 ---
+Sent POST request to http://34.250.19.38:8181/xpo/Relay/xpo/Relay
+Response Data:
+<html><head><title>Apache Tomcat/7.0.76 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 406 - Not Acceptable</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>Not Acceptable</u></p><p><b>description</b> <u>The resource identified by this request is only capable of generating responses with characteristics not acceptable according to the request "accept" headers.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.76</h3></body></html>
+Failed Assertions: 
+Assertion failed with message: Test failed: text expected to contain /firstName/
+****************************************************************************************************
+
+
+2018-02-03 23:40:00,914 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing addCreditCard loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/payment/addCreditCard/api/payment/addCreditCard
+Headers: [accessToken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjM5NywiZXhwIjoiXC9EYXRlKDE1NDgwNDk3MDM5MzcpXC8ifQ.I0BwZZY4Xu9dSsxABr8Nq8Q2qsHkh01P0WyTyDeo3eU, content-type	application/json, Accept	application/json]
+Body: ={
+	"card": 1000001239359951,
+	"cvv": 651,
+	"cardExpireDate": "12\/21",
+	"userNumber": 488281056,
+	"token": $cgToken,
+	"xmlResponse": ${cgResponse}
+}()
+****************************************************************************************************
+
+2018-02-03 23:40:01,240 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing addCreditCard loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/payment/addCreditCard/api/payment/addCreditCard
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" | ","body":null}
+Failed Assertions: 
+Assertion failed with message: Test failed: text expected to contain /cardNumber/
+****************************************************************************************************
+
+
+2018-02-03 23:40:01,241 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2018-02-03 23:40:01,241 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2018-02-03 23:40:01,242 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-02-03 23:40:01,242 INFO o.a.j.s.FileServer: Close: usersInfo.csv
+2018-02-03 23:40:01,243 INFO o.a.j.r.Summariser: summary +      2 in 00:00:00 =    5.1/s Avg:   168 Min:    15 Max:   322 Err:     2 (100.00%) Active: 0 Started: 1 Finished: 1
+2018-02-03 23:40:01,243 INFO o.a.j.r.Summariser: summary =      3 in 00:00:03 =    1.1/s Avg:   811 Min:    15 Max:  2096 Err:     2 (66.67%)
