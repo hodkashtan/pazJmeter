@@ -55,15 +55,9 @@ import java.util.*;
 
 try{
 	sampler = ctx.getCurrentSampler();
-	String headers = new String(&quot;No headers found&quot;);
-	if (sampler.getHeaderManager()!= null) 
-	{
-		headers = sampler.getHeaderManager().getHeaders().toString();
-	}
 	log.info( &quot;\n****************************************************************************************************\n&quot; +
 	&quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
 	&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
-	&quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
 	&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
 &quot;****************************************************************************************************\n&quot;);
 } catch (Throwable ex) {
@@ -77,18 +71,27 @@ try{
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String sampleName = ctx.getCurrentSampler().getName();
-String method = ctx.getCurrentSampler().getMethod();
-String url = ctx.getCurrentSampler().getUrl().toString();
-String path = ctx.getCurrentSampler().getPath();
-String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + path + &quot;\n&quot;;
-String code = prev.getResponseCode(); 
-String message = prev.getResponseMessage();
-String threadNum = &quot;theadNum#&quot; + ${__threadNum};
-String samplerData = new String(data);
-String stars = &quot;****************************************************************************************************\n&quot;;
-String header = &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampleName + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot;;
-log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot; + stars + &quot;\n&quot;);</stringProp>
+            <stringProp name="script">import java.lang.*;
+import java.util.*;
+
+try {
+	String sampleName = ctx.getCurrentSampler().getName();
+	String method = ctx.getCurrentSampler().getMethod();
+	String url = ctx.getCurrentSampler().getUrl().toString();
+	String path = ctx.getCurrentSampler().getPath();
+	String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + path + &quot;\n&quot;;
+	String code = prev.getResponseCode(); 
+	String message = prev.getResponseMessage();
+	String threadNum = &quot;theadNum#&quot; + ${__threadNum};
+	String samplerData = new String(data);
+	String stars = &quot;****************************************************************************************************\n&quot;;
+	String header = &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampleName + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot;;
+	log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot; + stars + &quot;\n&quot;);
+}catch (Throwable ex) {
+    log.error(&quot;Error in Beanshell&quot;, ex);
+    throw ex;
+}
+</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
         </hashTree>
@@ -133,13 +136,22 @@ log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">sampler = ctx.getCurrentSampler();
-log.info( &quot;\n****************************************************************************************************\n&quot; +
-&quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
-&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
-&quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
-&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
-&quot;****************************************************************************************************\n&quot;);</stringProp>
+            <stringProp name="script">import java.lang.*;
+import java.util.*;
+
+try{
+	sampler = ctx.getCurrentSampler();
+	log.info( &quot;\n****************************************************************************************************\n&quot; +
+	&quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
+	&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
+	&quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
+	&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
+&quot;****************************************************************************************************\n&quot;);
+} catch (Throwable ex) {
+    log.error(&quot;Error in Beanshell&quot;, ex);
+    throw ex;
+}
+</stringProp>
           </BeanShellPreProcessor>
           <hashTree/>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
@@ -174,18 +186,27 @@ log.info( &quot;\n**************************************************************
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String sampleName = ctx.getCurrentSampler().getName();
-String method = ctx.getCurrentSampler().getMethod();
-String url = ctx.getCurrentSampler().getUrl().toString();
-String path = ctx.getCurrentSampler().getPath();
-String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + path + &quot;\n&quot;;
-String code = prev.getResponseCode(); 
-String message = prev.getResponseMessage();
-String threadNum = &quot;theadNum#&quot; + ${__threadNum};
-String samplerData = new String(data);
-String stars = &quot;****************************************************************************************************\n&quot;;
-String header = &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampleName + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot;;
-log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot; + stars + &quot;\n&quot;);</stringProp>
+            <stringProp name="script">import java.lang.*;
+import java.util.*;
+
+try {
+	String sampleName = ctx.getCurrentSampler().getName();
+	String method = ctx.getCurrentSampler().getMethod();
+	String url = ctx.getCurrentSampler().getUrl().toString();
+	String path = ctx.getCurrentSampler().getPath();
+	String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + path + &quot;\n&quot;;
+	String code = prev.getResponseCode(); 
+	String message = prev.getResponseMessage();
+	String threadNum = &quot;theadNum#&quot; + ${__threadNum};
+	String samplerData = new String(data);
+	String stars = &quot;****************************************************************************************************\n&quot;;
+	String header = &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampleName + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot;;
+	log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot; + stars + &quot;\n&quot;);
+}catch (Throwable ex) {
+    log.error(&quot;Error in Beanshell&quot;, ex);
+    throw ex;
+}
+</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
         </hashTree>
@@ -237,13 +258,22 @@ log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">sampler = ctx.getCurrentSampler();
-log.info( &quot;\n****************************************************************************************************\n&quot; +
-&quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
-&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
-&quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
-&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
-&quot;****************************************************************************************************\n&quot;);</stringProp>
+            <stringProp name="script">import java.lang.*;
+import java.util.*;
+
+try{
+	sampler = ctx.getCurrentSampler();
+	log.info( &quot;\n****************************************************************************************************\n&quot; +
+	&quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
+	&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() + sampler.getPath() + &quot;\n&quot; +
+	&quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
+	&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
+&quot;****************************************************************************************************\n&quot;);
+} catch (Throwable ex) {
+    log.error(&quot;Error in Beanshell&quot;, ex);
+    throw ex;
+}
+</stringProp>
           </BeanShellPreProcessor>
           <hashTree/>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
@@ -279,18 +309,27 @@ log.info( &quot;\n**************************************************************
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String sampleName = ctx.getCurrentSampler().getName();
-String method = ctx.getCurrentSampler().getMethod();
-String url = ctx.getCurrentSampler().getUrl().toString();
-String path = ctx.getCurrentSampler().getPath();
-String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + path + &quot;\n&quot;;
-String code = prev.getResponseCode(); 
-String message = prev.getResponseMessage();
-String threadNum = &quot;theadNum#&quot; + ${__threadNum};
-String samplerData = new String(data);
-String stars = &quot;****************************************************************************************************\n&quot;;
-String header = &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampleName + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot;;
-log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot; + stars + &quot;\n&quot;);</stringProp>
+            <stringProp name="script">import java.lang.*;
+import java.util.*;
+
+try {
+	String sampleName = ctx.getCurrentSampler().getName();
+	String method = ctx.getCurrentSampler().getMethod();
+	String url = ctx.getCurrentSampler().getUrl().toString();
+	String path = ctx.getCurrentSampler().getPath();
+	String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + path + &quot;\n&quot;;
+	String code = prev.getResponseCode(); 
+	String message = prev.getResponseMessage();
+	String threadNum = &quot;theadNum#&quot; + ${__threadNum};
+	String samplerData = new String(data);
+	String stars = &quot;****************************************************************************************************\n&quot;;
+	String header = &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampleName + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot;;
+	log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot; + stars + &quot;\n&quot;);
+}catch (Throwable ex) {
+    log.error(&quot;Error in Beanshell&quot;, ex);
+    throw ex;
+}
+</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
           <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
