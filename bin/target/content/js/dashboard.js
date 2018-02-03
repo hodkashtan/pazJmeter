@@ -181,7 +181,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 3, 2, 66.66666666666667, 811.0, 15, 2096, 2096.0, 2096.0, 2096.0, 1.1645962732919255, 0.7248398680124224, 0.8844411151009317], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["createSessionId", 1, 0, 0.0, 2096.0, 2096, 2096, 2096.0, 2096.0, 2096.0, 0.47709923664122134, 0.15561635257633588, 0.14024108420801526], "isController": false}, {"data": ["Credit Guard", 1, 1, 100.0, 15.0, 15, 15, 15.0, 15.0, 15.0, 66.66666666666667, 82.87760416666667, 97.52604166666667], "isController": false}, {"data": ["addCreditCard", 1, 1, 100.0, 322.0, 322, 322, 322.0, 322.0, 322.0, 3.105590062111801, 0.9250048524844721, 1.6195166925465838], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 3, 2, 66.66666666666667, 857.6666666666667, 133, 2141, 2141.0, 2141.0, 2141.0, 1.1078286558345642, 1.0584235367429837, 0.8380839180206794], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["createSessionId", 1, 0, 0.0, 2141.0, 2141, 2141, 2141.0, 2141.0, 2141.0, 0.4670714619336758, 0.15234557449789818, 0.1372934668379262], "isController": false}, {"data": ["Credit Guard", 1, 1, 100.0, 133.0, 133, 133, 133.0, 133.0, 133.0, 7.518796992481203, 16.858552631578945, 10.933094454887218], "isController": false}, {"data": ["addCreditCard", 1, 1, 100.0, 299.0, 299, 299, 299.0, 299.0, 299.0, 3.3444816053511706, 0.9961590719063546, 1.7440948996655519], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -209,7 +209,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["406/Not Acceptable", 1, 50.0, 33.333333333333336], "isController": false}, {"data": ["Test failed: text expected to contain \/cardNumber\/", 1, 50.0, 33.333333333333336], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Test failed: text expected to contain \/cardNumber\/", 1, 50.0, 33.333333333333336], "isController": false}, {"data": ["Test failed: text expected to contain \/firstName\/", 1, 50.0, 33.333333333333336], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -220,7 +220,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 3, 2, "406/Not Acceptable", 1, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": ["Credit Guard", 1, 1, "406/Not Acceptable", 1, null, null, null, null, null, null, null, null], "isController": false}, {"data": ["addCreditCard", 1, 1, "Test failed: text expected to contain \/cardNumber\/", 1, null, null, null, null, null, null, null, null], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 3, 2, "Test failed: text expected to contain \/cardNumber\/", 1, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": ["Credit Guard", 1, 1, "Test failed: text expected to contain \/firstName\/", 1, null, null, null, null, null, null, null, null], "isController": false}, {"data": ["addCreditCard", 1, 1, "Test failed: text expected to contain \/cardNumber\/", 1, null, null, null, null, null, null, null, null], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
