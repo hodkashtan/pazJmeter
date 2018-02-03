@@ -8653,3 +8653,6 @@
 1517697894544,1367,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,1,1,1367,0,1230
 1517697899964,268,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,1,1,268,0,159
 1517697904305,5617,Register,200,OK,Thread Group 1-1,text,true,,1031,592,1,1,5617,0,181
+1517697975194,1056,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,1,1,1056,0,913
+1517697980303,284,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,1,1,283,0,160
+1517697984661,2688,Register,200,OK,Thread Group 1-1,text,true,,1031,592,1,1,2688,0,181
