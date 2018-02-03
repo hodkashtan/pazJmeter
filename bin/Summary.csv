@@ -1,21 +1,7 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1517663752150,0,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,Thread Group 1-1,text,false,,1021,0,5,5,0,0,0
-1517663752304,0,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,Thread Group 1-2,text,false,,1021,0,5,5,0,0,0
-1517663752649,0,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,Thread Group 1-3,text,false,,1021,0,5,5,0,0,0
-1517663752851,0,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,Thread Group 1-4,text,false,,1021,0,5,5,0,0,0
-1517663753118,0,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,Thread Group 1-5,text,false,,1021,0,5,5,0,0,0
-1517663756310,947,GenerateVerifiactionCode,200,OK,Thread Group 1-2,text,true,,353,187,5,5,947,0,774
-1517663756653,622,GenerateVerifiactionCode,200,OK,Thread Group 1-3,text,true,,353,187,5,5,622,0,435
-1517663756171,1085,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,5,5,1085,0,917
-1517663756857,553,GenerateVerifiactionCode,200,OK,Thread Group 1-4,text,true,,353,187,5,5,553,0,425
-1517663757125,497,GenerateVerifiactionCode,200,OK,Thread Group 1-5,text,true,,353,187,5,5,497,0,377
-1517663761268,273,verifyUser,200,OK,Thread Group 1-2,text,true,,408,345,5,5,273,0,166
-1517663761311,295,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,5,5,295,0,173
-1517663761281,283,verifyUser,200,OK,Thread Group 1-3,text,true,,408,345,5,5,283,0,166
-1517663761415,321,verifyUser,200,OK,Thread Group 1-4,text,true,,408,345,5,5,321,0,195
-1517663761631,312,verifyUser,200,OK,Thread Group 1-5,text,true,,408,345,5,5,312,0,179
-1517663765629,3475,Register,200,OK,Thread Group 1-2,text,true,,1031,592,5,5,3475,0,176
-1517663765947,3197,Register,200,OK,Thread Group 1-5,text,true,,1031,592,4,4,3197,0,164
-1517663765631,4504,Register,200,OK,Thread Group 1-1,text,true,,1031,592,3,3,4504,0,163
-1517663765634,4692,Register,200,OK,Thread Group 1-3,text,true,,1031,592,2,2,4692,0,161
-1517663765741,4666,Register,200,OK,Thread Group 1-4,text,true,,1031,592,1,1,4665,0,158
+1517664418371,1529,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,2,2,1529,0,1354
+1517664418821,1079,GenerateVerifiactionCode,200,OK,Thread Group 1-2,text,true,,353,187,2,2,1079,0,897
+1517664423955,290,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,2,2,290,0,164
+1517664423963,292,verifyUser,200,OK,Thread Group 1-2,text,true,,408,345,2,2,292,0,165
+1517664428323,2726,Register,200,OK,Thread Group 1-1,text,true,,1031,592,2,2,2726,0,174
+1517664428300,2960,Register,200,OK,Thread Group 1-2,text,true,,1031,592,1,1,2960,0,160
