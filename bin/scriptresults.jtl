@@ -8590,3 +8590,6 @@
 1517665554738,321,verifyUser,200,OK,Thread Group 1-2,text,true,,408,345,2,2,321,0,179
 1517665559136,2705,Register,200,OK,Thread Group 1-2,text,true,,1031,592,2,2,2705,0,163
 1517665559116,2735,Register,200,OK,Thread Group 1-1,text,true,,1031,592,1,1,2735,0,173
+1517665691425,1377,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,1,1,1377,0,1238
+1517665696840,315,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,1,1,315,0,179
+1517665701215,3001,Register,200,OK,Thread Group 1-1,text,true,,1031,592,1,1,3001,0,173
