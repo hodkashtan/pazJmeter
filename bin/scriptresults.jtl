@@ -8489,3 +8489,5 @@
 1517621946546,65876,Register,200,OK,Thread Group 1-97,text,false,Test failed: text expected to contain /accessToken/,377,592,3,3,65875,0,161
 1517621946821,65624,Register,200,OK,Thread Group 1-100,text,false,Test failed: text expected to contain /accessToken/,377,592,2,2,65624,0,176
 1517621946711,65736,Register,200,OK,Thread Group 1-99,text,false,Test failed: text expected to contain /accessToken/,377,592,1,1,65736,0,158
+1517658086010,1078,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,1,1,1078,0,904
+1517658091122,340,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,1,1,340,0,178
