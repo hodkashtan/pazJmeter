@@ -8186,3 +8186,6 @@
 1517620237105,5265,Register,200,OK,Thread Group 1-4,text,true,,1031,592,3,3,5265,0,159
 1517620234597,7784,Register,200,OK,Thread Group 1-3,text,true,,1031,592,2,2,7784,0,168
 1517620233992,8394,Register,200,OK,Thread Group 1-2,text,true,,1031,592,1,1,8394,0,187
+1517620886072,1233,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,353,187,1,1,1233,0,1075
+1517620891339,294,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,1,1,294,0,174
+1517620895691,2642,Register,200,OK,Thread Group 1-1,text,true,,1031,592,1,1,2642,0,158
