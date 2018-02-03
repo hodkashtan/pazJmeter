@@ -1,0 +1,286 @@
+2018-02-03 18:39:53,327 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-02-03 18:39:53,341 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-02-03 18:39:53,343 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-02-03 18:39:53,344 INFO o.a.j.JMeter: Setting JMeter property: NUM_OF_USERS=3
+2018-02-03 18:39:53,366 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-02-03 18:39:53,366 INFO o.a.j.JMeter: Version 3.3 r1808647
+2018-02-03 18:39:53,366 INFO o.a.j.JMeter: java.version=1.8.0_151
+2018-02-03 18:39:53,366 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-02-03 18:39:53,366 INFO o.a.j.JMeter: os.name=Linux
+2018-02-03 18:39:53,366 INFO o.a.j.JMeter: os.arch=amd64
+2018-02-03 18:39:53,366 INFO o.a.j.JMeter: os.version=3.10.0-693.5.2.el7.x86_64
+2018-02-03 18:39:53,366 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-02-03 18:39:53,367 INFO o.a.j.JMeter: Max memory     =466288640
+2018-02-03 18:39:53,367 INFO o.a.j.JMeter: Available Processors =1
+2018-02-03 18:39:53,371 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-02-03 18:39:53,371 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-02-03 18:39:53,371 INFO o.a.j.JMeter: JMeterHome=/var/lib/jenkins/workspace/Run user registration
+2018-02-03 18:39:53,371 INFO o.a.j.JMeter: user.dir  =/var/lib/jenkins/workspace/Run user registration/bin
+2018-02-03 18:39:53,371 INFO o.a.j.JMeter: PWD       =/var/lib/jenkins/workspace/Run user registration/bin
+2018-02-03 18:39:53,384 INFO o.a.j.JMeter: IP: 172.20.59.232 Name: ip-172-20-59-232.eu-west-1.compute.internal FullName: ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-03 18:39:53,387 INFO o.a.j.s.FileServer: Default base='/var/lib/jenkins/workspace/Run user registration/bin'
+2018-02-03 18:39:53,387 INFO o.a.j.s.FileServer: Set new base='/var/lib/jenkins/workspace/Run user registration/bin'
+2018-02-03 18:39:53,650 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-02-03 18:39:53,674 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-02-03 18:39:53,689 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-02-03 18:39:53,695 INFO o.a.j.s.SaveService: Loading file: UserRegistration.jmx
+2018-02-03 18:39:53,771 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-03 18:39:53,771 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-03 18:39:53,771 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-03 18:39:53,771 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-03 18:39:53,771 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-02-03 18:39:53,771 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-02-03 18:39:53,947 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-02-03 18:39:53,953 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-02-03 18:39:53,955 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-03 18:39:53,955 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-03 18:39:53,959 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-02-03 18:39:53,959 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-02-03 18:39:54,586 INFO o.a.j.JMeter: Running test (1517683194586)
+2018-02-03 18:39:54,614 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2018-02-03 18:39:54,614 INFO o.a.j.e.StandardJMeterEngine: Starting 3 threads for group Thread Group.
+2018-02-03 18:39:54,614 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-02-03 18:39:54,615 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=3 ramp-up=1 perThread=333.33334 delayedStart=false
+2018-02-03 18:39:54,690 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2018-02-03 18:39:54,767 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing GenerateVerifiactionCode loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0526291602&sms=false/api/users/generateVerificationCode?mobilePhone=0526291602&sms=false
+Body: 
+****************************************************************************************************
+
+2018-02-03 18:39:54,849 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-02-03 18:39:54,849 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-02-03 18:39:55,126 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2018-02-03 18:39:55,131 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing GenerateVerifiactionCode loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0580478712&sms=false/api/users/generateVerificationCode?mobilePhone=0580478712&sms=false
+Body: 
+****************************************************************************************************
+
+2018-02-03 18:39:55,516 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2018-02-03 18:39:55,524 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing GenerateVerifiactionCode loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0545242945&sms=false/api/users/generateVerificationCode?mobilePhone=0545242945&sms=false
+Body: 
+****************************************************************************************************
+
+2018-02-03 18:39:58,788 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-03 18:39:58,794 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-02-03 18:39:58,818 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-02-03 18:39:58,819 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-02-03 18:39:58,819 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-02-03 18:39:58,819 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-02-03 18:39:58,983 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-02-03 18:39:59,012 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-02-03 18:39:59,012 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-02-03 18:39:59,616 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-02-03 18:39:59,617 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-02-03 18:39:59,617 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-02-03 18:40:00,462 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0545242945&sms=false/api/users/generateVerificationCode?mobilePhone=0545242945&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0,"mobilePhoneExists":false}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-03 18:40:00,464 INFO o.a.j.r.Summariser: summary +      1 in 00:00:06 =    0.2/s Avg:   923 Min:   923 Max:   923 Err:     0 (0.00%) Active: 3 Started: 3 Finished: 0
+2018-02-03 18:40:00,486 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0526291602&sms=false/api/users/generateVerificationCode?mobilePhone=0526291602&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0,"mobilePhoneExists":false}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-03 18:40:00,490 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0526291602",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-03 18:40:00,497 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0580478712&sms=false/api/users/generateVerificationCode?mobilePhone=0580478712&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0,"mobilePhoneExists":false}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-03 18:40:00,501 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0580478712",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-03 18:40:00,502 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0545242945",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-03 18:40:04,840 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"userInfo":null,"verifiedMobilePhone":"0545242945","verificationToken":"a54201ad-f414-4296-8ac7-d64e72c001b2"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-03 18:40:04,843 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Register loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/register/api/users/register
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"lastName": "iuvbtxrsuy",
+	"firstName": "Perf-mtbyt",
+	"birthDate": null,
+	"agreeTerms": "true",
+	"verifyToken": "a54201ad-f414-4296-8ac7-d64e72c001b2",
+	"pazomatCarNumber": null,
+	"personalId": "675242945",
+	"mobilePhone": "0545242945",
+	"fbAccessToken": null,
+	"clientConfirmation": "true",
+	"agreeNewsletter": "true",
+	"email": "user0545242945@perf.com"
+}()
+****************************************************************************************************
+
+2018-02-03 18:40:04,847 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"userInfo":null,"verifiedMobilePhone":"0580478712","verificationToken":"1d0dcba9-4e0a-443a-99b8-bc4d28d2aed9"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-03 18:40:04,849 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Register loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/register/api/users/register
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"lastName": "amhxaqtmnv",
+	"firstName": "Perf-hlytm",
+	"birthDate": null,
+	"agreeTerms": "true",
+	"verifyToken": "1d0dcba9-4e0a-443a-99b8-bc4d28d2aed9",
+	"pazomatCarNumber": null,
+	"personalId": "800478712",
+	"mobilePhone": "0580478712",
+	"fbAccessToken": null,
+	"clientConfirmation": "true",
+	"agreeNewsletter": "true",
+	"email": "user0580478712@perf.com"
+}()
+****************************************************************************************************
+
+2018-02-03 18:40:04,858 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser/api/users/verifyUser
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"userInfo":null,"verifiedMobilePhone":"0526291602","verificationToken":"5c56b5b0-982f-4c4a-85df-1ca03feb44c4"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-03 18:40:04,860 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Register loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/register/api/users/register
+Headers: [Content-Type	application/json, Accept	application/json]
+Body: ={
+	"lastName": "facqiiznjg",
+	"firstName": "Perf-glkek",
+	"birthDate": null,
+	"agreeTerms": "true",
+	"verifyToken": "5c56b5b0-982f-4c4a-85df-1ca03feb44c4",
+	"pazomatCarNumber": null,
+	"personalId": "926291602",
+	"mobilePhone": "0526291602",
+	"fbAccessToken": null,
+	"clientConfirmation": "true",
+	"agreeNewsletter": "true",
+	"email": "user0526291602@perf.com"
+}()
+****************************************************************************************************
+
+2018-02-03 18:40:12,194 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Register loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/register/api/users/register
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjgzMCwiZXhwIjoiXC9EYXRlKDE1NDkyMTkyMTE4NzcpXC8ifQ.xCQhZXp2riDBoU6JR6k5L1fOYIJl8v5OI0sHA9LKnd0"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":830,"email":"user0545242945@perf.com","type":"General","firstName":"Perf-mtbyt","lastName":"iuvbtxrsuy","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-03T20:40:11","dateCreated":"2018-02-03T20:40:11","mobilePhone":"0545242945","userMoreDetails":{"userId":830,"gender":null,"birthDate":null,"personalId":"675242945","clubMemberId":"7670001643626","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"coupon":null,"isPazomatAddedAndOK":null}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-03 18:40:12,209 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2018-02-03 18:40:12,209 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2018-02-03 18:40:12,297 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Register loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/register/api/users/register
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjgzMSwiZXhwIjoiXC9EYXRlKDE1NDkyMTkyMTE5ODYpXC8ifQ.0cgljXNQ0iS8qhOy__gqNDW0Q_WhWUmfcIzS3DUsxxQ"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":831,"email":"user0580478712@perf.com","type":"General","firstName":"Perf-hlytm","lastName":"amhxaqtmnv","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-03T20:40:11","dateCreated":"2018-02-03T20:40:11","mobilePhone":"0580478712","userMoreDetails":{"userId":831,"gender":null,"birthDate":null,"personalId":"800478712","clubMemberId":"7670001643639","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"coupon":null,"isPazomatAddedAndOK":null}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-03 18:40:12,298 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2018-02-03 18:40:12,298 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2018-02-03 18:40:12,349 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Register loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/register/api/users/register
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjgzMiwiZXhwIjoiXC9EYXRlKDE1NDkyMTkyMTIyMDYpXC8ifQ.83rav23F0R1NBPLlBOJj1dIDNc9zwIaxKwLSV5annq4"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":832,"email":"user0526291602@perf.com","type":"General","firstName":"Perf-glkek","lastName":"facqiiznjg","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-03T20:40:12","dateCreated":"2018-02-03T20:40:12","mobilePhone":"0526291602","userMoreDetails":{"userId":832,"gender":null,"birthDate":null,"personalId":"926291602","clubMemberId":"7670001643642","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"coupon":null,"isPazomatAddedAndOK":null}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-03 18:40:12,349 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2018-02-03 18:40:12,349 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2018-02-03 18:40:12,354 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-02-03 18:40:12,354 INFO o.a.j.r.Summariser: summary +      8 in 00:00:12 =    0.7/s Avg:  1754 Min:   276 Max:  3482 Err:     0 (0.00%) Active: 0 Started: 3 Finished: 3
+2018-02-03 18:40:12,355 INFO o.a.j.r.Summariser: summary =      9 in 00:00:18 =    0.5/s Avg:  1662 Min:   276 Max:  3482 Err:     0 (0.00%)
