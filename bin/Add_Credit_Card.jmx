@@ -240,10 +240,13 @@ import java.util.*;
 
 try {
 	String response = new String(data);
-	props.put(&quot;cgResponse&quot;, response);
 	log.info(response);
 	String cgToken = response.substring(response.indexOf(&quot;cardId&quot;)).substring(7,23);
+
+	response.replace(&quot;\&quot;&quot;,&quot;\\\&quot;&quot;);	
 	props.put(&quot;cgToken&quot;,cgToken);
+	props.put(&quot;cgResponse&quot;, response);
+	
 }catch (Throwable ex) {
     log.error(&quot;Error in Beanshell&quot;, ex);
     throw ex;
