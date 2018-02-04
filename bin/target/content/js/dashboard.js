@@ -167,7 +167,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.0, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)  ", "F (Frustration threshold)", "Label"], "items": [{"data": [0.0, 500, 1500, "createSessionId"], "isController": false}, {"data": [0.0, 500, 1500, "Credit Guard"], "isController": false}, {"data": [0.0, 500, 1500, "addCreditCard"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.03968253968253968, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)  ", "F (Frustration threshold)", "Label"], "items": [{"data": [0.11904761904761904, 500, 1500, "createSessionId"], "isController": false}, {"data": [0.0, 500, 1500, "Credit Guard"], "isController": false}, {"data": [0.0, 500, 1500, "addCreditCard"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -181,7 +181,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 3, 2, 66.66666666666667, 831.6666666666667, 75, 2126, 2126.0, 2126.0, 2126.0, 1.1329305135951662, 1.0872002454682779, 1.6455520675981872], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["createSessionId", 1, 0, 0.0, 2126.0, 2126, 2126, 2126.0, 2126.0, 2126.0, 0.4703668861712136, 0.1534204492003763, 0.1382621413452493], "isController": false}, {"data": ["Credit Guard", 1, 1, 100.0, 75.0, 75, 75, 75.0, 75.0, 75.0, 13.333333333333334, 30.104166666666668, 19.388020833333336], "isController": false}, {"data": ["addCreditCard", 1, 1, 100.0, 294.0, 294, 294, 294.0, 294.0, 294.0, 3.401360544217687, 1.0031356292517006, 8.875425170068027], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 63, 42, 66.66666666666667, 1062.15873015873, 52, 5586, 2945.4, 4412.599999999999, 5586.0, 10.353327855382087, 9.935420090386195, 15.037939092029582], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["createSessionId", 21, 0, 0.0, 2725.1428571428573, 964, 5586, 5097.6, 5553.7, 5586.0, 3.7056643726839598, 1.208683496559026, 1.089262672048703], "isController": false}, {"data": ["Credit Guard", 21, 21, 100.0, 207.76190476190473, 52, 488, 436.6000000000001, 484.99999999999994, 488.0, 7.502679528403001, 16.9396436227224, 10.909658025187568], "isController": false}, {"data": ["addCreditCard", 21, 21, 100.0, 253.57142857142856, 104, 362, 325.6, 358.49999999999994, 362.0, 7.301808066759388, 2.153462925938804, 19.05315542420028], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -209,7 +209,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Test failed: text expected to contain \/cardNumber\/", 1, 50.0, 33.333333333333336], "isController": false}, {"data": ["Test failed: text expected to contain \/firstName\/", 1, 50.0, 33.333333333333336], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Test failed: text expected to contain \/cardNumber\/", 21, 50.0, 33.333333333333336], "isController": false}, {"data": ["Test failed: text expected to contain \/firstName\/", 21, 50.0, 33.333333333333336], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -220,7 +220,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 3, 2, "Test failed: text expected to contain \/cardNumber\/", 1, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": ["Credit Guard", 1, 1, "Test failed: text expected to contain \/firstName\/", 1, null, null, null, null, null, null, null, null], "isController": false}, {"data": ["addCreditCard", 1, 1, "Test failed: text expected to contain \/cardNumber\/", 1, null, null, null, null, null, null, null, null], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 63, 42, "Test failed: text expected to contain \/cardNumber\/", 21, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": ["Credit Guard", 21, 21, "Test failed: text expected to contain \/firstName\/", 21, null, null, null, null, null, null, null, null], "isController": false}, {"data": ["addCreditCard", 21, 21, "Test failed: text expected to contain \/cardNumber\/", 21, null, null, null, null, null, null, null, null], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
