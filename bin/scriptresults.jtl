@@ -8746,3 +8746,6 @@
 1517748744800,2153,createSessionId,200,OK,Thread Group 1-1,text,true,,334,301,1,1,2153,0,1248
 1517748747079,131,Credit Guard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /firstName/,2321,1489,1,1,131,0,9
 1517748747240,688,addCreditCard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /cardNumber/,302,2708,1,1,688,0,184
+1517753527230,2060,createSessionId,200,OK,Thread Group 1-1,text,true,,334,301,1,1,2060,0,1317
+1517753529388,66,Credit Guard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /firstName/,2321,1489,1,1,65,0,12
+1517753529490,342,addCreditCard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /cardNumber/,305,2667,1,1,342,0,190
