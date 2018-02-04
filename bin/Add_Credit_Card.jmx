@@ -289,10 +289,8 @@ try {
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-	&quot;card&quot;: ${cardNo},&#xd;
-	&quot;cvv&quot;: ${cvv},&#xd;
+	&quot;cardId&quot;: ${cardNo},&#xd;
 	&quot;cardExpireDate&quot;: &quot;12\/21&quot;,&#xd;
-	&quot;userNumber&quot;: &quot;${personlId}&quot;,&#xd;
 	&quot;token&quot;: &quot;${__P(cgToken)}&quot;,&#xd;
 	&quot;xmlResponse&quot;: &quot;${__P(cgResponse)}&quot;&#xd;
 }</stringProp>
