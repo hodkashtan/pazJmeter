@@ -17,7 +17,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">${__property(NUM_OF_USERS)}</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(NUM_OF_USERS,1)}</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <longProp name="ThreadGroup.start_time">1514069295000</longProp>
         <longProp name="ThreadGroup.end_time">1514069295000</longProp>
@@ -235,16 +235,18 @@ try{
             <stringProp name="filename"></stringProp>
             <stringProp name="parameters"></stringProp>
             <boolProp name="resetInterpreter">false</boolProp>
-            <stringProp name="script">import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.parser.Parser;
-import org.xml.sax.SAXException;
-import javax.xml.parsers.ParserConfigurationException;
+            <stringProp name="script">import java.lang.*;
+import java.util.*;
 
-vars.put(&quot;cgResponse&quot;,SampleResult.getResponseDataAsString());
-
-Document doc = Jsoup.parse(SampleResult.getResponseDataAsString(), &quot;&quot;, Parser.xmlParser());
-vars.put(&quot;cgToken&quot;,&quot;doc.getElementsByTag(&quot;cardId&quot;).text())&quot;;</stringProp>
+try {
+	String response = new String(data);
+	props.put(&quot;cgResponse&quot;, response);
+	String cgToken = response.substring(response.indexOf(&quot;cardId&quot;)).substring(7,23);
+	props.put(&quot;cgToken&quot;,cgToken);
+}catch (Throwable ex) {
+    log.error(&quot;Error in Beanshell&quot;, ex);
+    throw ex;
+}</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
           <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
@@ -291,8 +293,8 @@ try {
 	&quot;cvv&quot;: ${cvv},&#xd;
 	&quot;cardExpireDate&quot;: &quot;12\/21&quot;,&#xd;
 	&quot;userNumber&quot;: ${personlId},&#xd;
-	&quot;token&quot;: ${cgToken},&#xd;
-	&quot;xmlResponse&quot;: ${cgResponse}&#xd;
+	&quot;token&quot;: ${__P(cgToken)},&#xd;
+	&quot;xmlResponse&quot;: ${__P(cgResponse)}&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
