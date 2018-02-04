@@ -8671,3 +8671,6 @@
 1517709561759,139,Credit Guard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /firstName/,2312,1453,2,2,110,0,36
 1517709561945,127414,addCreditCard,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection timed out (Connection timed out),Thread Group 1-2,text,false,Test failed: text expected to contain /body/,2324,0,2,2,0,0,127414
 1517709561956,127408,addCreditCard,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection timed out (Connection timed out),Thread Group 1-1,text,false,Test failed: text expected to contain /body/,2324,0,1,1,0,0,127408
+1517709983050,5094,createSessionId,200,OK,Thread Group 1-1,text,true,,334,301,1,1,5094,0,1324
+1517709988262,70,Credit Guard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /firstName/,2312,1489,1,1,69,0,14
+1517709988359,1092,addCreditCard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /cardNumber/,305,2666,1,1,1092,0,178
