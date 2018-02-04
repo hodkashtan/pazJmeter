@@ -1,0 +1,266 @@
+2018-02-04 14:49:57,639 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-02-04 14:49:57,676 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-02-04 14:49:57,677 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-02-04 14:49:57,678 INFO o.a.j.JMeter: Setting JMeter property: NUM_OF_USERS=1
+2018-02-04 14:49:57,682 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-02-04 14:49:57,682 INFO o.a.j.JMeter: Version 3.3 r1808647
+2018-02-04 14:49:57,682 INFO o.a.j.JMeter: java.version=1.8.0_151
+2018-02-04 14:49:57,682 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-02-04 14:49:57,682 INFO o.a.j.JMeter: os.name=Linux
+2018-02-04 14:49:57,682 INFO o.a.j.JMeter: os.arch=amd64
+2018-02-04 14:49:57,682 INFO o.a.j.JMeter: os.version=3.10.0-693.5.2.el7.x86_64
+2018-02-04 14:49:57,683 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-02-04 14:49:57,683 INFO o.a.j.JMeter: Max memory     =466288640
+2018-02-04 14:49:57,683 INFO o.a.j.JMeter: Available Processors =1
+2018-02-04 14:49:57,694 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-02-04 14:49:57,694 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-02-04 14:49:57,695 INFO o.a.j.JMeter: JMeterHome=/var/lib/jenkins/workspace/Add_Credit_Card
+2018-02-04 14:49:57,695 INFO o.a.j.JMeter: user.dir  =/var/lib/jenkins/workspace/Add_Credit_Card/bin
+2018-02-04 14:49:57,695 INFO o.a.j.JMeter: PWD       =/var/lib/jenkins/workspace/Add_Credit_Card/bin
+2018-02-04 14:49:57,703 INFO o.a.j.JMeter: IP: 172.20.59.232 Name: ip-172-20-59-232.eu-west-1.compute.internal FullName: ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-04 14:49:57,706 INFO o.a.j.s.FileServer: Default base='/var/lib/jenkins/workspace/Add_Credit_Card/bin'
+2018-02-04 14:49:57,706 INFO o.a.j.s.FileServer: Set new base='/var/lib/jenkins/workspace/Add_Credit_Card/bin'
+2018-02-04 14:49:57,945 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-02-04 14:49:57,967 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-02-04 14:49:57,979 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-02-04 14:49:57,985 INFO o.a.j.s.SaveService: Loading file: Add_Credit_Card.jmx
+2018-02-04 14:49:58,051 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-04 14:49:58,052 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-04 14:49:58,052 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-04 14:49:58,052 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-04 14:49:58,052 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-02-04 14:49:58,052 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-02-04 14:49:58,202 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-02-04 14:49:58,209 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-02-04 14:49:58,210 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-04 14:49:58,210 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-04 14:49:58,213 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-02-04 14:49:58,214 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-02-04 14:49:58,828 INFO o.a.j.JMeter: Running test (1517755798828)
+2018-02-04 14:49:58,855 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2018-02-04 14:49:58,856 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2018-02-04 14:49:58,856 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-02-04 14:49:58,856 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-02-04 14:49:58,897 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-02-04 14:49:58,897 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-02-04 14:49:58,911 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2018-02-04 14:49:58,913 WARN o.a.j.c.RandomVariableConfig: maximum(9999999999999999) - minimum(1000000000000000) must be <= 2147483647
+2018-02-04 14:49:58,914 INFO o.a.j.s.FileServer: Stored: usersInfo.csv
+2018-02-04 14:49:58,962 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing createSessionId loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/payment/createSessionId
+Headers: [accessToken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjM5NywiZXhwIjoiXC9EYXRlKDE1NDgwNDk3MDM5MzcpXC8ifQ.I0BwZZY4Xu9dSsxABr8Nq8Q2qsHkh01P0WyTyDeo3eU]
+Body: 
+****************************************************************************************************
+
+2018-02-04 14:49:58,988 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-04 14:49:59,005 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-02-04 14:49:59,024 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-02-04 14:49:59,024 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-02-04 14:49:59,024 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-02-04 14:49:59,024 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-02-04 14:49:59,187 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-02-04 14:49:59,253 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-02-04 14:49:59,253 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-02-04 14:49:59,854 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-02-04 14:49:59,855 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-02-04 14:49:59,855 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-02-04 14:50:01,101 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing createSessionId loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/payment/createSessionId
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":"9f16b5fb-e26d-4bd8-6d97-5aab5f0fee49"}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-04 14:50:01,103 INFO o.a.j.r.Summariser: summary +      1 in 00:00:02 =    0.4/s Avg:  1936 Min:  1936 Max:  1936 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-02-04 14:50:01,108 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Credit Guard loop#1 ---
+Sending POST request to http://34.250.19.38:8181/xpo/Relay
+Headers: [Content-Type	application/x-www-form-urlencoded]
+Body: sessionId=9f16b5fb-e26d-4bd8-6d97-5aab5f0fee49()&int_in=<ashrait>    <request>       <language>Heb</language>       <command>doDeal</command>       <requestId />       <version>1000</version>       <doDeal>          <terminalNumber>0963626</terminalNumber>          <authNumber />          <transactionCode>Phone</transactionCode>          <transactionType>Debit</transactionType>          <total>0</total>          <creditType>RegularCredit</creditType>          <cardNo>1000000575392001</cardNo>          <cardId />          <cvv>501</cvv>          <id>${personalId}</id>          <cardExpiration>1120</cardExpiration>          <validation>Verify</validation>          <numberOfPayments />          <user>33</user>          <customerData>             <userData1 />             <userData2 />             <userData3 />             <userData4 />             <userData5 />          </customerData>          <currency>ILS</currency>          <firstPayment />          <periodicalPayment />       </doDeal>    </request> </ashrait>()
+****************************************************************************************************
+
+2018-02-04 14:50:01,196 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Credit Guard loop#1 ---
+Sent POST request to http://34.250.19.38:8181/xpo/Relay
+Response Data:
+<?xml version='1.0' encoding='ISO-8859-8'?>
+<ashrait>
+    <response>
+        <command>doDeal</command>
+        <dateTime>2018/02/04 14:50:01</dateTime>
+        <requestId></requestId>
+        <tranId>43816574</tranId>
+        <result>000</result>
+        <message>Permitted transaction.</message>
+        <userMessage>Permitted transaction.</userMessage>
+        <additionalInfo></additionalInfo>
+        <version>1000</version>
+        <language>Heb</language>
+        <doDeal>
+            <status>000</status>
+            <statusText>Permitted transaction.</statusText>
+            <terminalNumber>0963626</terminalNumber>
+            <cardId>4402479647835392</cardId>
+            <cardBin>10000</cardBin>
+            <cardMask>10000******2001</cardMask>
+            <cardLength>16</cardLength>
+            <cardNo>xxxxxxxxxxxx2001</cardNo>
+            <cardName>laC )××××(</cardName>
+            <cardExpiration>1120</cardExpiration>
+            <cardType code="0">Local</cardType>
+            <extendedCardType>Credit</extendedCardType>
+            <creditCompany code="20">Visa</creditCompany>
+            <cardBrand code="2">Visa</cardBrand>
+            <cardAcquirer code="6">Alphacard</cardAcquirer>
+            <serviceCode>000</serviceCode>
+            <transactionType code="02">AuthDebit</transactionType>
+            <creditType code="1">RegularCredit</creditType>
+            <currency code="1">ILS</currency>
+            <transactionCode code="50">Phone</transactionCode>
+            <total>0</total>
+            <balance></balance>
+            <starTotal>0</starTotal>
+            <firstPayment></firstPayment>
+            <periodicalPayment></periodicalPayment>
+            <numberOfPayments></numberOfPayments>
+            <clubId></clubId>
+            <clubCode></clubCode>
+            <validation code="5">Verify</validation>
+            <commReason code=""></commReason>
+            <idStatus code="3">NotValidated</idStatus>
+            <cvvStatus code="3">NotValidated</cvvStatus>
+            <authSource code="3">VoiceMail</authSource>
+            <authNumber>3238176</authNumber>
+            <fileNumber>29</fileNumber>
+            <slaveTerminalNumber>001</slaveTerminalNumber>
+            <slaveTerminalSequence>001</slaveTerminalSequence>
+            <creditGroup></creditGroup>
+            <pinKeyIn></pinKeyIn>
+            <pfsc></pfsc>
+            <eci></eci>
+            <cavv code=" "></cavv>
+            <user>33</user>
+            <addonData></addonData>
+            <supplierNumber>0300012</supplierNumber>
+            <intIn>Bxxxxxxx{4LastDigits}C0D011150E7779319J5TxxxxUxxxY{PersonlaID}X33</intIn>
+            <intOt>0000xxxxxxxxxxxxxxx{4LastDigits}260005xxxx3300000000        000000002021 150  3777931900000000000000000029001001     (××××) Cal0                 33</intOt>
+            <id>${personalId}</id>
+            <shiftId1></shiftId1>
+            <shiftId2></shiftId2>
+            <shiftId3></shiftId3>
+            <shiftTxnDate></shiftTxnDate>
+            <authAmount></authAmount>
+        </doDeal>
+    </response>
+</ashrait>
+Failed Assertions: 
+Assertion failed with message: Test failed: text expected to contain /firstName/
+****************************************************************************************************
+
+
+2018-02-04 14:50:01,200 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing addCreditCard loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/payment/addCreditCard
+Headers: [accessToken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjM5NywiZXhwIjoiXC9EYXRlKDE1NDgwNDk3MDM5MzcpXC8ifQ.I0BwZZY4Xu9dSsxABr8Nq8Q2qsHkh01P0WyTyDeo3eU, content-type	application/json, Accept	application/json]
+Body: ={
+	"cardId": 1000000575392001,
+	"cardExpireDate": "12\/21",
+	"token": "4402479647835392",
+	"xmlResponse": "<?xml version='1.0' encoding='ISO-8859-8'?>
+<ashrait>
+    <response>
+        <command>doDeal</command>
+        <dateTime>2018/02/04 14:50:01</dateTime>
+        <requestId></requestId>
+        <tranId>43816574</tranId>
+        <result>000</result>
+        <message>Permitted transaction.</message>
+        <userMessage>Permitted transaction.</userMessage>
+        <additionalInfo></additionalInfo>
+        <version>1000</version>
+        <language>Heb</language>
+        <doDeal>
+            <status>000</status>
+            <statusText>Permitted transaction.</statusText>
+            <terminalNumber>0963626</terminalNumber>
+            <cardId>4402479647835392</cardId>
+            <cardBin>10000</cardBin>
+            <cardMask>10000******2001</cardMask>
+            <cardLength>16</cardLength>
+            <cardNo>xxxxxxxxxxxx2001</cardNo>
+            <cardName>laC )ויזה(</cardName>
+            <cardExpiration>1120</cardExpiration>
+            <cardType code="0">Local</cardType>
+            <extendedCardType>Credit</extendedCardType>
+            <creditCompany code="20">Visa</creditCompany>
+            <cardBrand code="2">Visa</cardBrand>
+            <cardAcquirer code="6">Alphacard</cardAcquirer>
+            <serviceCode>000</serviceCode>
+            <transactionType code="02">AuthDebit</transactionType>
+            <creditType code="1">RegularCredit</creditType>
+            <currency code="1">ILS</currency>
+            <transactionCode code="50">Phone</transactionCode>
+            <total>0</total>
+            <balance></balance>
+            <starTotal>0</starTotal>
+            <firstPayment></firstPayment>
+            <periodicalPayment></periodicalPayment>
+            <numberOfPayments></numberOfPayments>
+            <clubId></clubId>
+            <clubCode></clubCode>
+            <validation code="5">Verify</validation>
+            <commReason code=""></commReason>
+            <idStatus code="3">NotValidated</idStatus>
+            <cvvStatus code="3">NotValidated</cvvStatus>
+            <authSource code="3">VoiceMail</authSource>
+            <authNumber>3238176</authNumber>
+            <fileNumber>29</fileNumber>
+            <slaveTerminalNumber>001</slaveTerminalNumber>
+            <slaveTerminalSequence>001</slaveTerminalSequence>
+            <creditGroup></creditGroup>
+            <pinKeyIn></pinKeyIn>
+            <pfsc></pfsc>
+            <eci></eci>
+            <cavv code=" "></cavv>
+            <user>33</user>
+            <addonData></addonData>
+            <supplierNumber>0300012</supplierNumber>
+            <intIn>Bxxxxxxx{4LastDigits}C0D011150E7779319J5TxxxxUxxxY{PersonlaID}X33</intIn>
+            <intOt>0000xxxxxxxxxxxxxxx{4LastDigits}260005xxxx3300000000        000000002021 150  3777931900000000000000000029001001     (הזיו) Cal0                 33</intOt>
+            <id>${personalId}</id>
+            <shiftId1></shiftId1>
+            <shiftId2></shiftId2>
+            <shiftId3></shiftId3>
+            <shiftTxnDate></shiftTxnDate>
+            <authAmount></authAmount>
+        </doDeal>
+    </response>
+</ashrait>"
+}()
+****************************************************************************************************
+
+2018-02-04 14:50:01,526 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing addCreditCard loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/payment/addCreditCard
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" | ","body":null}
+Failed Assertions: 
+Assertion failed with message: Test failed: text expected to contain /cardNumber/
+****************************************************************************************************
+
+
+2018-02-04 14:50:01,526 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2018-02-04 14:50:01,527 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2018-02-04 14:50:01,527 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-02-04 14:50:01,527 INFO o.a.j.s.FileServer: Close: usersInfo.csv
+2018-02-04 14:50:01,528 INFO o.a.j.r.Summariser: summary +      2 in 00:00:00 =    4.7/s Avg:   191 Min:    62 Max:   320 Err:     2 (100.00%) Active: 0 Started: 1 Finished: 1
+2018-02-04 14:50:01,529 INFO o.a.j.r.Summariser: summary =      3 in 00:00:03 =    1.1/s Avg:   772 Min:    62 Max:  1936 Err:     2 (66.67%)
