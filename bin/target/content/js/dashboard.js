@@ -127,7 +127,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 33.333333333333336, "KoPercent": 66.66666666666667};
+    var data = {"OkPercent": 0.0, "KoPercent": 100.0};
     var dataset = [
         {
             "label" : "KO",
@@ -181,7 +181,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 3, 2, 66.66666666666667, 857.0, 85, 2174, 2174.0, 2174.0, 2174.0, 1.1061946902654867, 1.0568624400811208, 0.8375679848820058], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["createSessionId", 1, 0, 0.0, 2174.0, 2174, 2174, 2174.0, 2174.0, 2174.0, 0.45998160073597055, 0.1500330611775529, 0.1352094353725851], "isController": false}, {"data": ["Credit Guard", 1, 1, 100.0, 85.0, 85, 85, 85.0, 85.0, 85.0, 11.76470588235294, 26.378676470588232, 17.10707720588235], "isController": false}, {"data": ["addCreditCard", 1, 1, 100.0, 312.0, 312, 312, 312.0, 312.0, 312.0, 3.205128205128205, 0.9546524439102564, 1.677684294871795], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 6, 6, 100.0, 85158.83333333333, 139, 128110, 128110.0, 128110.0, 128110.0, 0.023450324396154146, 0.053129641210036736, 0.011091575959509105], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["createSessionId", 2, 2, 100.0, 127898.0, 127686, 128110, 128110.0, 128110.0, 128110.0, 0.015610121602847287, 0.035427658793962, 0.0], "isController": false}, {"data": ["Credit Guard", 2, 2, 100.0, 167.5, 139, 196, 196.0, 196.0, 196.0, 10.204081632653061, 23.038903061224488, 14.479033801020408], "isController": false}, {"data": ["addCreditCard", 2, 2, 100.0, 127411.0, 127408, 127414, 127414.0, 127414.0, 127414.0, 0.015696246242711057, 0.03562312135552782, 0.0], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -209,7 +209,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Test failed: text expected to contain \/cardNumber\/", 1, 50.0, 33.333333333333336], "isController": false}, {"data": ["Test failed: text expected to contain \/firstName\/", 1, 50.0, 33.333333333333336], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Non HTTP response code: java.net.ConnectException/Non HTTP response message: Connection timed out (Connection timed out)", 4, 66.66666666666667, 66.66666666666667], "isController": false}, {"data": ["Test failed: text expected to contain \/firstName\/", 2, 33.333333333333336, 33.333333333333336], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -220,7 +220,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 3, 2, "Test failed: text expected to contain \/cardNumber\/", 1, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": ["Credit Guard", 1, 1, "Test failed: text expected to contain \/firstName\/", 1, null, null, null, null, null, null, null, null], "isController": false}, {"data": ["addCreditCard", 1, 1, "Test failed: text expected to contain \/cardNumber\/", 1, null, null, null, null, null, null, null, null], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 6, 6, "Non HTTP response code: java.net.ConnectException/Non HTTP response message: Connection timed out (Connection timed out)", 4, "Test failed: text expected to contain \/firstName\/", 2, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["createSessionId", 2, 2, "Non HTTP response code: java.net.ConnectException/Non HTTP response message: Connection timed out (Connection timed out)", 2, null, null, null, null, null, null, null, null], "isController": false}, {"data": ["Credit Guard", 2, 2, "Test failed: text expected to contain \/firstName\/", 2, null, null, null, null, null, null, null, null], "isController": false}, {"data": ["addCreditCard", 2, 2, "Non HTTP response code: java.net.ConnectException/Non HTTP response message: Connection timed out (Connection timed out)", 2, null, null, null, null, null, null, null, null], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
