@@ -291,7 +291,7 @@ try {
 	&quot;cvv&quot;: ${cvv},&#xd;
 	&quot;cardExpireDate&quot;: &quot;12\/21&quot;,&#xd;
 	&quot;userNumber&quot;: ${personlId},&#xd;
-	&quot;token&quot;: $cgToken,&#xd;
+	&quot;token&quot;: ${cgToken},&#xd;
 	&quot;xmlResponse&quot;: ${cgResponse}&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
@@ -352,12 +352,6 @@ try{
               </elementProp>
             </collectionProp>
           </HeaderManager>
-          <hashTree/>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">sessionId</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$.body</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
-          </JSONPostProcessor>
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
