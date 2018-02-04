@@ -35,7 +35,7 @@
           <boolProp name="recycle">true</boolProp>
           <stringProp name="shareMode">shareMode.all</stringProp>
           <boolProp name="stopThread">false</boolProp>
-          <stringProp name="variableNames">phoneNumber, accessToken, email, firstName, lastName, userId, clubMemberId, personlId</stringProp>
+          <stringProp name="variableNames">phoneNumber, accessToken, email, firstName, lastName, userId, clubMemberId, personalId</stringProp>
         </CSVDataSet>
         <hashTree/>
         <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="cardNo -Random Variable" enabled="true">
@@ -241,6 +241,7 @@ import java.util.*;
 try {
 	String response = new String(data);
 	props.put(&quot;cgResponse&quot;, response);
+	log.info(response);
 	String cgToken = response.substring(response.indexOf(&quot;cardId&quot;)).substring(7,23);
 	props.put(&quot;cgToken&quot;,cgToken);
 }catch (Throwable ex) {
