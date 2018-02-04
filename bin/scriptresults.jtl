@@ -8740,3 +8740,6 @@
 1517737658664,312,addCreditCard,200,OK,Thread Group 1-10,text,false,Test failed: text expected to contain /cardNumber/,302,2672,3,3,312,0,191
 1517737658698,294,addCreditCard,200,OK,Thread Group 1-11,text,false,Test failed: text expected to contain /cardNumber/,302,2672,2,2,294,0,177
 1517737658724,271,addCreditCard,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /cardNumber/,302,2672,1,1,271,0,164
+1517738344007,1923,createSessionId,200,OK,Thread Group 1-1,text,true,,334,301,1,1,1923,0,1337
+1517738346088,53,Credit Guard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /firstName/,2312,1489,1,1,52,0,28
+1517738346167,3904,addCreditCard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /cardNumber/,302,2672,1,1,3904,0,168
