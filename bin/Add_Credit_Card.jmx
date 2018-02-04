@@ -292,9 +292,9 @@ try {
 	&quot;card&quot;: ${cardNo},&#xd;
 	&quot;cvv&quot;: ${cvv},&#xd;
 	&quot;cardExpireDate&quot;: &quot;12\/21&quot;,&#xd;
-	&quot;userNumber&quot;: ${personlId},&#xd;
-	&quot;token&quot;: ${__P(cgToken)},&#xd;
-	&quot;xmlResponse&quot;: ${__P(cgResponse)}&#xd;
+	&quot;userNumber&quot;: &quot;${personlId}&quot;,&#xd;
+	&quot;token&quot;: &quot;${__P(cgToken)}&quot;,&#xd;
+	&quot;xmlResponse&quot;: &quot;${__P(cgResponse)}&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
