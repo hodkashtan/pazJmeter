@@ -224,7 +224,6 @@ try{
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="132835675">firstName</stringProp>
-              <stringProp name="0"></stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
@@ -243,7 +242,10 @@ try {
 	log.info(response);
 	String cgToken = response.substring(response.indexOf(&quot;cardId&quot;)).substring(7,23);
 	response = response.replace(&quot;\&quot;&quot;,&quot;\\\&quot;&quot;);
-	response = response.replace(&quot;\n&quot;,&quot;&quot;);	
+	response = response.replace(&quot;\n&quot;,&quot;&quot;);
+	String cgExp = response.substring(response.indexOf(&quot;cardExpiration&quot;)).substring(15,18);
+	cgExp = cgExp.substring(0,1) + &quot;/&quot; + cgExp.substring(2,3);
+	props.put(&quot;cgExp&quot;,cgExp);
 	props.put(&quot;cgToken&quot;,cgToken);
 	props.put(&quot;cgResponse&quot;, response);
 	
@@ -293,8 +295,7 @@ try {
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-	&quot;cardId&quot;: ${cardNo},&#xd;
-	&quot;cardExpireDate&quot;: &quot;12\/21&quot;,&#xd;
+	&quot;cardExpireDate&quot;: &quot;${__P(cgExp)}&quot;,&#xd;
 	&quot;token&quot;: &quot;${__P(cgToken)}&quot;,&#xd;
 	&quot;xmlResponse&quot;: &quot;${__P(cgResponse)}&quot;&#xd;
 }</stringProp>
