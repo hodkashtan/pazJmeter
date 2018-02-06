@@ -242,7 +242,8 @@ try {
 	String response = new String(data);
 	log.info(response);
 	String cgToken = response.substring(response.indexOf(&quot;cardId&quot;)).substring(7,23);
-	response = response.replace(&quot;\&quot;&quot;,&quot;\\\&quot;&quot;);	
+	response = response.replace(&quot;\&quot;&quot;,&quot;\\\&quot;&quot;);
+	response = response.replace(&quot;\n&quot;,&quot;&quot;);	
 	props.put(&quot;cgToken&quot;,cgToken);
 	props.put(&quot;cgResponse&quot;, response);
 	
