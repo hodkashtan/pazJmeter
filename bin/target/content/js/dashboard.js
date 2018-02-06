@@ -127,7 +127,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 30.0, "KoPercent": 70.0};
+    var data = {"OkPercent": 100.0, "KoPercent": 0.0};
     var dataset = [
         {
             "label" : "KO",
@@ -167,7 +167,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.1, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)  ", "F (Frustration threshold)", "Label"], "items": [{"data": [0.1, 500, 1500, "GenerateVerifiactionCode"], "isController": false}, {"data": [0.0, 500, 1500, "Register"], "isController": false}, {"data": [0.2, 500, 1500, "verifyUser"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.16666666666666666, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)  ", "F (Frustration threshold)", "Label"], "items": [{"data": [0.5, 500, 1500, "GenerateVerifiactionCode"], "isController": false}, {"data": [0.0, 500, 1500, "Register"], "isController": false}, {"data": [0.0, 500, 1500, "verifyUser"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -181,7 +181,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 30, 21, 70.0, 893.1000000000001, 246, 4792, 2273.000000000002, 3501.1499999999983, 4792.0, 2.1431633090441493, 0.7015511144449207, 0.7665715637948278], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["GenerateVerifiactionCode", 10, 4, 40.0, 1728.6999999999998, 524, 4792, 4557.300000000001, 4792.0, 4792.0, 1.8433179723502304, 0.5763968894009217, 0.3366215437788019], "isController": false}, {"data": ["Register", 10, 10, 100.0, 396.9, 246, 829, 810.7, 829.0, 829.0, 2.567394094993581, 0.7967947689345315, 1.4210927471116817], "isController": false}, {"data": ["verifyUser", 10, 7, 70.0, 553.6999999999999, 250, 1376, 1376.0, 1376.0, 1376.0, 2.3557126030624262, 0.8456640164899882, 0.793672703180212], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 3, 0, 0.0, 4858.0, 1471, 7516, 7516.0, 7516.0, 7516.0, 0.1322226629644321, 0.11147678941337212, 0.048378344131517474], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["GenerateVerifiactionCode", 1, 0, 0.0, 1471.0, 1471, 1471, 1471.0, 1471.0, 1471.0, 0.6798096532970768, 0.21642377634262405, 0.12414492692046226], "isController": false}, {"data": ["Register", 1, 0, 0.0, 7516.0, 7516, 7516, 7516.0, 7516.0, 7516.0, 0.13304949441192124, 0.24115220862160724, 0.07691923895689197], "isController": false}, {"data": ["verifyUser", 1, 0, 0.0, 5587.0, 5587, 5587, 5587.0, 5587.0, 5587.0, 0.17898693395382137, 0.07131510649722571, 0.060303215052801146], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -209,7 +209,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Test failed: text expected to contain \/accessToken\/", 5, 23.80952380952381, 16.666666666666668], "isController": false}, {"data": ["429", 13, 61.904761904761905, 43.333333333333336], "isController": false}, {"data": ["Test failed: text expected to contain \/verificationToken\/", 3, 14.285714285714286, 10.0], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": []}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -220,7 +220,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 30, 21, "429", 13, "Test failed: text expected to contain \/accessToken\/", 5, "Test failed: text expected to contain \/verificationToken\/", 3, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["GenerateVerifiactionCode", 10, 4, "429", 4, null, null, null, null, null, null, null, null], "isController": false}, {"data": ["Register", 10, 10, "Test failed: text expected to contain \/accessToken\/", 5, null, null, null, null, null, null, null, null], "isController": false}, {"data": ["verifyUser", 10, 7, "429", 4, "Test failed: text expected to contain \/verificationToken\/", 3, null, null, null, null, null, null], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 3, 0, null, null, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
