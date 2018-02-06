@@ -127,7 +127,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 100.0, "KoPercent": 0.0};
+    var data = {"OkPercent": 33.333333333333336, "KoPercent": 66.66666666666667};
     var dataset = [
         {
             "label" : "KO",
@@ -167,7 +167,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.5, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)  ", "F (Frustration threshold)", "Label"], "items": [{"data": [0.5, 500, 1500, "GenerateVerifiactionCode"], "isController": false}, {"data": [0.0, 500, 1500, "Register"], "isController": false}, {"data": [1.0, 500, 1500, "verifyUser"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.0, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)  ", "F (Frustration threshold)", "Label"], "items": [{"data": [0.0, 500, 1500, "createSessionId"], "isController": false}, {"data": [0.0, 500, 1500, "Credit Guard"], "isController": false}, {"data": [0.0, 500, 1500, "addCreditCard"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -181,7 +181,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 3, 0, 0.0, 2771.0, 308, 6901, 6901.0, 6901.0, 6901.0, 0.18235973497051852, 0.1537473025955869, 0.06672276761291107], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["GenerateVerifiactionCode", 1, 0, 0.0, 1104.0, 1104, 1104, 1104.0, 1104.0, 1104.0, 0.9057971014492754, 0.2883689990942029, 0.16541411911231882], "isController": false}, {"data": ["Register", 1, 0, 0.0, 6901.0, 6901, 6901, 6901.0, 6901.0, 6901.0, 0.14490653528474134, 0.2626430952035937, 0.08377409071149108], "isController": false}, {"data": ["verifyUser", 1, 0, 0.0, 308.0, 308, 308, 308.0, 308.0, 308.0, 3.246753246753247, 1.2936282467532467, 1.0938768262987013], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 3, 2, 66.66666666666667, 5719.666666666667, 20, 14956, 14956.0, 14956.0, 14956.0, 0.1733402669440111, 0.21893236840584737, 0.2960101042930606], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["createSessionId", 1, 1, 100.0, 2183.0, 2183, 2183, 2183.0, 2183.0, 2183.0, 0.45808520384791573, 0.1494145098488319, 0.1346519983967018], "isController": false}, {"data": ["Credit Guard", 1, 1, 100.0, 20.0, 20, 20, 20.0, 20.0, 20.0, 50.0, 155.908203125, 72.216796875], "isController": false}, {"data": ["addCreditCard", 1, 0, 0.0, 14956.0, 14956, 14956, 14956.0, 14956.0, 14956.0, 0.06686279753944904, 0.02304938235490773, 0.22631489870286173], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -209,7 +209,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": []}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Test failed: text expected to contain \/${body}\/", 1, 50.0, 33.333333333333336], "isController": false}, {"data": ["Test failed: text expected to contain \/firstName\/", 1, 50.0, 33.333333333333336], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -220,7 +220,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 3, 0, null, null, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 3, 2, "Test failed: text expected to contain \/${body}\/", 1, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["createSessionId", 1, 1, "Test failed: text expected to contain \/${body}\/", 1, null, null, null, null, null, null, null, null], "isController": false}, {"data": ["Credit Guard", 1, 1, "Test failed: text expected to contain \/firstName\/", 1, null, null, null, null, null, null, null, null], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 

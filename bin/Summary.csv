@@ -1,4 +1,4 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1517951098106,1104,GenerateVerifiactionCode,200,OK,Thread Group 1-1,text,true,,326,187,1,1,1104,0,936
-1517951103265,308,verifyUser,200,OK,Thread Group 1-1,text,true,,408,345,1,1,308,0,169
-1517951107656,6901,Register,200,OK,Thread Group 1-1,text,true,,1856,592,1,1,6901,0,168
+1517951479811,2183,createSessionId,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /${body}/,334,301,1,1,2183,0,1123
+1517951482111,20,Credit Guard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /firstName/,3193,1479,1,1,20,0,15
+1517951482162,14956,addCreditCard,200,OK,Thread Group 1-1,text,true,,353,3466,1,1,14956,0,180
