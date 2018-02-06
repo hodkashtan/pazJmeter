@@ -8872,3 +8872,6 @@
 1517928977491,261,addCreditCard,401,Unauthorized,Thread Group 1-5,text,false,Test failed: text expected to contain /body/,310,3466,3,3,261,0,157
 1517928977481,294,addCreditCard,401,Unauthorized,Thread Group 1-7,text,false,Test failed: text expected to contain /body/,310,3466,2,2,294,0,179
 1517928977474,304,addCreditCard,401,Unauthorized,Thread Group 1-2,text,false,Test failed: text expected to contain /body/,310,3466,1,1,304,0,188
+1517929508121,1142,createSessionId,401,Unauthorized,Thread Group 1-1,text,false,Test failed: text expected to contain /${body}/,310,301,1,1,1142,0,981
+1517929509375,17,Credit Guard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /firstName/,3193,1443,1,1,17,0,10
+1517929509434,141,addCreditCard,401,Unauthorized,Thread Group 1-1,text,false,Test failed: text expected to contain /body/,310,3466,1,1,141,0,0

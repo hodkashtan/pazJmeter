@@ -1,31 +1,4 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1517928973028,1454,createSessionId,401,Unauthorized,Thread Group 1-4,text,false,Test failed: text expected to contain /${body}/,310,301,9,9,1454,0,1234
-1517928974103,481,createSessionId,401,Unauthorized,Thread Group 1-8,text,false,Test failed: text expected to contain /${body}/,310,301,10,10,481,0,363
-1517928972846,1718,createSessionId,401,Unauthorized,Thread Group 1-3,text,false,Test failed: text expected to contain /${body}/,310,301,10,10,1718,0,1417
-1517928974616,43,Credit Guard,200,OK,Thread Group 1-8,text,false,Test failed: text expected to contain /firstName/,3193,1443,10,10,42,0,35
-1517928974606,115,Credit Guard,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /firstName/,3193,1443,10,10,115,0,111
-1517928974626,55,Credit Guard,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /firstName/,3193,1443,10,10,55,0,24
-1517928974285,555,createSessionId,401,Unauthorized,Thread Group 1-9,text,false,Test failed: text expected to contain /${body}/,310,301,10,10,555,0,430
-1517928974740,113,addCreditCard,401,Unauthorized,Thread Group 1-8,text,false,Test failed: text expected to contain /body/,310,3466,10,10,113,0,0
-1517928974730,128,addCreditCard,401,Unauthorized,Thread Group 1-4,text,false,Test failed: text expected to contain /body/,310,3466,9,9,128,0,0
-1517928974745,127,addCreditCard,401,Unauthorized,Thread Group 1-3,text,false,Test failed: text expected to contain /body/,310,3466,8,8,127,0,0
-1517928974845,61,Credit Guard,200,OK,Thread Group 1-9,text,false,Test failed: text expected to contain /firstName/,3193,1443,7,7,61,0,36
-1517928974497,506,createSessionId,401,Unauthorized,Thread Group 1-10,text,false,Test failed: text expected to contain /${body}/,310,301,7,7,506,0,398
-1517928975008,37,Credit Guard,200,OK,Thread Group 1-10,text,false,Test failed: text expected to contain /firstName/,3193,1443,7,7,37,0,21
-1517928974923,131,addCreditCard,401,Unauthorized,Thread Group 1-9,text,false,Test failed: text expected to contain /body/,310,3466,7,7,131,0,0
-1517928975052,110,addCreditCard,401,Unauthorized,Thread Group 1-10,text,false,Test failed: text expected to contain /body/,310,3466,6,6,109,0,0
-1517928972801,2566,createSessionId,401,Unauthorized,Thread Group 1-1,text,false,Test failed: text expected to contain /${body}/,310,301,5,5,2566,0,1454
-1517928975373,20,Credit Guard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /firstName/,3193,1443,5,5,20,0,9
-1517928975400,287,addCreditCard,401,Unauthorized,Thread Group 1-1,text,false,Test failed: text expected to contain /body/,310,3466,5,5,287,0,168
-1517928972733,4670,createSessionId,401,Unauthorized,Thread Group 1-2,text,false,Test failed: text expected to contain /${body}/,310,301,4,4,4670,0,1530
-1517928973720,3701,createSessionId,401,Unauthorized,Thread Group 1-7,text,false,Test failed: text expected to contain /${body}/,310,301,4,4,3701,0,541
-1517928973337,4090,createSessionId,401,Unauthorized,Thread Group 1-5,text,false,Test failed: text expected to contain /${body}/,310,301,4,4,4090,0,923
-1517928973558,3873,createSessionId,401,Unauthorized,Thread Group 1-6,text,false,Test failed: text expected to contain /${body}/,310,301,4,4,3873,0,704
-1517928977435,9,Credit Guard,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /firstName/,3193,1443,4,4,9,0,5
-1517928977407,62,Credit Guard,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /firstName/,3193,1443,4,4,61,0,51
-1517928977425,50,Credit Guard,200,OK,Thread Group 1-7,text,false,Test failed: text expected to contain /firstName/,3193,1443,4,4,50,0,34
-1517928977430,20,Credit Guard,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /firstName/,3193,1443,4,4,20,0,10
-1517928977449,281,addCreditCard,401,Unauthorized,Thread Group 1-6,text,false,Test failed: text expected to contain /body/,310,3466,4,4,281,0,167
-1517928977491,261,addCreditCard,401,Unauthorized,Thread Group 1-5,text,false,Test failed: text expected to contain /body/,310,3466,3,3,261,0,157
-1517928977481,294,addCreditCard,401,Unauthorized,Thread Group 1-7,text,false,Test failed: text expected to contain /body/,310,3466,2,2,294,0,179
-1517928977474,304,addCreditCard,401,Unauthorized,Thread Group 1-2,text,false,Test failed: text expected to contain /body/,310,3466,1,1,304,0,188
+1517929508121,1142,createSessionId,401,Unauthorized,Thread Group 1-1,text,false,Test failed: text expected to contain /${body}/,310,301,1,1,1142,0,981
+1517929509375,17,Credit Guard,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /firstName/,3193,1443,1,1,17,0,10
+1517929509434,141,addCreditCard,401,Unauthorized,Thread Group 1-1,text,false,Test failed: text expected to contain /body/,310,3466,1,1,141,0,0
