@@ -15,10 +15,10 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <stringProp name="LoopController.loops">${__P(LOOP_COUNT,1)}</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">${__property(NUM_OF_USERS)}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${__P(RAMP_UP_PERIOD,1)}</stringProp>
         <longProp name="ThreadGroup.start_time">1516566231000</longProp>
         <longProp name="ThreadGroup.end_time">1516566231000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
@@ -83,6 +83,28 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
+          <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="true">
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="script">import java.lang.*;
+import java.util.*;
+
+try{
+	sampler = ctx.getCurrentSampler();
+	log.info( &quot;\n****************************************************************************************************\n&quot; +
+	&quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
+	&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() +  &quot;\n&quot; +
+	&quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
+	&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
+&quot;****************************************************************************************************\n&quot;);
+} catch (Throwable ex) {
+    log.error(&quot;Error in Beanshell&quot;, ex);
+    throw ex;
+}
+</stringProp>
+          </BeanShellPreProcessor>
+          <hashTree/>
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
             <stringProp name="JSONPostProcessor.referenceNames">carModelid</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$.body.metaData.carModels.id</stringProp>
@@ -109,6 +131,38 @@
             <boolProp name="stopThread">false</boolProp>
             <stringProp name="variableNames">locationlat, locationlng</stringProp>
           </CSVDataSet>
+          <hashTree/>
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+            <stringProp name="BeanShellAssertion.query">import java.lang.*;
+import java.util.*;
+
+try {
+	String sampleName = ctx.getCurrentSampler().getName();
+	String method = ctx.getCurrentSampler().getMethod();
+	String url = ctx.getCurrentSampler().getUrl().toString();
+	String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + &quot;\n&quot;;
+	String code = prev.getResponseCode(); 
+	String message = prev.getResponseMessage();
+	String threadNum = &quot;theadNum#&quot; + ${__threadNum};
+	String samplerData = prev.getResponseDataAsString();
+	String assertions = &quot;Failed Assertions: \n&quot;;
+	for (a: SampleResult.getAssertionResults()) {
+    if (a.isError() || a.isFailure()) {
+      assertions +=&quot;Assertion failed with message: &quot; + a.getFailureMessage() + &quot;\n&quot;;
+    }
+  }
+	String stars = &quot;****************************************************************************************************\n&quot;;
+	String header = &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampleName + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot;;
+	log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot; + assertions + stars + &quot;\n&quot;);
+}catch (Throwable ex) {
+    log.error(&quot;Error in Beanshell&quot;, ex);
+    throw ex;
+}
+</stringProp>
+            <stringProp name="BeanShellAssertion.filename"></stringProp>
+            <stringProp name="BeanShellAssertion.parameters"></stringProp>
+            <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+          </BeanShellAssertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="outdoorGenerateFuellingCode" enabled="true">
@@ -137,6 +191,28 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
+          <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="true">
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="script">import java.lang.*;
+import java.util.*;
+
+try{
+	sampler = ctx.getCurrentSampler();
+	log.info( &quot;\n****************************************************************************************************\n&quot; +
+	&quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampler.getName() + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot; + 
+	&quot;Sending &quot; + sampler.getMethod() + &quot; request to &quot; + sampler.getUrl() +  &quot;\n&quot; +
+	&quot;Headers: &quot; + sampler.getHeaderManager().getHeaders().toString() + &quot;\n&quot; + 
+	&quot;Body: &quot; + sampler.getArguments().toString() + &quot;\n&quot; +
+&quot;****************************************************************************************************\n&quot;);
+} catch (Throwable ex) {
+    log.error(&quot;Error in Beanshell&quot;, ex);
+    throw ex;
+}
+</stringProp>
+          </BeanShellPreProcessor>
+          <hashTree/>
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
             <stringProp name="JSONPostProcessor.referenceNames">dapiSessionId</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$.body.dapiSessionId</stringProp>
@@ -151,6 +227,38 @@
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
           </ResponseAssertion>
+          <hashTree/>
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+            <stringProp name="BeanShellAssertion.query">import java.lang.*;
+import java.util.*;
+
+try {
+	String sampleName = ctx.getCurrentSampler().getName();
+	String method = ctx.getCurrentSampler().getMethod();
+	String url = ctx.getCurrentSampler().getUrl().toString();
+	String request = &quot;Sent &quot; + method + &quot; request to &quot; + url + &quot;\n&quot;;
+	String code = prev.getResponseCode(); 
+	String message = prev.getResponseMessage();
+	String threadNum = &quot;theadNum#&quot; + ${__threadNum};
+	String samplerData = prev.getResponseDataAsString();
+	String assertions = &quot;Failed Assertions: \n&quot;;
+	for (a: SampleResult.getAssertionResults()) {
+    if (a.isError() || a.isFailure()) {
+      assertions +=&quot;Assertion failed with message: &quot; + a.getFailureMessage() + &quot;\n&quot;;
+    }
+  }
+	String stars = &quot;****************************************************************************************************\n&quot;;
+	String header = &quot;--- Thread #&quot; + ${__threadNum} + &quot; executing &quot; + sampleName + &quot; loop#&quot; + vars.getIteration() + &quot; ---\n&quot;;
+	log.info(&quot;\n&quot; + stars + header + request + &quot;Response Data:\n&quot; + samplerData + &quot;\n&quot; + assertions + stars + &quot;\n&quot;);
+}catch (Throwable ex) {
+    log.error(&quot;Error in Beanshell&quot;, ex);
+    throw ex;
+}
+</stringProp>
+            <stringProp name="BeanShellAssertion.filename"></stringProp>
+            <stringProp name="BeanShellAssertion.parameters"></stringProp>
+            <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+          </BeanShellAssertion>
           <hashTree/>
         </hashTree>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
