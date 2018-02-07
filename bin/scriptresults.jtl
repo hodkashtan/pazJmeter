@@ -9463,3 +9463,9 @@
 1518006421559,2000,createSessionId,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /${body}/,334,301,1,1,2000,0,1128
 1518006423678,40,Credit Guard,200,OK,Thread Group 1-1,text,true,,3193,1479,1,1,39,0,34
 1518006423750,2627,addCreditCard,200,OK,Thread Group 1-1,text,true,,353,3466,1,1,2627,0,170
+1518006676076,1879,createSessionId,200,OK,Thread Group 1-1,text,true,,334,301,1,1,1879,0,1224
+1518006678063,20,Credit Guard,200,OK,Thread Group 1-1,text,true,,3193,1479,1,1,20,0,14
+1518006678115,2609,addCreditCard,200,OK,Thread Group 1-1,text,true,,353,3466,1,1,2609,0,0
+1518006680741,2135,createSessionId,200,OK,Thread Group 1-1,text,true,,334,301,1,1,2135,0,172
+1518006682881,19,Credit Guard,200,OK,Thread Group 1-1,text,true,,3193,1479,1,1,19,0,7
+1518006682908,3625,addCreditCard,200,OK,Thread Group 1-1,text,true,,353,3466,1,1,3625,0,174
