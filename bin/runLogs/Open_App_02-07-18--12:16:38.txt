@@ -1,0 +1,888 @@
+2018-02-07 12:16:39,771 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-02-07 12:16:39,805 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-02-07 12:16:39,807 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-02-07 12:16:39,807 INFO o.a.j.JMeter: Setting JMeter property: NUM_OF_USERS=11
+2018-02-07 12:16:39,807 INFO o.a.j.JMeter: Setting JMeter property: RAMP_UP_PERIOD=1
+2018-02-07 12:16:39,808 INFO o.a.j.JMeter: Setting JMeter property: LOOP_COUNT=2
+2018-02-07 12:16:39,830 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-02-07 12:16:39,830 INFO o.a.j.JMeter: Version 3.3 r1808647
+2018-02-07 12:16:39,830 INFO o.a.j.JMeter: java.version=1.8.0_151
+2018-02-07 12:16:39,830 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-02-07 12:16:39,830 INFO o.a.j.JMeter: os.name=Linux
+2018-02-07 12:16:39,830 INFO o.a.j.JMeter: os.arch=amd64
+2018-02-07 12:16:39,830 INFO o.a.j.JMeter: os.version=3.10.0-693.5.2.el7.x86_64
+2018-02-07 12:16:39,830 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-02-07 12:16:39,830 INFO o.a.j.JMeter: Max memory     =466288640
+2018-02-07 12:16:39,830 INFO o.a.j.JMeter: Available Processors =1
+2018-02-07 12:16:39,839 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-02-07 12:16:39,840 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-02-07 12:16:39,840 INFO o.a.j.JMeter: JMeterHome=/var/lib/jenkins/workspace/Open_App
+2018-02-07 12:16:39,840 INFO o.a.j.JMeter: user.dir  =/var/lib/jenkins/workspace/Open_App/bin
+2018-02-07 12:16:39,840 INFO o.a.j.JMeter: PWD       =/var/lib/jenkins/workspace/Open_App/bin
+2018-02-07 12:16:39,854 INFO o.a.j.JMeter: IP: 172.20.59.232 Name: ip-172-20-59-232.eu-west-1.compute.internal FullName: ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-07 12:16:39,858 INFO o.a.j.s.FileServer: Default base='/var/lib/jenkins/workspace/Open_App/bin'
+2018-02-07 12:16:39,858 INFO o.a.j.s.FileServer: Set new base='/var/lib/jenkins/workspace/Open_App/bin'
+2018-02-07 12:16:40,119 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-02-07 12:16:40,160 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-02-07 12:16:40,179 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-02-07 12:16:40,193 INFO o.a.j.s.SaveService: Loading file: Open_App.jmx
+2018-02-07 12:16:40,253 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 12:16:40,253 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 12:16:40,253 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 12:16:40,253 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 12:16:40,253 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-02-07 12:16:40,253 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-02-07 12:16:40,355 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-02-07 12:16:40,365 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-02-07 12:16:40,365 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-07 12:16:40,365 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-07 12:16:40,369 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-02-07 12:16:40,369 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-02-07 12:16:40,987 INFO o.a.j.JMeter: Running test (1518005800987)
+2018-02-07 12:16:41,014 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Open App
+2018-02-07 12:16:41,015 INFO o.a.j.e.StandardJMeterEngine: Starting 11 threads for group Open App.
+2018-02-07 12:16:41,015 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-02-07 12:16:41,015 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=11 ramp-up=1 perThread=90.90909 delayedStart=false
+2018-02-07 12:16:41,085 INFO o.a.j.t.JMeterThread: Thread started: Open App 1-1
+2018-02-07 12:16:41,087 INFO o.a.j.s.FileServer: Stored: usersInfo.csv
+2018-02-07 12:16:41,181 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Get User Info loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMCwiZXhwIjoiXC9EYXRlKDE1NDk0ODcxMTQyMzQpXC8ifQ.t7EpqyGe50CqL6PWI3WoHr2tRGv-u3XsMHsgCUTL-FE]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:41,232 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-07 12:16:41,238 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-02-07 12:16:41,241 INFO o.a.j.t.JMeterThread: Thread started: Open App 1-2
+2018-02-07 12:16:41,245 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Get User Info loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzA1NjEpXC8ifQ.hq31LLpsSN63VZKvNSA9qRmJHewrZL3JqWlBjDNUhz8]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:41,257 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-02-07 12:16:41,257 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-02-07 12:16:41,257 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-02-07 12:16:41,257 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-02-07 12:16:41,379 INFO o.a.j.t.JMeterThread: Thread started: Open App 1-3
+2018-02-07 12:16:41,384 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Get User Info loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.NI3xmBcGpkWJJH7zocsvC1mBUHzHBf4zIdvdoa1dACU]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:41,524 INFO o.a.j.t.JMeterThread: Thread started: Open App 1-4
+2018-02-07 12:16:41,528 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing Get User Info loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.JZ3qTtxuwbJdQ-fqVcxtpl5gXu8gnALSy8i7l4zPSz0]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:41,544 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-02-07 12:16:41,581 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-02-07 12:16:41,581 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-02-07 12:16:41,682 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-02-07 12:16:41,683 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-02-07 12:16:41,716 INFO o.a.j.t.JMeterThread: Thread started: Open App 1-5
+2018-02-07 12:16:41,719 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing Get User Info loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU2NTQpXC8ifQ.EO10i9CD6UVjjedwjnb3NUk056lSInFEDjcQ2W_DD-4]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:41,876 INFO o.a.j.t.JMeterThread: Thread started: Open App 1-6
+2018-02-07 12:16:41,879 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing Get User Info loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzc5MDgpXC8ifQ.-1iLUwzBQ4TP0DX6NWy7gyTb9skxLRWNOxmAJVdycBE]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:41,944 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-02-07 12:16:41,945 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-02-07 12:16:41,945 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-02-07 12:16:42,077 INFO o.a.j.t.JMeterThread: Thread started: Open App 1-7
+2018-02-07 12:16:42,087 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing Get User Info loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzkxNDQpXC8ifQ.fFF7mQdnxEVaG43Zb7wWyYEujaK-fOC_DcusJoXzQh4]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:42,260 INFO o.a.j.t.JMeterThread: Thread started: Open App 1-8
+2018-02-07 12:16:42,263 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing Get User Info loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzk3NzQpXC8ifQ.qyMfIt-dFQUdnna_3pGLlZPd84L_x5BrZZENjSlKrzs]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:42,353 INFO o.a.j.t.JMeterThread: Thread started: Open App 1-9
+2018-02-07 12:16:42,355 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing Get User Info loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ._ALr2k9xDNSG4YIFD4G167-s1KDSHikDHi4DXIpnuj4]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:42,519 INFO o.a.j.t.JMeterThread: Thread started: Open App 1-10
+2018-02-07 12:16:42,531 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing Get User Info loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.VLSbFpZTHTV8WfjKLjo_mMIekaSBmTYKa7b7Efx7iYw]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:42,658 INFO o.a.j.t.JMeterThread: Thread started: Open App 1-11
+2018-02-07 12:16:42,661 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #11 executing Get User Info loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.Riln6YSpDR7fIkGDw0P1f0Wj4mgRe8yQcRJ0qKJeQW8]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,069 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing Get User Info loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":238,"email":"user0587274067@perf.com","type":"General","firstName":"Perf-rwzly","lastName":"aawcbjsdqy","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:52","mobilePhone":"0587274067","userMoreDetails":{"userId":238,"gender":null,"birthDate":null,"personalId":"807274067","clubMemberId":"7670001643844","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,074 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing Get User Info loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":242,"email":"user0514296746@perf.com","type":"General","firstName":"Perf-lylhc","lastName":"csejkjqxru","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:54","mobilePhone":"0514296746","userMoreDetails":{"userId":242,"gender":null,"birthDate":null,"personalId":"194296746","clubMemberId":"7670001643886","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,075 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing Get User Info loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":236,"email":"user0571593090@perf.com","type":"General","firstName":"Perf-cbynh","lastName":"qmpsyxmwaj","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:51","mobilePhone":"0571593090","userMoreDetails":{"userId":236,"gender":null,"birthDate":null,"personalId":"161593090","clubMemberId":"7670001643828","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,077 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing Get Settings All loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzk3NzQpXC8ifQ.qyMfIt-dFQUdnna_3pGLlZPd84L_x5BrZZENjSlKrzs]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,082 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing Get User Info loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":231,"email":"user0558256767@perf.com","type":"General","firstName":"Perf-olqzj","lastName":"ydvulaocav","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:48","mobilePhone":"0558256767","userMoreDetails":{"userId":231,"gender":null,"birthDate":null,"personalId":"868256767","clubMemberId":"7670001643802","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,084 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing Get Settings All loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU2NTQpXC8ifQ.EO10i9CD6UVjjedwjnb3NUk056lSInFEDjcQ2W_DD-4]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,087 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing Get Settings All loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzkxNDQpXC8ifQ.fFF7mQdnxEVaG43Zb7wWyYEujaK-fOC_DcusJoXzQh4]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,093 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing Get User Info loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":233,"email":"user0518510322@perf.com","type":"General","firstName":"Perf-rzrhg","lastName":"jprbzgaaqs","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:48","mobilePhone":"0518510322","userMoreDetails":{"userId":233,"gender":null,"birthDate":null,"personalId":"468510322","clubMemberId":"7670001643798","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,095 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing Get Settings All loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.JZ3qTtxuwbJdQ-fqVcxtpl5gXu8gnALSy8i7l4zPSz0]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,099 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Get User Info loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":234,"email":"user0584612067@perf.com","type":"General","firstName":"Perf-nddlr","lastName":"xxvjchhcau","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:48","mobilePhone":"0584612067","userMoreDetails":{"userId":234,"gender":null,"birthDate":null,"personalId":"894612067","clubMemberId":"7670001643772","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,101 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Get Settings All loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzA1NjEpXC8ifQ.hq31LLpsSN63VZKvNSA9qRmJHewrZL3JqWlBjDNUhz8]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,116 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing Get User Info loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":235,"email":"user0517317171@perf.com","type":"General","firstName":"Perf-pqcur","lastName":"lvgwqgmnbh","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:50","mobilePhone":"0517317171","userMoreDetails":{"userId":235,"gender":null,"birthDate":null,"personalId":"377317171","clubMemberId":"7670001643815","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,118 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing Get Settings All loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ._ALr2k9xDNSG4YIFD4G167-s1KDSHikDHi4DXIpnuj4]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,124 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing Get Settings All loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.VLSbFpZTHTV8WfjKLjo_mMIekaSBmTYKa7b7Efx7iYw]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,145 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #11 executing Get User Info loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":240,"email":"user0584078767@perf.com","type":"General","firstName":"Perf-kxath","lastName":"jvtlylgxfs","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:53","mobilePhone":"0584078767","userMoreDetails":{"userId":240,"gender":null,"birthDate":null,"personalId":"444078767","clubMemberId":"7670001643860","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,164 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #11 executing Get Settings All loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.Riln6YSpDR7fIkGDw0P1f0Wj4mgRe8yQcRJ0qKJeQW8]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,299 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing Get Settings All loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,301 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing Get User Info loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.p5tQz5-TUE-vgt3seM_PGZXYlPjOCHIMT1Fw-vW64cQ]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,304 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #11 executing Get Settings All loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,306 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #11 executing Get User Info loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.bEc57N1Q7EhlAayTfG6_t2vlhWV32yK-08-pPYfjVGA]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,314 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing Get Settings All loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,316 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing Get User Info loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.XFvRqwM2JFT7COZ6sv2uaQCyrZ5LRoEfXWq1kt-ZkM8]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,319 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing Get Settings All loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,320 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing Get User Info loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAyNDMpXC8ifQ.VjMrZXqW2P2iibWafePBj1IPYi7F9nKHqHtRHntAE2Q]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,323 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Get Settings All loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,324 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Get User Info loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAzNTMpXC8ifQ.h7B4T4pf32eXOse4Cu0-wCX25PbrNqn93eWD8ImkSy4]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,327 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing Get Settings All loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,328 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing Get User Info loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NjIpXC8ifQ.6JpZ6_82oi7w2vlzWC95BeTgHhrC0wEmCU6odYFPhvg]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,331 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing Get Settings All loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,333 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing Get User Info loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NzgpXC8ifQ.1_uoXbCxai-ZRlNwX2JKQ3P2p-Op6MBYrLlMZLqQVlg]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,337 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing Get Settings All loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,339 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing Get User Info loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1NzEpXC8ifQ.24sz_2MZIG_LdCsZ7lLTXWHcI1ul9sZyDiE0UPHeP2I]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,437 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing Get User Info loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":241,"email":"user0537833833@perf.com","type":"General","firstName":"Perf-fotvr","lastName":"bmfwnudjvr","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:54","mobilePhone":"0537833833","userMoreDetails":{"userId":241,"gender":null,"birthDate":null,"personalId":"757833833","clubMemberId":"7670001643873","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,438 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing Get Settings All loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.p5tQz5-TUE-vgt3seM_PGZXYlPjOCHIMT1Fw-vW64cQ]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,446 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #11 executing Get User Info loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":243,"email":"user0513693299@perf.com","type":"General","firstName":"Perf-mywnp","lastName":"bdtrmdngjm","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:35","dateCreated":"2018-02-07T04:27:55","mobilePhone":"0513693299","userMoreDetails":{"userId":243,"gender":null,"birthDate":null,"personalId":"463693299","clubMemberId":"7670001643899","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,447 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #11 executing Get Settings All loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.bEc57N1Q7EhlAayTfG6_t2vlhWV32yK-08-pPYfjVGA]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,450 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing Get User Info loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":239,"email":"user0517312252@perf.com","type":"General","firstName":"Perf-rgsiw","lastName":"xexbyhchgu","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:35","dateCreated":"2018-02-07T04:27:52","mobilePhone":"0517312252","userMoreDetails":{"userId":239,"gender":null,"birthDate":null,"personalId":"917312252","clubMemberId":"7670001643857","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,451 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing Get Settings All loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.XFvRqwM2JFT7COZ6sv2uaQCyrZ5LRoEfXWq1kt-ZkM8]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,453 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing Get User Info loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":246,"email":"user0599071393@perf.com","type":"General","firstName":"Perf-elaqc","lastName":"sciwddlmma","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:59","mobilePhone":"0599071393","userMoreDetails":{"userId":246,"gender":null,"birthDate":null,"personalId":"999071393","clubMemberId":"7670001643932","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,454 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing Get Settings All loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAyNDMpXC8ifQ.VjMrZXqW2P2iibWafePBj1IPYi7F9nKHqHtRHntAE2Q]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,467 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing Get User Info loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":248,"email":"user0530840949@perf.com","type":"General","firstName":"Perf-phsrp","lastName":"djmujuywad","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:35","dateCreated":"2018-02-07T04:27:59","mobilePhone":"0530840949","userMoreDetails":{"userId":248,"gender":null,"birthDate":null,"personalId":"210840949","clubMemberId":"7670001643945","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,473 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing Get User Info loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":245,"email":"user0593850959@perf.com","type":"General","firstName":"Perf-tevsy","lastName":"ufwibnjjxw","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:56","mobilePhone":"0593850959","userMoreDetails":{"userId":245,"gender":null,"birthDate":null,"personalId":"363850959","clubMemberId":"7670001643916","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,475 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing Get Settings All loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NzgpXC8ifQ.1_uoXbCxai-ZRlNwX2JKQ3P2p-Op6MBYrLlMZLqQVlg]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,477 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Get User Info loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":247,"email":"user0562842512@perf.com","type":"General","firstName":"Perf-crcjx","lastName":"ywgeetkzto","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:59","mobilePhone":"0562842512","userMoreDetails":{"userId":247,"gender":null,"birthDate":null,"personalId":"782842512","clubMemberId":"7670001643929","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,478 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Get Settings All loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAzNTMpXC8ifQ.h7B4T4pf32eXOse4Cu0-wCX25PbrNqn93eWD8ImkSy4]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,479 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing Get Settings All loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NjIpXC8ifQ.6JpZ6_82oi7w2vlzWC95BeTgHhrC0wEmCU6odYFPhvg]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,488 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing Get User Info loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":249,"email":"user0578102578@perf.com","type":"General","firstName":"Perf-oujac","lastName":"oqenrvgiyi","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:59","mobilePhone":"0578102578","userMoreDetails":{"userId":249,"gender":null,"birthDate":null,"personalId":"978102578","clubMemberId":"7670001643958","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,489 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing Get Settings All loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1NzEpXC8ifQ.24sz_2MZIG_LdCsZ7lLTXWHcI1ul9sZyDiE0UPHeP2I]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:43,531 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing Get Settings All loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,532 INFO o.a.j.t.JMeterThread: Thread is done: Open App 1-10
+2018-02-07 12:16:43,532 INFO o.a.j.t.JMeterThread: Thread finished: Open App 1-10
+2018-02-07 12:16:43,543 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #11 executing Get Settings All loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,543 INFO o.a.j.t.JMeterThread: Thread is done: Open App 1-11
+2018-02-07 12:16:43,543 INFO o.a.j.t.JMeterThread: Thread finished: Open App 1-11
+2018-02-07 12:16:43,545 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing Get Settings All loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,545 INFO o.a.j.t.JMeterThread: Thread is done: Open App 1-4
+2018-02-07 12:16:43,545 INFO o.a.j.t.JMeterThread: Thread finished: Open App 1-4
+2018-02-07 12:16:43,547 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing Get Settings All loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,547 INFO o.a.j.t.JMeterThread: Thread is done: Open App 1-9
+2018-02-07 12:16:43,548 INFO o.a.j.t.JMeterThread: Thread finished: Open App 1-9
+2018-02-07 12:16:43,571 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing Get Settings All loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,572 INFO o.a.j.t.JMeterThread: Thread is done: Open App 1-8
+2018-02-07 12:16:43,572 INFO o.a.j.t.JMeterThread: Thread finished: Open App 1-8
+2018-02-07 12:16:43,573 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Get Settings All loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,574 INFO o.a.j.t.JMeterThread: Thread is done: Open App 1-2
+2018-02-07 12:16:43,574 INFO o.a.j.t.JMeterThread: Thread finished: Open App 1-2
+2018-02-07 12:16:43,586 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing Get Settings All loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,586 INFO o.a.j.t.JMeterThread: Thread is done: Open App 1-5
+2018-02-07 12:16:43,586 INFO o.a.j.t.JMeterThread: Thread finished: Open App 1-5
+2018-02-07 12:16:43,597 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing Get Settings All loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:43,597 INFO o.a.j.t.JMeterThread: Thread is done: Open App 1-7
+2018-02-07 12:16:43,597 INFO o.a.j.t.JMeterThread: Thread finished: Open App 1-7
+2018-02-07 12:16:45,810 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing Get User Info loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":237,"email":"user0527669230@perf.com","type":"General","firstName":"Perf-fkzlq","lastName":"bonnmxenqe","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:51","mobilePhone":"0527669230","userMoreDetails":{"userId":237,"gender":null,"birthDate":null,"personalId":"837669230","clubMemberId":"7670001643831","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:45,812 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing Get Settings All loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzc5MDgpXC8ifQ.-1iLUwzBQ4TP0DX6NWy7gyTb9skxLRWNOxmAJVdycBE]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:45,820 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Get User Info loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":230,"email":"user0516992252@perf.com","type":"General","firstName":"Perf-bnesm","lastName":"jsehuvbxnd","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-06T23:05:14","mobilePhone":"0516992252","userMoreDetails":{"userId":230,"gender":null,"birthDate":null,"personalId":"551798142","clubMemberId":"7670001643769","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:45,822 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Get Settings All loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMCwiZXhwIjoiXC9EYXRlKDE1NDk0ODcxMTQyMzQpXC8ifQ.t7EpqyGe50CqL6PWI3WoHr2tRGv-u3XsMHsgCUTL-FE]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:45,825 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Get User Info loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":232,"email":"user0535811442@perf.com","type":"General","firstName":"Perf-mhlpo","lastName":"pogccgjigl","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:48","mobilePhone":"0535811442","userMoreDetails":{"userId":232,"gender":null,"birthDate":null,"personalId":"125811442","clubMemberId":"7670001643785","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:45,826 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Get Settings All loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.NI3xmBcGpkWJJH7zocsvC1mBUHzHBf4zIdvdoa1dACU]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:46,065 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing Get Settings All loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:46,066 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing Get User Info loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI1MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1ODcpXC8ifQ.PeO3Z-ITM1Mml0AyvUrqV2mOQQWBIhlexjvW4Vup6jA]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:46,103 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Get Settings All loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:46,104 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Get User Info loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1ODcpXC8ifQ.lmM4MTx2vu9UFXp5oQe8ko-GsUzTHII11l4pID2Z7TE]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:46,118 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Get Settings All loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:46,119 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Get User Info loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI1MSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODEwNTYpXC8ifQ.fcf_qi_05FljgF5VK9tNcHVvD69LfQjk_BjCYJo2r24]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:46,195 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing Get User Info loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":250,"email":"user0512825155@perf.com","type":"General","firstName":"Perf-mtwtt","lastName":"lflyvfflwo","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:39","dateCreated":"2018-02-07T04:27:59","mobilePhone":"0512825155","userMoreDetails":{"userId":250,"gender":null,"birthDate":null,"personalId":"732825155","clubMemberId":"7670001643961","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:46,196 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing Get Settings All loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI1MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1ODcpXC8ifQ.PeO3Z-ITM1Mml0AyvUrqV2mOQQWBIhlexjvW4Vup6jA]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:46,241 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Get User Info loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":244,"email":"user0566944860@perf.com","type":"General","firstName":"Perf-hitpc","lastName":"cktlxdmbee","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T04:27:55","dateCreated":"2018-02-07T04:27:55","mobilePhone":"0566944860","userMoreDetails":{"userId":244,"gender":null,"birthDate":null,"personalId":"966944860","clubMemberId":"7670001643903","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:46,242 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Get Settings All loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1ODcpXC8ifQ.lmM4MTx2vu9UFXp5oQe8ko-GsUzTHII11l4pID2Z7TE]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:46,262 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Get User Info loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/getUserInfo
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"id":251,"email":"user0560993833@perf.com","type":"General","firstName":"Perf-hgsyd","lastName":"bogduhzzdz","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T04:28:00","dateCreated":"2018-02-07T04:28:00","mobilePhone":"0560993833","userMoreDetails":{"userId":251,"gender":null,"birthDate":null,"personalId":"420993833","clubMemberId":"7670001643974","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:46,263 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Get Settings All loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/settings/all
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI1MSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODEwNTYpXC8ifQ.fcf_qi_05FljgF5VK9tNcHVvD69LfQjk_BjCYJo2r24]
+Body: 
+****************************************************************************************************
+
+2018-02-07 12:16:46,284 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing Get Settings All loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:46,284 INFO o.a.j.t.JMeterThread: Thread is done: Open App 1-6
+2018-02-07 12:16:46,285 INFO o.a.j.t.JMeterThread: Thread finished: Open App 1-6
+2018-02-07 12:16:46,340 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Get Settings All loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:46,341 INFO o.a.j.t.JMeterThread: Thread is done: Open App 1-1
+2018-02-07 12:16:46,341 INFO o.a.j.t.JMeterThread: Thread finished: Open App 1-1
+2018-02-07 12:16:46,363 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Get Settings All loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/settings/all
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[{"key":"MaxFuellingTimeInMinuets","value":"10"},{"key":"NotificationTimeOutInMinuets","value":"10"},{"key":"IosFuelPullingSec","value":"30"},{"key":"VerificationSmsTTL","value":"1"},{"key":"MinCouponsThreshold","value":"100"},{"key":"IndoorRequestExpirationIntervalInSeconds","value":"60"},{"key":"RefillDeliveryHours","value":"168"},{"key":"CouponsAlertsMailRecepient","value":"moshe_b@mintapp.co.il, evyatar_o@mintapp.co.il"}]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:16:46,363 INFO o.a.j.t.JMeterThread: Thread is done: Open App 1-3
+2018-02-07 12:16:46,363 INFO o.a.j.t.JMeterThread: Thread finished: Open App 1-3
+2018-02-07 12:16:46,364 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-02-07 12:16:46,364 INFO o.a.j.s.FileServer: Close: usersInfo.csv
+2018-02-07 12:16:46,365 INFO o.a.j.r.Summariser: summary =     44 in 00:00:05 =    8.2/s Avg:   594 Min:    86 Max:  4505 Err:     0 (0.00%)

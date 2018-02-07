@@ -1,41 +1,45 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1518004973820,993,indoorMessagesPost,200,OK,Indoor 1-4,text,true,,298,397,10,10,993,0,819
-1518004974315,518,indoorMessagesPost,200,OK,Indoor 1-7,text,true,,298,397,10,10,518,0,389
-1518004973634,1257,indoorMessagesPost,200,OK,Indoor 1-3,text,true,,298,397,10,10,1257,0,1038
-1518004973398,1495,indoorMessagesPost,200,OK,Indoor 1-2,text,true,,298,397,10,10,1495,0,1254
-1518004974016,817,indoorMessagesPost,200,OK,Indoor 1-5,text,true,,298,397,10,10,817,0,659
-1518004974180,712,indoorMessagesPost,200,OK,Indoor 1-6,text,true,,298,397,10,10,712,0,454
-1518004973396,1423,indoorMessagesPost,200,OK,Indoor 1-1,text,true,,298,397,10,10,1423,0,1292
-1518004974914,110,indoorFuellingApproveOrDeny,200,OK,Indoor 1-7,text,true,,383,429,10,10,110,0,0
-1518004974952,110,indoorFuellingApproveOrDeny,200,OK,Indoor 1-3,text,true,,383,429,10,10,110,0,0
-1518004974959,114,indoorFuellingApproveOrDeny,200,OK,Indoor 1-2,text,true,,383,429,10,10,114,0,0
-1518004974909,168,indoorFuellingApproveOrDeny,200,OK,Indoor 1-4,text,true,,383,429,10,10,168,0,0
-1518004974531,551,indoorMessagesPost,200,OK,Indoor 1-8,text,true,,298,397,10,10,551,0,422
-1518004974990,111,indoorFuellingApproveOrDeny,200,OK,Indoor 1-6,text,true,,383,429,10,10,111,0,0
-1518004974995,111,indoorFuellingApproveOrDeny,200,OK,Indoor 1-1,text,true,,383,429,10,10,111,0,0
-1518004974984,127,indoorFuellingApproveOrDeny,200,OK,Indoor 1-5,text,true,,383,429,10,10,127,0,0
-1518004975030,113,indoorMessagesPost,200,OK,Indoor 1-7,text,true,,298,397,10,10,113,0,0
-1518004975067,112,indoorMessagesPost,200,OK,Indoor 1-3,text,true,,298,397,10,10,112,0,0
-1518004975081,109,indoorMessagesPost,200,OK,Indoor 1-4,text,true,,298,397,10,10,109,0,0
-1518004974682,512,indoorMessagesPost,200,OK,Indoor 1-9,text,true,,298,397,10,10,512,0,390
-1518004975076,123,indoorMessagesPost,200,OK,Indoor 1-2,text,true,,298,397,10,10,123,0,0
-1518004975090,114,indoorFuellingApproveOrDeny,200,OK,Indoor 1-8,text,true,,383,429,10,10,114,0,0
-1518004975105,110,indoorMessagesPost,200,OK,Indoor 1-6,text,true,,298,397,10,10,110,0,0
-1518004975110,109,indoorMessagesPost,200,OK,Indoor 1-1,text,true,,298,397,10,10,109,0,0
-1518004975115,122,indoorMessagesPost,200,OK,Indoor 1-5,text,true,,298,397,10,10,122,0,0
-1518004975147,113,indoorFuellingApproveOrDeny,200,OK,Indoor 1-7,text,true,,383,429,10,10,113,0,0
-1518004975183,103,indoorFuellingApproveOrDeny,200,OK,Indoor 1-3,text,true,,383,429,9,9,103,0,0
-1518004975194,101,indoorFuellingApproveOrDeny,200,OK,Indoor 1-4,text,true,,383,429,8,8,101,0,0
-1518004975218,102,indoorFuellingApproveOrDeny,200,OK,Indoor 1-6,text,true,,383,429,7,7,102,0,0
-1518004974782,540,indoorMessagesPost,200,OK,Indoor 1-10,text,true,,298,396,6,6,540,0,421
-1518004975222,105,indoorFuellingApproveOrDeny,200,OK,Indoor 1-1,text,true,,383,429,6,6,105,0,0
-1518004975199,115,indoorFuellingApproveOrDeny,200,OK,Indoor 1-9,text,true,,383,429,7,7,115,0,0
-1518004975207,124,indoorMessagesPost,200,OK,Indoor 1-8,text,true,,298,397,5,5,124,0,0
-1518004975202,132,indoorFuellingApproveOrDeny,200,OK,Indoor 1-2,text,true,,383,429,5,5,132,0,0
-1518004975240,122,indoorFuellingApproveOrDeny,200,OK,Indoor 1-5,text,true,,383,429,4,4,122,0,0
-1518004975326,110,indoorFuellingApproveOrDeny,200,OK,Indoor 1-10,text,true,,383,429,3,3,110,0,0
-1518004975333,110,indoorFuellingApproveOrDeny,200,OK,Indoor 1-8,text,true,,383,429,3,3,110,0,0
-1518004975330,115,indoorMessagesPost,200,OK,Indoor 1-9,text,true,,298,397,2,2,115,0,0
-1518004975440,112,indoorMessagesPost,200,OK,Indoor 1-10,text,true,,298,397,2,2,112,0,0
-1518004975448,113,indoorFuellingApproveOrDeny,200,OK,Indoor 1-9,text,true,,383,429,2,2,113,0,0
-1518004975555,109,indoorFuellingApproveOrDeny,200,OK,Indoor 1-10,text,true,,383,429,1,1,109,0,0
+1518005802264,801,Get User Info,200,OK,Open App 1-8,text,true,,824,353,11,11,801,0,415
+1518005802088,983,Get User Info,200,OK,Open App 1-7,text,true,,824,353,11,11,983,0,540
+1518005802532,518,Get User Info,200,OK,Open App 1-10,text,true,,824,353,11,11,518,0,353
+1518005801720,1358,Get User Info,200,OK,Open App 1-5,text,true,,824,353,11,11,1358,0,902
+1518005801528,1563,Get User Info,200,OK,Open App 1-4,text,true,,824,353,11,11,1563,0,1097
+1518005801345,1751,Get User Info,200,OK,Open App 1-2,text,true,,824,353,11,11,1751,0,1282
+1518005802356,757,Get User Info,200,OK,Open App 1-9,text,true,,824,353,11,11,757,0,371
+1518005802662,480,Get User Info,200,OK,Open App 1-11,text,true,,824,353,11,11,480,0,350
+1518005803124,173,Get Settings All,200,OK,Open App 1-10,text,true,,776,348,11,11,173,0,0
+1518005803164,138,Get Settings All,200,OK,Open App 1-11,text,true,,776,348,11,11,138,0,0
+1518005803096,216,Get Settings All,200,OK,Open App 1-4,text,true,,776,348,11,11,216,0,0
+1518005803118,199,Get Settings All,200,OK,Open App 1-9,text,true,,776,348,11,11,199,0,0
+1518005803102,219,Get Settings All,200,OK,Open App 1-2,text,true,,776,348,11,11,219,0,0
+1518005803085,240,Get Settings All,200,OK,Open App 1-5,text,true,,776,348,11,11,240,0,0
+1518005803078,252,Get Settings All,200,OK,Open App 1-8,text,true,,776,348,11,11,251,0,0
+1518005803088,246,Get Settings All,200,OK,Open App 1-7,text,true,,776,348,11,11,246,0,0
+1518005803301,134,Get User Info,200,OK,Open App 1-10,text,true,,824,353,11,11,134,0,0
+1518005803306,139,Get User Info,200,OK,Open App 1-11,text,true,,824,353,11,11,139,0,0
+1518005803316,132,Get User Info,200,OK,Open App 1-4,text,true,,824,353,11,11,132,0,0
+1518005803320,132,Get User Info,200,OK,Open App 1-9,text,true,,824,353,11,11,132,0,0
+1518005803329,137,Get User Info,200,OK,Open App 1-5,text,true,,824,353,11,11,137,0,0
+1518005803333,139,Get User Info,200,OK,Open App 1-8,text,true,,824,353,11,11,139,0,0
+1518005803324,152,Get User Info,200,OK,Open App 1-2,text,true,,824,353,11,11,152,0,0
+1518005803339,148,Get User Info,200,OK,Open App 1-7,text,true,,824,353,11,11,148,0,0
+1518005803439,91,Get Settings All,200,OK,Open App 1-10,text,true,,776,348,11,11,90,0,0
+1518005803448,94,Get Settings All,200,OK,Open App 1-11,text,true,,776,348,10,10,94,0,0
+1518005803451,93,Get Settings All,200,OK,Open App 1-4,text,true,,776,348,9,9,93,0,0
+1518005803455,91,Get Settings All,200,OK,Open App 1-9,text,true,,776,348,8,8,91,0,0
+1518005803475,95,Get Settings All,200,OK,Open App 1-8,text,true,,776,348,7,7,95,0,0
+1518005803478,95,Get Settings All,200,OK,Open App 1-2,text,true,,776,348,6,6,95,0,0
+1518005803479,106,Get Settings All,200,OK,Open App 1-5,text,true,,776,348,5,5,106,0,0
+1518005803489,107,Get Settings All,200,OK,Open App 1-7,text,true,,776,348,4,4,107,0,0
+1518005801880,3928,Get User Info,200,OK,Open App 1-6,text,true,,824,353,3,3,3928,0,745
+1518005801314,4505,Get User Info,200,OK,Open App 1-1,text,true,,824,353,3,3,4504,0,1303
+1518005801384,4439,Get User Info,200,OK,Open App 1-3,text,true,,824,353,3,3,4439,0,1240
+1518005805812,251,Get Settings All,200,OK,Open App 1-6,text,true,,776,348,3,3,251,0,159
+1518005805822,273,Get Settings All,200,OK,Open App 1-1,text,true,,776,348,3,3,273,0,173
+1518005805826,290,Get Settings All,200,OK,Open App 1-3,text,true,,776,348,3,3,290,0,186
+1518005806067,127,Get User Info,200,OK,Open App 1-6,text,true,,824,353,3,3,127,0,0
+1518005806104,136,Get User Info,200,OK,Open App 1-1,text,true,,824,353,3,3,136,0,0
+1518005806119,142,Get User Info,200,OK,Open App 1-3,text,true,,824,353,3,3,142,0,0
+1518005806197,86,Get Settings All,200,OK,Open App 1-6,text,true,,776,348,3,3,86,0,0
+1518005806243,96,Get Settings All,200,OK,Open App 1-1,text,true,,776,348,2,2,96,0,0
+1518005806264,98,Get Settings All,200,OK,Open App 1-3,text,true,,776,348,1,1,98,0,0
