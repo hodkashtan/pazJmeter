@@ -1,0 +1,935 @@
+2018-02-07 11:45:28,592 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-02-07 11:45:28,627 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-02-07 11:45:28,628 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-02-07 11:45:28,629 INFO o.a.j.JMeter: Setting JMeter property: NUM_OF_USERS=10
+2018-02-07 11:45:28,629 INFO o.a.j.JMeter: Setting JMeter property: RAMP_UP_PERIOD=1
+2018-02-07 11:45:28,629 INFO o.a.j.JMeter: Setting JMeter property: LOOP_COUNT=2
+2018-02-07 11:45:28,651 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-02-07 11:45:28,651 INFO o.a.j.JMeter: Version 3.3 r1808647
+2018-02-07 11:45:28,651 INFO o.a.j.JMeter: java.version=1.8.0_151
+2018-02-07 11:45:28,651 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-02-07 11:45:28,651 INFO o.a.j.JMeter: os.name=Linux
+2018-02-07 11:45:28,651 INFO o.a.j.JMeter: os.arch=amd64
+2018-02-07 11:45:28,651 INFO o.a.j.JMeter: os.version=3.10.0-693.5.2.el7.x86_64
+2018-02-07 11:45:28,652 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-02-07 11:45:28,652 INFO o.a.j.JMeter: Max memory     =466288640
+2018-02-07 11:45:28,652 INFO o.a.j.JMeter: Available Processors =1
+2018-02-07 11:45:28,659 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-02-07 11:45:28,659 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-02-07 11:45:28,660 INFO o.a.j.JMeter: JMeterHome=/var/lib/jenkins/workspace/User_Login
+2018-02-07 11:45:28,660 INFO o.a.j.JMeter: user.dir  =/var/lib/jenkins/workspace/User_Login/bin
+2018-02-07 11:45:28,660 INFO o.a.j.JMeter: PWD       =/var/lib/jenkins/workspace/User_Login/bin
+2018-02-07 11:45:28,672 INFO o.a.j.JMeter: IP: 172.20.59.232 Name: ip-172-20-59-232.eu-west-1.compute.internal FullName: ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-07 11:45:28,678 INFO o.a.j.s.FileServer: Default base='/var/lib/jenkins/workspace/User_Login/bin'
+2018-02-07 11:45:28,678 INFO o.a.j.s.FileServer: Set new base='/var/lib/jenkins/workspace/User_Login/bin'
+2018-02-07 11:45:28,936 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-02-07 11:45:28,969 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-02-07 11:45:28,985 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-02-07 11:45:28,996 INFO o.a.j.s.SaveService: Loading file: User_Login.jmx
+2018-02-07 11:45:29,054 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 11:45:29,054 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 11:45:29,054 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 11:45:29,054 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 11:45:29,055 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-02-07 11:45:29,055 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-02-07 11:45:29,191 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-02-07 11:45:29,227 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-02-07 11:45:29,228 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-07 11:45:29,228 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-07 11:45:29,231 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-02-07 11:45:29,231 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-02-07 11:45:29,828 INFO o.a.j.JMeter: Running test (1518003929828)
+2018-02-07 11:45:29,856 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2018-02-07 11:45:29,856 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2018-02-07 11:45:29,856 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-02-07 11:45:29,857 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 perThread=100.0 delayedStart=false
+2018-02-07 11:45:29,928 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2018-02-07 11:45:29,929 INFO o.a.j.s.FileServer: Stored: usersInfo.csv
+2018-02-07 11:45:30,030 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing GenerateVerifiactionCode loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0516992252&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMCwiZXhwIjoiXC9EYXRlKDE1NDk0ODcxMTQyMzQpXC8ifQ.t7EpqyGe50CqL6PWI3WoHr2tRGv-u3XsMHsgCUTL-FE]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:30,094 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2018-02-07 11:45:30,099 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing GenerateVerifiactionCode loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0584612067&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzA1NjEpXC8ifQ.hq31LLpsSN63VZKvNSA9qRmJHewrZL3JqWlBjDNUhz8]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:30,282 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2018-02-07 11:45:30,287 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing GenerateVerifiactionCode loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0535811442&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.NI3xmBcGpkWJJH7zocsvC1mBUHzHBf4zIdvdoa1dACU]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:30,305 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-02-07 11:45:30,305 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-02-07 11:45:30,363 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2018-02-07 11:45:30,367 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing GenerateVerifiactionCode loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0518510322&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.JZ3qTtxuwbJdQ-fqVcxtpl5gXu8gnALSy8i7l4zPSz0]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:30,537 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2018-02-07 11:45:30,540 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing GenerateVerifiactionCode loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0558256767&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU2NTQpXC8ifQ.EO10i9CD6UVjjedwjnb3NUk056lSInFEDjcQ2W_DD-4]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:30,670 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2018-02-07 11:45:30,673 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing GenerateVerifiactionCode loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0527669230&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzc5MDgpXC8ifQ.-1iLUwzBQ4TP0DX6NWy7gyTb9skxLRWNOxmAJVdycBE]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:30,850 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2018-02-07 11:45:30,853 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing GenerateVerifiactionCode loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0514296746&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzkxNDQpXC8ifQ.fFF7mQdnxEVaG43Zb7wWyYEujaK-fOC_DcusJoXzQh4]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:30,950 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2018-02-07 11:45:30,954 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing GenerateVerifiactionCode loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0587274067&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzk3NzQpXC8ifQ.qyMfIt-dFQUdnna_3pGLlZPd84L_x5BrZZENjSlKrzs]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:31,056 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-07 11:45:31,062 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-02-07 11:45:31,074 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-02-07 11:45:31,074 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-02-07 11:45:31,074 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-02-07 11:45:31,074 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-02-07 11:45:31,123 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2018-02-07 11:45:31,125 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing GenerateVerifiactionCode loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0517317171&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ._ALr2k9xDNSG4YIFD4G167-s1KDSHikDHi4DXIpnuj4]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:31,219 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2018-02-07 11:45:31,222 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing GenerateVerifiactionCode loop#1 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0571593090&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.VLSbFpZTHTV8WfjKLjo_mMIekaSBmTYKa7b7Efx7iYw]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:31,252 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-02-07 11:45:31,264 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-02-07 11:45:31,264 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-02-07 11:45:31,567 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-02-07 11:45:31,568 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-02-07 11:45:31,568 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-02-07 11:45:32,349 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0516992252&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:32,351 INFO o.a.j.r.Summariser: summary +      1 in 00:00:03 =    0.4/s Avg:  1246 Min:  1246 Max:  1246 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2018-02-07 11:45:32,353 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMCwiZXhwIjoiXC9EYXRlKDE1NDk0ODcxMTQyMzQpXC8ifQ.t7EpqyGe50CqL6PWI3WoHr2tRGv-u3XsMHsgCUTL-FE]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0516992252",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:32,360 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0584612067&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:32,361 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzA1NjEpXC8ifQ.hq31LLpsSN63VZKvNSA9qRmJHewrZL3JqWlBjDNUhz8]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0584612067",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:32,365 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0558256767&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:32,367 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU2NTQpXC8ifQ.EO10i9CD6UVjjedwjnb3NUk056lSInFEDjcQ2W_DD-4]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0558256767",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:32,370 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0527669230&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:32,373 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzc5MDgpXC8ifQ.-1iLUwzBQ4TP0DX6NWy7gyTb9skxLRWNOxmAJVdycBE]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0527669230",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:32,395 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0514296746&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:32,397 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzkxNDQpXC8ifQ.fFF7mQdnxEVaG43Zb7wWyYEujaK-fOC_DcusJoXzQh4]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0514296746",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:32,401 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0518510322&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:32,403 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.JZ3qTtxuwbJdQ-fqVcxtpl5gXu8gnALSy8i7l4zPSz0]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0518510322",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:32,495 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0587274067&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:32,503 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzk3NzQpXC8ifQ.qyMfIt-dFQUdnna_3pGLlZPd84L_x5BrZZENjSlKrzs]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0587274067",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:32,670 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0517317171&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:32,672 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ._ALr2k9xDNSG4YIFD4G167-s1KDSHikDHi4DXIpnuj4]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0517317171",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:32,788 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0571593090&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:32,790 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.VLSbFpZTHTV8WfjKLjo_mMIekaSBmTYKa7b7Efx7iYw]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0571593090",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:33,671 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMSwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzMyNjQpXC8ifQ.v5J3kGAIjYzbVMZM-2M58cGAy6cPSg3F-3tIPHYlYVs"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":231,"email":"user0558256767@perf.com","type":"General","firstName":"Perf-olqzj","lastName":"ydvulaocav","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:48","mobilePhone":"0558256767","userMoreDetails":{"userId":231,"gender":null,"birthDate":null,"personalId":"868256767","clubMemberId":"7670001643802","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0558256767","verificationToken":"96ccb769-ec6f-419d-884b-6abca0a8401b"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:33,673 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing GenerateVerifiactionCode loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0584078767&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.Riln6YSpDR7fIkGDw0P1f0Wj4mgRe8yQcRJ0qKJeQW8]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:33,675 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMCwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzM4MTgpXC8ifQ.9lfDaRY8GcAY5olueiMc5js-xVR6dG4UWCyJL11GcP8"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":230,"email":"user0516992252@perf.com","type":"General","firstName":"Perf-bnesm","lastName":"jsehuvbxnd","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-06T23:05:14","mobilePhone":"0516992252","userMoreDetails":{"userId":230,"gender":null,"birthDate":null,"personalId":"551798142","clubMemberId":"7670001643769","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0516992252","verificationToken":"83c537e5-3201-458d-9ddd-70642cc02d68"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:33,676 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing GenerateVerifiactionCode loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0537833833&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.p5tQz5-TUE-vgt3seM_PGZXYlPjOCHIMT1Fw-vW64cQ]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:33,688 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNywiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzM3NTUpXC8ifQ.mbXlypTcLE9Yy2u4uyYpvA26IJ6nY0eYp8j-_7AiuGw"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":237,"email":"user0527669230@perf.com","type":"General","firstName":"Perf-fkzlq","lastName":"bonnmxenqe","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:51","mobilePhone":"0527669230","userMoreDetails":{"userId":237,"gender":null,"birthDate":null,"personalId":"837669230","clubMemberId":"7670001643831","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0527669230","verificationToken":"c9730cb9-5dd4-4211-b2e3-2817421338b3"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:33,689 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing GenerateVerifiactionCode loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0513693299&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.bEc57N1Q7EhlAayTfG6_t2vlhWV32yK-08-pPYfjVGA]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:33,693 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMywiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzM4NDkpXC8ifQ.NMTvZ0UFiESQSIf0EmL7kLRPdGRhcADzLj74KzOi0LE"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":233,"email":"user0518510322@perf.com","type":"General","firstName":"Perf-rzrhg","lastName":"jprbzgaaqs","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:48","mobilePhone":"0518510322","userMoreDetails":{"userId":233,"gender":null,"birthDate":null,"personalId":"468510322","clubMemberId":"7670001643798","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0518510322","verificationToken":"d46abf58-c1e9-4626-98ea-1e275a5bbf4b"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:33,694 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing GenerateVerifiactionCode loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0517312252&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.XFvRqwM2JFT7COZ6sv2uaQCyrZ5LRoEfXWq1kt-ZkM8]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:33,696 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MiwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzM3NTUpXC8ifQ.gj9keJAfsliYSq5r3kc4R0Kg1CTACqKuhTBtQTsl0D4"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":242,"email":"user0514296746@perf.com","type":"General","firstName":"Perf-lylhc","lastName":"csejkjqxru","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:54","mobilePhone":"0514296746","userMoreDetails":{"userId":242,"gender":null,"birthDate":null,"personalId":"194296746","clubMemberId":"7670001643886","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0514296746","verificationToken":"49e2b3cd-5559-42e1-ac54-4bf8ea589e1a"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:33,697 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing GenerateVerifiactionCode loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0599071393&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAyNDMpXC8ifQ.VjMrZXqW2P2iibWafePBj1IPYi7F9nKHqHtRHntAE2Q]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:33,699 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNCwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzMzMzgpXC8ifQ.UKs1zR7hRe36SHUI27OVxc3mofM_-Xzamqbj_kys-Uw"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":234,"email":"user0584612067@perf.com","type":"General","firstName":"Perf-nddlr","lastName":"xxvjchhcau","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:48","mobilePhone":"0584612067","userMoreDetails":{"userId":234,"gender":null,"birthDate":null,"personalId":"894612067","clubMemberId":"7670001643772","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0584612067","verificationToken":"3c372fb3-df9c-4f7c-ad5e-6d3d6a90f371"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:33,701 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing GenerateVerifiactionCode loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0562842512&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAzNTMpXC8ifQ.h7B4T4pf32eXOse4Cu0-wCX25PbrNqn93eWD8ImkSy4]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:33,703 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOCwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzMzMjIpXC8ifQ.EZ4basQmIqq00FolDE4NhuklTwtAtvO0GXhcbHgH2eg"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":238,"email":"user0587274067@perf.com","type":"General","firstName":"Perf-rwzly","lastName":"aawcbjsdqy","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:52","mobilePhone":"0587274067","userMoreDetails":{"userId":238,"gender":null,"birthDate":null,"personalId":"807274067","clubMemberId":"7670001643844","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0587274067","verificationToken":"3085fc4a-a922-478a-9f04-6075224fc9bf"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:33,705 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing GenerateVerifiactionCode loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0530840949&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NjIpXC8ifQ.6JpZ6_82oi7w2vlzWC95BeTgHhrC0wEmCU6odYFPhvg]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:33,809 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNSwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzM5NzQpXC8ifQ.DgSe02CpLR1fH5IDkvlINGJ_torGOubHrBoHH8NbPmk"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":235,"email":"user0517317171@perf.com","type":"General","firstName":"Perf-pqcur","lastName":"lvgwqgmnbh","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:50","mobilePhone":"0517317171","userMoreDetails":{"userId":235,"gender":null,"birthDate":null,"personalId":"377317171","clubMemberId":"7670001643815","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0517317171","verificationToken":"6708cc8a-4f8f-492b-9806-b8d7a89057f7"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:33,811 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing GenerateVerifiactionCode loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0593850959&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NzgpXC8ifQ.1_uoXbCxai-ZRlNwX2JKQ3P2p-Op6MBYrLlMZLqQVlg]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:33,908 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNiwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzM1OTQpXC8ifQ.5RhjRLpcjKQQF-x6g-a_71GjNpNtdF0E_wJsdfe33IU"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":236,"email":"user0571593090@perf.com","type":"General","firstName":"Perf-cbynh","lastName":"qmpsyxmwaj","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:33","dateCreated":"2018-02-07T04:27:51","mobilePhone":"0571593090","userMoreDetails":{"userId":236,"gender":null,"birthDate":null,"personalId":"161593090","clubMemberId":"7670001643828","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0571593090","verificationToken":"46305bcd-b4d1-49d5-9ec2-bf5f223c632f"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:33,909 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing GenerateVerifiactionCode loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0578102578&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1NzEpXC8ifQ.24sz_2MZIG_LdCsZ7lLTXWHcI1ul9sZyDiE0UPHeP2I]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:34,780 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing GenerateVerifiactionCode loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0537833833&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:34,781 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing verifyUser loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.p5tQz5-TUE-vgt3seM_PGZXYlPjOCHIMT1Fw-vW64cQ]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0537833833",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:34,803 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing GenerateVerifiactionCode loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0517312252&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:34,805 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing verifyUser loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.XFvRqwM2JFT7COZ6sv2uaQCyrZ5LRoEfXWq1kt-ZkM8]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0517312252",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:34,806 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing GenerateVerifiactionCode loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0562842512&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:34,807 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing verifyUser loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAzNTMpXC8ifQ.h7B4T4pf32eXOse4Cu0-wCX25PbrNqn93eWD8ImkSy4]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0562842512",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:34,943 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing GenerateVerifiactionCode loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0584078767&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:34,945 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing verifyUser loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.Riln6YSpDR7fIkGDw0P1f0Wj4mgRe8yQcRJ0qKJeQW8]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0584078767",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:34,999 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing GenerateVerifiactionCode loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0530840949&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:35,001 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing verifyUser loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NjIpXC8ifQ.6JpZ6_82oi7w2vlzWC95BeTgHhrC0wEmCU6odYFPhvg]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0530840949",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:35,002 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing GenerateVerifiactionCode loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0513693299&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:35,003 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing verifyUser loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.bEc57N1Q7EhlAayTfG6_t2vlhWV32yK-08-pPYfjVGA]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0513693299",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:35,005 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing GenerateVerifiactionCode loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0599071393&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:35,006 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing verifyUser loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAyNDMpXC8ifQ.VjMrZXqW2P2iibWafePBj1IPYi7F9nKHqHtRHntAE2Q]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0599071393",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:35,081 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing GenerateVerifiactionCode loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0593850959&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:35,082 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing verifyUser loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NzgpXC8ifQ.1_uoXbCxai-ZRlNwX2JKQ3P2p-Op6MBYrLlMZLqQVlg]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0593850959",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:35,211 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing GenerateVerifiactionCode loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0578102578&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:35,212 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing verifyUser loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1NzEpXC8ifQ.24sz_2MZIG_LdCsZ7lLTXWHcI1ul9sZyDiE0UPHeP2I]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0578102578",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:35,306 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing GenerateVerifiactionCode loop#1 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0535811442&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:35,307 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing verifyUser loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.NI3xmBcGpkWJJH7zocsvC1mBUHzHBf4zIdvdoa1dACU]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0535811442",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:36,057 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing verifyUser loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MCwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzYyMzIpXC8ifQ.D236xrvqJy-v4NXlOyiCp3DJxev76Uqbrq9wcVXja3w"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":240,"email":"user0584078767@perf.com","type":"General","firstName":"Perf-kxath","lastName":"jvtlylgxfs","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:53","mobilePhone":"0584078767","userMoreDetails":{"userId":240,"gender":null,"birthDate":null,"personalId":"444078767","clubMemberId":"7670001643860","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0584078767","verificationToken":"89011b3c-5558-46cc-80bb-b4a1e9647aec"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:36,058 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2018-02-07 11:45:36,058 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2018-02-07 11:45:36,065 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing verifyUser loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MSwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzYyMzIpXC8ifQ.1bgcGXr8Ml1pCF7rey0sCNvopb9POqWYrZyrSE44Giw"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":241,"email":"user0537833833@perf.com","type":"General","firstName":"Perf-fotvr","lastName":"bmfwnudjvr","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:54","mobilePhone":"0537833833","userMoreDetails":{"userId":241,"gender":null,"birthDate":null,"personalId":"757833833","clubMemberId":"7670001643873","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0537833833","verificationToken":"7764c6d6-e5d5-45d0-a7ce-62bd68d0b94c"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:36,066 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2018-02-07 11:45:36,066 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2018-02-07 11:45:36,105 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing verifyUser loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOSwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzU4MDIpXC8ifQ.B3iv5ykZh3UXjpdRavD67om7v0W-EkrGMC2OKjSGFpQ"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":239,"email":"user0517312252@perf.com","type":"General","firstName":"Perf-rgsiw","lastName":"xexbyhchgu","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:35","dateCreated":"2018-02-07T04:27:52","mobilePhone":"0517312252","userMoreDetails":{"userId":239,"gender":null,"birthDate":null,"personalId":"917312252","clubMemberId":"7670001643857","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0517312252","verificationToken":"86095187-d17f-40cf-a917-882a4ca8e265"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:36,105 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2018-02-07 11:45:36,105 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2018-02-07 11:45:36,111 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing verifyUser loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OCwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzU4MTMpXC8ifQ.KaNjEmHLrcaVAXf7qM4yB0U1cYHUPQL3UZfgfTA0HRo"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":248,"email":"user0530840949@perf.com","type":"General","firstName":"Perf-phsrp","lastName":"djmujuywad","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:35","dateCreated":"2018-02-07T04:27:59","mobilePhone":"0530840949","userMoreDetails":{"userId":248,"gender":null,"birthDate":null,"personalId":"210840949","clubMemberId":"7670001643945","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0530840949","verificationToken":"8af0b031-de59-4eaf-bc24-ae1dc8bdd93b"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:36,111 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2018-02-07 11:45:36,111 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2018-02-07 11:45:36,124 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing verifyUser loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MywiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzU4MTcpXC8ifQ.hmC9pC4uzEtU_Ey2toNW0fWnk__gLzQsEzbKfQZDoXs"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":243,"email":"user0513693299@perf.com","type":"General","firstName":"Perf-mywnp","lastName":"bdtrmdngjm","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:35","dateCreated":"2018-02-07T04:27:55","mobilePhone":"0513693299","userMoreDetails":{"userId":243,"gender":null,"birthDate":null,"personalId":"463693299","clubMemberId":"7670001643899","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0513693299","verificationToken":"9899096b-dcfa-40aa-8baa-3bf849440e1b"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:36,125 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2018-02-07 11:45:36,125 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2018-02-07 11:45:36,127 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing verifyUser loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NywiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzYyOTUpXC8ifQ.4B88_5ggi4rf0sdrP8ujYc4gZzhQ5shMgVmRGWdUW4k"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":247,"email":"user0562842512@perf.com","type":"General","firstName":"Perf-crcjx","lastName":"ywgeetkzto","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:59","mobilePhone":"0562842512","userMoreDetails":{"userId":247,"gender":null,"birthDate":null,"personalId":"782842512","clubMemberId":"7670001643929","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0562842512","verificationToken":"cef5a9f7-73e8-4cf8-93d5-7523d151ea80"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:36,127 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2018-02-07 11:45:36,127 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2018-02-07 11:45:36,132 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing verifyUser loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NiwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzYyOTUpXC8ifQ.GCo8qAVDMlIY8h-sI98ujoaqr0TY_zDmdtQRAHc3Jp4"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":246,"email":"user0599071393@perf.com","type":"General","firstName":"Perf-elaqc","lastName":"sciwddlmma","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:59","mobilePhone":"0599071393","userMoreDetails":{"userId":246,"gender":null,"birthDate":null,"personalId":"999071393","clubMemberId":"7670001643932","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0599071393","verificationToken":"4ef57c8c-5d72-40aa-ad07-33fe9abb7fb7"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:36,133 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2018-02-07 11:45:36,133 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2018-02-07 11:45:36,200 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing verifyUser loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NSwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzYzNzMpXC8ifQ.T_IIuWMMBlsJLynJB96yc2pWzBE7ae4cK15kT9w5LaE"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":245,"email":"user0593850959@perf.com","type":"General","firstName":"Perf-tevsy","lastName":"ufwibnjjxw","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:56","mobilePhone":"0593850959","userMoreDetails":{"userId":245,"gender":null,"birthDate":null,"personalId":"363850959","clubMemberId":"7670001643916","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0593850959","verificationToken":"0cfade4c-28bc-4572-9d17-a5c961e8a071"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:36,200 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2018-02-07 11:45:36,200 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2018-02-07 11:45:36,331 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing verifyUser loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OSwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzYwMTQpXC8ifQ.tf4mDsyBntKX9fWTmkL76IUamFtubJf-xpHYVDhNka0"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":249,"email":"user0578102578@perf.com","type":"General","firstName":"Perf-oujac","lastName":"oqenrvgiyi","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:59","mobilePhone":"0578102578","userMoreDetails":{"userId":249,"gender":null,"birthDate":null,"personalId":"978102578","clubMemberId":"7670001643958","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0578102578","verificationToken":"e092a244-bc2d-4bfe-9ce1-db7d9b0909c1"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:36,331 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2018-02-07 11:45:36,331 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2018-02-07 11:45:36,583 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing verifyUser loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMiwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzYyODApXC8ifQ.I_7XCGu7BXCsgAvMNHVcTetFIclec1-BURasYDF_gVs"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":232,"email":"user0535811442@perf.com","type":"General","firstName":"Perf-mhlpo","lastName":"pogccgjigl","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:36","dateCreated":"2018-02-07T04:27:48","mobilePhone":"0535811442","userMoreDetails":{"userId":232,"gender":null,"birthDate":null,"personalId":"125811442","clubMemberId":"7670001643785","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0535811442","verificationToken":"406a61aa-fa34-4d38-b525-7c9f458acf8e"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:36,584 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing GenerateVerifiactionCode loop#2 ---
+Sending GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0512825155&sms=false
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI1MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1ODcpXC8ifQ.PeO3Z-ITM1Mml0AyvUrqV2mOQQWBIhlexjvW4Vup6jA]
+Body: 
+****************************************************************************************************
+
+2018-02-07 11:45:37,684 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing GenerateVerifiactionCode loop#2 ---
+Sent GET request to https://ltdapi.paz.co.il/api/users/generateVerificationCode?mobilePhone=0512825155&sms=false
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":{"totalTimeoutInSeconds":60.0}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:37,685 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing verifyUser loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Headers: [Content-Type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI1MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1ODcpXC8ifQ.PeO3Z-ITM1Mml0AyvUrqV2mOQQWBIhlexjvW4Vup6jA]
+Body: ={
+	"code": "MintCode!378Fjkiur",
+	"verificationCode": "0203",
+	"mobilePhone": "0512825155",
+	"fbaccesstoken": "null"
+}
+()
+****************************************************************************************************
+
+2018-02-07 11:45:38,966 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing verifyUser loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/users/verifyUser
+Response Data:
+{"custom":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI1MCwiZXhwIjoiXC9EYXRlKDE1NDk1Mzk5MzkxNDgpXC8ifQ.rzXGh1oNNVerWYLQm-GaEqsowsqy_AQflgg8qsdx_IM"},"errorCode":0,"errorMessage":null,"body":{"userInfo":{"id":250,"email":"user0512825155@perf.com","type":"General","firstName":"Perf-mtwtt","lastName":"lflyvfflwo","imageUrl":null,"isVerified":true,"isActive":true,"lastLogin":null,"lastSeen":"2018-02-07T13:45:39","dateCreated":"2018-02-07T04:27:59","mobilePhone":"0512825155","userMoreDetails":{"userId":250,"gender":null,"birthDate":null,"personalId":"732825155","clubMemberId":"7670001643961","paymentSecurityType":null,"paymentSecurityHash":null},"settings":{"reciveNotification":true},"bonusWhenAddingFirstCreditCardValue":30},"verifiedMobilePhone":"0512825155","verificationToken":"123fdc37-fc52-4d89-a9ad-859b5ca3ccb4"}}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:45:38,967 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2018-02-07 11:45:38,967 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2018-02-07 11:45:38,967 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-02-07 11:45:38,968 INFO o.a.j.s.FileServer: Close: usersInfo.csv
+2018-02-07 11:45:38,968 INFO o.a.j.r.Summariser: summary +     39 in 00:00:07 =    5.9/s Avg:   409 Min:    99 Max:  4013 Err:     0 (0.00%) Active: 0 Started: 10 Finished: 10
+2018-02-07 11:45:38,969 INFO o.a.j.r.Summariser: summary =     40 in 00:00:09 =    4.4/s Avg:   430 Min:    99 Max:  4013 Err:     0 (0.00%)
