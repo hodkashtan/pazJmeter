@@ -9460,3 +9460,6 @@
 1518005806197,86,Get Settings All,200,OK,Open App 1-6,text,true,,776,348,3,3,86,0,0
 1518005806243,96,Get Settings All,200,OK,Open App 1-1,text,true,,776,348,2,2,96,0,0
 1518005806264,98,Get Settings All,200,OK,Open App 1-3,text,true,,776,348,1,1,98,0,0
+1518006421559,2000,createSessionId,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /${body}/,334,301,1,1,2000,0,1128
+1518006423678,40,Credit Guard,200,OK,Thread Group 1-1,text,true,,3193,1479,1,1,39,0,34
+1518006423750,2627,addCreditCard,200,OK,Thread Group 1-1,text,true,,353,3466,1,1,2627,0,170
