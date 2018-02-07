@@ -1,0 +1,62 @@
+2018-02-07 12:01:40,238 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-02-07 12:01:40,272 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-02-07 12:01:40,274 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-02-07 12:01:40,274 INFO o.a.j.JMeter: Setting JMeter property: NUM_OF_USERS=10
+2018-02-07 12:01:40,274 INFO o.a.j.JMeter: Setting JMeter property: RAMP_UP_PERIOD=1
+2018-02-07 12:01:40,274 INFO o.a.j.JMeter: Setting JMeter property: LOOP_COUNT=2
+2018-02-07 12:01:40,302 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-02-07 12:01:40,302 INFO o.a.j.JMeter: Version 3.3 r1808647
+2018-02-07 12:01:40,302 INFO o.a.j.JMeter: java.version=1.8.0_151
+2018-02-07 12:01:40,303 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-02-07 12:01:40,303 INFO o.a.j.JMeter: os.name=Linux
+2018-02-07 12:01:40,303 INFO o.a.j.JMeter: os.arch=amd64
+2018-02-07 12:01:40,303 INFO o.a.j.JMeter: os.version=3.10.0-693.5.2.el7.x86_64
+2018-02-07 12:01:40,303 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-02-07 12:01:40,303 INFO o.a.j.JMeter: Max memory     =466288640
+2018-02-07 12:01:40,303 INFO o.a.j.JMeter: Available Processors =1
+2018-02-07 12:01:40,311 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-02-07 12:01:40,312 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-02-07 12:01:40,312 INFO o.a.j.JMeter: JMeterHome=/var/lib/jenkins/workspace/Open_App
+2018-02-07 12:01:40,312 INFO o.a.j.JMeter: user.dir  =/var/lib/jenkins/workspace/Open_App/bin
+2018-02-07 12:01:40,312 INFO o.a.j.JMeter: PWD       =/var/lib/jenkins/workspace/Open_App/bin
+2018-02-07 12:01:40,322 INFO o.a.j.JMeter: IP: 172.20.59.232 Name: ip-172-20-59-232.eu-west-1.compute.internal FullName: ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-07 12:01:40,325 INFO o.a.j.s.FileServer: Default base='/var/lib/jenkins/workspace/Open_App/bin'
+2018-02-07 12:01:40,326 INFO o.a.j.s.FileServer: Set new base='/var/lib/jenkins/workspace/Open_App/bin'
+2018-02-07 12:01:40,583 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-02-07 12:01:40,627 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-02-07 12:01:40,646 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-02-07 12:01:40,657 INFO o.a.j.s.SaveService: Loading file: Open_App.jmx
+2018-02-07 12:01:40,717 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 12:01:40,717 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 12:01:40,717 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 12:01:40,717 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 12:01:40,717 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-02-07 12:01:40,717 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-02-07 12:01:40,814 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-02-07 12:01:40,831 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-02-07 12:01:40,831 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-07 12:01:40,831 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-07 12:01:40,835 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-02-07 12:01:40,835 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-02-07 12:01:41,379 ERROR o.a.j.e.PreCompiler: invalid variables in node Open App
+org.apache.jmeter.functions.InvalidVariableException: Expected } after __P function call in ${__P(NUM_OF_USERS,30))}
+	at org.apache.jmeter.engine.util.FunctionParser.makeFunction(FunctionParser.java:139) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.FunctionParser.compileString(FunctionParser.java:82) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.setParameters(CompoundVariable.java:182) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.ReplaceStringWithFunctions.transformValue(ReplaceStringWithFunctions.java:46) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.ValueReplacer.replaceValues(ValueReplacer.java:170) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.ValueReplacer.replaceValues(ValueReplacer.java:80) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.PreCompiler.addNode(PreCompiler.java:89) [ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:996) [jorphan.jar:3.3 r1808647]
+	at org.apache.jorphan.collections.HashTree.traverse(HashTree.java:978) [jorphan.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:369) [ApacheJMeter_core.jar:3.3 r1808647]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+2018-02-07 12:01:41,517 INFO o.a.j.JMeter: Running test (1518004901517)
+2018-02-07 12:01:41,544 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Open App
+2018-02-07 12:01:41,544 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group Open App.
+2018-02-07 12:01:41,544 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-02-07 12:01:41,545 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=0 ramp-up=0 perThread=NaN delayedStart=false
+2018-02-07 12:01:41,545 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-02-07 12:01:41,545 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-02-07 12:01:41,545 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-02-07 12:01:41,546 INFO o.a.j.r.Summariser: summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
