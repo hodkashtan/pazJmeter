@@ -1,0 +1,533 @@
+2018-02-07 11:34:52,508 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-02-07 11:34:52,527 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-02-07 11:34:52,544 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-02-07 11:34:52,544 INFO o.a.j.JMeter: Setting JMeter property: NUM_OF_USERS=10
+2018-02-07 11:34:52,544 INFO o.a.j.JMeter: Setting JMeter property: RAMP_UP_PERIOD=1
+2018-02-07 11:34:52,544 INFO o.a.j.JMeter: Setting JMeter property: LOOP_COUNT=2
+2018-02-07 11:34:52,548 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-02-07 11:34:52,548 INFO o.a.j.JMeter: Version 3.3 r1808647
+2018-02-07 11:34:52,549 INFO o.a.j.JMeter: java.version=1.8.0_151
+2018-02-07 11:34:52,549 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-02-07 11:34:52,549 INFO o.a.j.JMeter: os.name=Linux
+2018-02-07 11:34:52,549 INFO o.a.j.JMeter: os.arch=amd64
+2018-02-07 11:34:52,549 INFO o.a.j.JMeter: os.version=3.10.0-693.5.2.el7.x86_64
+2018-02-07 11:34:52,549 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-02-07 11:34:52,549 INFO o.a.j.JMeter: Max memory     =466288640
+2018-02-07 11:34:52,549 INFO o.a.j.JMeter: Available Processors =1
+2018-02-07 11:34:52,553 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-02-07 11:34:52,553 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-02-07 11:34:52,554 INFO o.a.j.JMeter: JMeterHome=/var/lib/jenkins/workspace/Get_History
+2018-02-07 11:34:52,554 INFO o.a.j.JMeter: user.dir  =/var/lib/jenkins/workspace/Get_History/bin
+2018-02-07 11:34:52,554 INFO o.a.j.JMeter: PWD       =/var/lib/jenkins/workspace/Get_History/bin
+2018-02-07 11:34:52,570 INFO o.a.j.JMeter: IP: 172.20.59.232 Name: ip-172-20-59-232.eu-west-1.compute.internal FullName: ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-07 11:34:52,573 INFO o.a.j.s.FileServer: Default base='/var/lib/jenkins/workspace/Get_History/bin'
+2018-02-07 11:34:52,573 INFO o.a.j.s.FileServer: Set new base='/var/lib/jenkins/workspace/Get_History/bin'
+2018-02-07 11:34:52,828 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-02-07 11:34:52,845 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-02-07 11:34:52,870 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-02-07 11:34:52,876 INFO o.a.j.s.SaveService: Loading file: Get_History.jmx
+2018-02-07 11:34:52,940 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 11:34:52,940 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 11:34:52,940 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 11:34:52,940 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 11:34:52,940 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-02-07 11:34:52,940 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-02-07 11:34:53,068 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-02-07 11:34:53,076 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-02-07 11:34:53,077 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-07 11:34:53,077 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-07 11:34:53,081 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-02-07 11:34:53,081 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-02-07 11:34:53,731 INFO o.a.j.JMeter: Running test (1518003293731)
+2018-02-07 11:34:53,769 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : History
+2018-02-07 11:34:53,769 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group History.
+2018-02-07 11:34:53,769 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-02-07 11:34:53,770 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 perThread=100.0 delayedStart=false
+2018-02-07 11:34:53,816 INFO o.a.j.t.JMeterThread: Thread started: History 1-1
+2018-02-07 11:34:53,818 INFO o.a.j.s.FileServer: Stored: usersInfo.csv
+2018-02-07 11:34:53,875 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Post All History loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMCwiZXhwIjoiXC9EYXRlKDE1NDk0ODcxMTQyMzQpXC8ifQ.t7EpqyGe50CqL6PWI3WoHr2tRGv-u3XsMHsgCUTL-FE]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:53.866Z",
+  "transDateTo": "2018-02-07T11:34:53.866Z",
+  "filterMode": "string670"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:53,895 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-07 11:34:53,901 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-02-07 11:34:53,916 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-02-07 11:34:53,916 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-02-07 11:34:53,916 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-02-07 11:34:53,917 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-02-07 11:34:53,958 INFO o.a.j.t.JMeterThread: Thread started: History 1-2
+2018-02-07 11:34:53,972 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Post All History loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzA1NjEpXC8ifQ.hq31LLpsSN63VZKvNSA9qRmJHewrZL3JqWlBjDNUhz8]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:53.971Z",
+  "transDateTo": "2018-02-07T11:34:53.971Z",
+  "filterMode": "string54"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:54,098 INFO o.a.j.t.JMeterThread: Thread started: History 1-3
+2018-02-07 11:34:54,104 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Post All History loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.NI3xmBcGpkWJJH7zocsvC1mBUHzHBf4zIdvdoa1dACU]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:54.103Z",
+  "transDateTo": "2018-02-07T11:34:54.103Z",
+  "filterMode": "string52"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:54,130 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-02-07 11:34:54,131 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-02-07 11:34:54,194 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-02-07 11:34:54,201 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-02-07 11:34:54,201 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-02-07 11:34:54,260 INFO o.a.j.t.JMeterThread: Thread started: History 1-4
+2018-02-07 11:34:54,265 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing Post All History loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.JZ3qTtxuwbJdQ-fqVcxtpl5gXu8gnALSy8i7l4zPSz0]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:54.264Z",
+  "transDateTo": "2018-02-07T11:34:54.264Z",
+  "filterMode": "string586"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:54,388 INFO o.a.j.t.JMeterThread: Thread started: History 1-5
+2018-02-07 11:34:54,392 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing Post All History loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU2NTQpXC8ifQ.EO10i9CD6UVjjedwjnb3NUk056lSInFEDjcQ2W_DD-4]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:54.392Z",
+  "transDateTo": "2018-02-07T11:34:54.392Z",
+  "filterMode": "string308"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:54,488 INFO o.a.j.t.JMeterThread: Thread started: History 1-6
+2018-02-07 11:34:54,491 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing Post All History loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzc5MDgpXC8ifQ.-1iLUwzBQ4TP0DX6NWy7gyTb9skxLRWNOxmAJVdycBE]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:54.491Z",
+  "transDateTo": "2018-02-07T11:34:54.491Z",
+  "filterMode": "string496"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:54,510 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-02-07 11:34:54,511 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-02-07 11:34:54,512 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-02-07 11:34:54,689 INFO o.a.j.t.JMeterThread: Thread started: History 1-7
+2018-02-07 11:34:54,693 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing Post All History loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzkxNDQpXC8ifQ.fFF7mQdnxEVaG43Zb7wWyYEujaK-fOC_DcusJoXzQh4]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:54.692Z",
+  "transDateTo": "2018-02-07T11:34:54.692Z",
+  "filterMode": "string564"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:54,822 INFO o.a.j.t.JMeterThread: Thread started: History 1-8
+2018-02-07 11:34:54,849 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing Post All History loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzk3NzQpXC8ifQ.qyMfIt-dFQUdnna_3pGLlZPd84L_x5BrZZENjSlKrzs]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:54.848Z",
+  "transDateTo": "2018-02-07T11:34:54.848Z",
+  "filterMode": "string746"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:54,931 INFO o.a.j.t.JMeterThread: Thread started: History 1-9
+2018-02-07 11:34:54,934 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing Post All History loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ._ALr2k9xDNSG4YIFD4G167-s1KDSHikDHi4DXIpnuj4]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:54.933Z",
+  "transDateTo": "2018-02-07T11:34:54.934Z",
+  "filterMode": "string352"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:55,037 INFO o.a.j.t.JMeterThread: Thread started: History 1-10
+2018-02-07 11:34:55,039 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing Post All History loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.VLSbFpZTHTV8WfjKLjo_mMIekaSBmTYKa7b7Efx7iYw]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:55.039Z",
+  "transDateTo": "2018-02-07T11:34:55.039Z",
+  "filterMode": "string291"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:55,459 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing Post All History loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,462 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing Post All History loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.Riln6YSpDR7fIkGDw0P1f0Wj4mgRe8yQcRJ0qKJeQW8]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:55.462Z",
+  "transDateTo": "2018-02-07T11:34:55.462Z",
+  "filterMode": "string151"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:55,465 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing Post All History loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,467 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing Post All History loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.p5tQz5-TUE-vgt3seM_PGZXYlPjOCHIMT1Fw-vW64cQ]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:55.466Z",
+  "transDateTo": "2018-02-07T11:34:55.467Z",
+  "filterMode": "string370"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:55,473 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing Post All History loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,476 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing Post All History loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.bEc57N1Q7EhlAayTfG6_t2vlhWV32yK-08-pPYfjVGA]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:55.476Z",
+  "transDateTo": "2018-02-07T11:34:55.476Z",
+  "filterMode": "string947"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:55,480 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing Post All History loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,482 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing Post All History loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.XFvRqwM2JFT7COZ6sv2uaQCyrZ5LRoEfXWq1kt-ZkM8]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:55.482Z",
+  "transDateTo": "2018-02-07T11:34:55.482Z",
+  "filterMode": "string102"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:55,484 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Post All History loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,487 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Post All History loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAyNDMpXC8ifQ.VjMrZXqW2P2iibWafePBj1IPYi7F9nKHqHtRHntAE2Q]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:55.486Z",
+  "transDateTo": "2018-02-07T11:34:55.487Z",
+  "filterMode": "string850"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:55,488 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Post All History loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,491 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Post All History loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAzNTMpXC8ifQ.h7B4T4pf32eXOse4Cu0-wCX25PbrNqn93eWD8ImkSy4]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:55.491Z",
+  "transDateTo": "2018-02-07T11:34:55.491Z",
+  "filterMode": "string684"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:55,494 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing Post All History loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,496 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing Post All History loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NjIpXC8ifQ.6JpZ6_82oi7w2vlzWC95BeTgHhrC0wEmCU6odYFPhvg]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:55.496Z",
+  "transDateTo": "2018-02-07T11:34:55.496Z",
+  "filterMode": "string659"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:55,593 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing Post All History loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,595 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing Post All History loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NzgpXC8ifQ.1_uoXbCxai-ZRlNwX2JKQ3P2p-Op6MBYrLlMZLqQVlg]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:55.595Z",
+  "transDateTo": "2018-02-07T11:34:55.595Z",
+  "filterMode": "string485"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:55,617 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing Post All History loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,618 INFO o.a.j.t.JMeterThread: Thread is done: History 1-8
+2018-02-07 11:34:55,618 INFO o.a.j.t.JMeterThread: Thread finished: History 1-8
+2018-02-07 11:34:55,624 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing Post All History loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,624 INFO o.a.j.t.JMeterThread: Thread is done: History 1-7
+2018-02-07 11:34:55,624 INFO o.a.j.t.JMeterThread: Thread finished: History 1-7
+2018-02-07 11:34:55,643 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing Post All History loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,643 INFO o.a.j.t.JMeterThread: Thread is done: History 1-1
+2018-02-07 11:34:55,644 INFO o.a.j.t.JMeterThread: Thread finished: History 1-1
+2018-02-07 11:34:55,659 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing Post All History loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,659 INFO o.a.j.t.JMeterThread: Thread is done: History 1-6
+2018-02-07 11:34:55,659 INFO o.a.j.t.JMeterThread: Thread finished: History 1-6
+2018-02-07 11:34:55,661 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing Post All History loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,662 INFO o.a.j.t.JMeterThread: Thread is done: History 1-9
+2018-02-07 11:34:55,662 INFO o.a.j.t.JMeterThread: Thread finished: History 1-9
+2018-02-07 11:34:55,664 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing Post All History loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,664 INFO o.a.j.t.JMeterThread: Thread is done: History 1-5
+2018-02-07 11:34:55,664 INFO o.a.j.t.JMeterThread: Thread finished: History 1-5
+2018-02-07 11:34:55,666 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing Post All History loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,667 INFO o.a.j.t.JMeterThread: Thread is done: History 1-3
+2018-02-07 11:34:55,667 INFO o.a.j.t.JMeterThread: Thread finished: History 1-3
+2018-02-07 11:34:55,766 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing Post All History loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:55,766 INFO o.a.j.t.JMeterThread: Thread is done: History 1-10
+2018-02-07 11:34:55,767 INFO o.a.j.t.JMeterThread: Thread finished: History 1-10
+2018-02-07 11:34:58,260 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing Post All History loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:58,261 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing Post All History loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1NzEpXC8ifQ.24sz_2MZIG_LdCsZ7lLTXWHcI1ul9sZyDiE0UPHeP2I]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:58.261Z",
+  "transDateTo": "2018-02-07T11:34:58.261Z",
+  "filterMode": "string731"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:58,282 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Post All History loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:58,284 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Post All History loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI1MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1ODcpXC8ifQ.PeO3Z-ITM1Mml0AyvUrqV2mOQQWBIhlexjvW4Vup6jA]
+Body: ={
+  "transDateFrom": "2018-02-07T11:34:58.283Z",
+  "transDateTo": "2018-02-07T11:34:58.284Z",
+  "filterMode": "string91"
+}()
+****************************************************************************************************
+
+2018-02-07 11:34:58,609 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing Post All History loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:58,610 INFO o.a.j.t.JMeterThread: Thread is done: History 1-2
+2018-02-07 11:34:58,610 INFO o.a.j.t.JMeterThread: Thread finished: History 1-2
+2018-02-07 11:34:58,628 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing Post All History loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/purchase/getAll
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 11:34:58,628 INFO o.a.j.t.JMeterThread: Thread is done: History 1-4
+2018-02-07 11:34:58,628 INFO o.a.j.t.JMeterThread: Thread finished: History 1-4
+2018-02-07 11:34:58,629 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-02-07 11:34:58,629 INFO o.a.j.s.FileServer: Close: usersInfo.csv
+2018-02-07 11:34:58,630 INFO o.a.j.r.Summariser: summary =     20 in 00:00:05 =    4.1/s Avg:   857 Min:   153 Max:  4307 Err:     0 (0.00%)
