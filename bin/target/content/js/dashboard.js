@@ -167,7 +167,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.8625, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)  ", "F (Frustration threshold)", "Label"], "items": [{"data": [0.725, 500, 1500, "GenerateVerifiactionCode"], "isController": false}, {"data": [1.0, 500, 1500, "verifyUser"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.48333333333333334, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)  ", "F (Frustration threshold)", "Label"], "items": [{"data": [0.45, 500, 1500, "GenerateVerifiactionCode"], "isController": false}, {"data": [0.0, 500, 1500, "Register"], "isController": false}, {"data": [1.0, 500, 1500, "verifyUser"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -181,7 +181,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 40, 0, 0.0, 430.7250000000001, 99, 4013, 952.5999999999998, 1256.45, 4013.0, 5.0851767098906695, 3.5010249809305876, 2.22973080345792], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["GenerateVerifiactionCode", 20, 0, 0.0, 664.0, 99, 4013, 1255.9, 3875.199999999998, 4013.0, 3.037667071688943, 0.9670697904009721, 1.1836222281287971], "isController": false}, {"data": ["verifyUser", 20, 0, 0.0, 197.45000000000005, 109, 318, 296.8, 317.0, 318.0, 3.564427018356799, 3.773280163963643, 1.7369619942969168], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 30, 0, 0.0, 2472.7666666666664, 264, 8222, 7277.200000000003, 8136.2, 8222.0, 1.6217092815827883, 1.3659416556300341, 0.5933597762041192], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["GenerateVerifiactionCode", 10, 0, 0.0, 1297.8, 485, 4140, 4081.8, 4140.0, 4140.0, 2.4154589371980677, 0.7689839975845412, 0.4411043176328503], "isController": false}, {"data": ["Register", 10, 0, 0.0, 5837.2, 4255, 8222, 8206.4, 8222.0, 8222.0, 1.1135857461024499, 2.015655449610245, 0.6437917594654788], "isController": false}, {"data": ["verifyUser", 10, 0, 0.0, 283.3, 264, 307, 306.3, 307.0, 307.0, 3.073140749846343, 1.2244545175169024, 1.0353843346650276], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -220,7 +220,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 40, 0, null, null, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 30, 0, null, null, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
