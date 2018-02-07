@@ -1,0 +1,833 @@
+2018-02-07 12:02:51,834 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-02-07 12:02:51,868 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-02-07 12:02:51,869 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-02-07 12:02:51,870 INFO o.a.j.JMeter: Setting JMeter property: NUM_OF_USERS=10
+2018-02-07 12:02:51,870 INFO o.a.j.JMeter: Setting JMeter property: RAMP_UP_PERIOD=1
+2018-02-07 12:02:51,870 INFO o.a.j.JMeter: Setting JMeter property: LOOP_COUNT=2
+2018-02-07 12:02:51,892 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-02-07 12:02:51,892 INFO o.a.j.JMeter: Version 3.3 r1808647
+2018-02-07 12:02:51,892 INFO o.a.j.JMeter: java.version=1.8.0_151
+2018-02-07 12:02:51,892 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-02-07 12:02:51,892 INFO o.a.j.JMeter: os.name=Linux
+2018-02-07 12:02:51,892 INFO o.a.j.JMeter: os.arch=amd64
+2018-02-07 12:02:51,892 INFO o.a.j.JMeter: os.version=3.10.0-693.5.2.el7.x86_64
+2018-02-07 12:02:51,892 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-02-07 12:02:51,892 INFO o.a.j.JMeter: Max memory     =466288640
+2018-02-07 12:02:51,893 INFO o.a.j.JMeter: Available Processors =1
+2018-02-07 12:02:51,900 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-02-07 12:02:51,900 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-02-07 12:02:51,900 INFO o.a.j.JMeter: JMeterHome=/var/lib/jenkins/workspace/Indoor_Payments
+2018-02-07 12:02:51,900 INFO o.a.j.JMeter: user.dir  =/var/lib/jenkins/workspace/Indoor_Payments/bin
+2018-02-07 12:02:51,901 INFO o.a.j.JMeter: PWD       =/var/lib/jenkins/workspace/Indoor_Payments/bin
+2018-02-07 12:02:51,913 INFO o.a.j.JMeter: IP: 172.20.59.232 Name: ip-172-20-59-232.eu-west-1.compute.internal FullName: ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-07 12:02:51,918 INFO o.a.j.s.FileServer: Default base='/var/lib/jenkins/workspace/Indoor_Payments/bin'
+2018-02-07 12:02:51,919 INFO o.a.j.s.FileServer: Set new base='/var/lib/jenkins/workspace/Indoor_Payments/bin'
+2018-02-07 12:02:52,198 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-02-07 12:02:52,264 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-02-07 12:02:52,288 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-02-07 12:02:52,294 INFO o.a.j.s.SaveService: Loading file: Indoor_Payments.jmx
+2018-02-07 12:02:52,351 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 12:02:52,351 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 12:02:52,351 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 12:02:52,351 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-07 12:02:52,351 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-02-07 12:02:52,351 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-02-07 12:02:52,493 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-02-07 12:02:52,525 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-02-07 12:02:52,525 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-07 12:02:52,525 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-07 12:02:52,529 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-02-07 12:02:52,529 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-02-07 12:02:53,123 INFO o.a.j.JMeter: Running test (1518004973121)
+2018-02-07 12:02:53,150 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Indoor
+2018-02-07 12:02:53,150 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Indoor.
+2018-02-07 12:02:53,150 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-02-07 12:02:53,150 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 perThread=100.0 delayedStart=false
+2018-02-07 12:02:53,216 INFO o.a.j.t.JMeterThread: Thread started: Indoor 1-1
+2018-02-07 12:02:53,218 INFO o.a.j.s.FileServer: Stored: usersInfo.csv
+2018-02-07 12:02:53,277 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing indoorMessagesPost loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMCwiZXhwIjoiXC9EYXRlKDE1NDk0ODcxMTQyMzQpXC8ifQ.t7EpqyGe50CqL6PWI3WoHr2tRGv-u3XsMHsgCUTL-FE]
+Body: ={"filterType":"string743"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:53,303 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-172-20-59-232.eu-west-1.compute.internal
+2018-02-07 12:02:53,309 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-02-07 12:02:53,347 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-02-07 12:02:53,347 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-02-07 12:02:53,347 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-02-07 12:02:53,347 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-02-07 12:02:53,365 INFO o.a.j.t.JMeterThread: Thread started: Indoor 1-2
+2018-02-07 12:02:53,370 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing indoorMessagesPost loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzA1NjEpXC8ifQ.hq31LLpsSN63VZKvNSA9qRmJHewrZL3JqWlBjDNUhz8]
+Body: ={"filterType":"string238"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:53,629 INFO o.a.j.t.JMeterThread: Thread started: Indoor 1-3
+2018-02-07 12:02:53,633 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing indoorMessagesPost loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.NI3xmBcGpkWJJH7zocsvC1mBUHzHBf4zIdvdoa1dACU]
+Body: ={"filterType":"string384"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:53,638 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-02-07 12:02:53,657 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-02-07 12:02:53,657 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-02-07 12:02:53,816 INFO o.a.j.t.JMeterThread: Thread started: Indoor 1-4
+2018-02-07 12:02:53,820 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing indoorMessagesPost loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.JZ3qTtxuwbJdQ-fqVcxtpl5gXu8gnALSy8i7l4zPSz0]
+Body: ={"filterType":"string569"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:53,878 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-02-07 12:02:53,878 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-02-07 12:02:54,012 INFO o.a.j.t.JMeterThread: Thread started: Indoor 1-5
+2018-02-07 12:02:54,015 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing indoorMessagesPost loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU2NTQpXC8ifQ.EO10i9CD6UVjjedwjnb3NUk056lSInFEDjcQ2W_DD-4]
+Body: ={"filterType":"string627"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:54,054 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-02-07 12:02:54,055 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-02-07 12:02:54,055 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-02-07 12:02:54,177 INFO o.a.j.t.JMeterThread: Thread started: Indoor 1-6
+2018-02-07 12:02:54,180 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing indoorMessagesPost loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzc5MDgpXC8ifQ.-1iLUwzBQ4TP0DX6NWy7gyTb9skxLRWNOxmAJVdycBE]
+Body: ={"filterType":"string781"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:54,312 INFO o.a.j.t.JMeterThread: Thread started: Indoor 1-7
+2018-02-07 12:02:54,315 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing indoorMessagesPost loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzkxNDQpXC8ifQ.fFF7mQdnxEVaG43Zb7wWyYEujaK-fOC_DcusJoXzQh4]
+Body: ={"filterType":"string173"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:54,527 INFO o.a.j.t.JMeterThread: Thread started: Indoor 1-8
+2018-02-07 12:02:54,530 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing indoorMessagesPost loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzk3NzQpXC8ifQ.qyMfIt-dFQUdnna_3pGLlZPd84L_x5BrZZENjSlKrzs]
+Body: ={"filterType":"string856"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:54,679 INFO o.a.j.t.JMeterThread: Thread started: Indoor 1-9
+2018-02-07 12:02:54,682 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing indoorMessagesPost loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ._ALr2k9xDNSG4YIFD4G167-s1KDSHikDHi4DXIpnuj4]
+Body: ={"filterType":"string317"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:54,779 INFO o.a.j.t.JMeterThread: Thread started: Indoor 1-10
+2018-02-07 12:02:54,782 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing indoorMessagesPost loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.VLSbFpZTHTV8WfjKLjo_mMIekaSBmTYKa7b7Efx7iYw]
+Body: ={"filterType":"string49"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:54,906 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing indoorMessagesPost loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:54,909 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing indoorFuellingApproveOrDeny loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.JZ3qTtxuwbJdQ-fqVcxtpl5gXu8gnALSy8i7l4zPSz0]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:54,912 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing indoorMessagesPost loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:54,914 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing indoorFuellingApproveOrDeny loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzkxNDQpXC8ifQ.fFF7mQdnxEVaG43Zb7wWyYEujaK-fOC_DcusJoXzQh4]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:54,928 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing indoorMessagesPost loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:54,951 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing indoorFuellingApproveOrDeny loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU0MDQpXC8ifQ.NI3xmBcGpkWJJH7zocsvC1mBUHzHBf4zIdvdoa1dACU]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:54,956 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing indoorMessagesPost loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:54,959 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing indoorFuellingApproveOrDeny loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzA1NjEpXC8ifQ.hq31LLpsSN63VZKvNSA9qRmJHewrZL3JqWlBjDNUhz8]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:54,982 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing indoorMessagesPost loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:54,984 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing indoorFuellingApproveOrDeny loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0NzU2NTQpXC8ifQ.EO10i9CD6UVjjedwjnb3NUk056lSInFEDjcQ2W_DD-4]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:54,987 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing indoorMessagesPost loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:54,990 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing indoorFuellingApproveOrDeny loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzc5MDgpXC8ifQ.-1iLUwzBQ4TP0DX6NWy7gyTb9skxLRWNOxmAJVdycBE]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:54,993 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing indoorMessagesPost loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:54,994 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing indoorFuellingApproveOrDeny loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzMCwiZXhwIjoiXC9EYXRlKDE1NDk0ODcxMTQyMzQpXC8ifQ.t7EpqyGe50CqL6PWI3WoHr2tRGv-u3XsMHsgCUTL-FE]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,028 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing indoorFuellingApproveOrDeny loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,029 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing indoorMessagesPost loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.Riln6YSpDR7fIkGDw0P1f0Wj4mgRe8yQcRJ0qKJeQW8]
+Body: ={"filterType":"string730"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:55,065 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing indoorFuellingApproveOrDeny loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,067 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing indoorMessagesPost loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.p5tQz5-TUE-vgt3seM_PGZXYlPjOCHIMT1Fw-vW64cQ]
+Body: ={"filterType":"string374"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:55,075 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing indoorFuellingApproveOrDeny loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,076 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing indoorMessagesPost loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.bEc57N1Q7EhlAayTfG6_t2vlhWV32yK-08-pPYfjVGA]
+Body: ={"filterType":"string460"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:55,079 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing indoorFuellingApproveOrDeny loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,081 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing indoorMessagesPost loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.XFvRqwM2JFT7COZ6sv2uaQCyrZ5LRoEfXWq1kt-ZkM8]
+Body: ={"filterType":"string531"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:55,088 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing indoorMessagesPost loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,089 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing indoorFuellingApproveOrDeny loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0Nzk3NzQpXC8ifQ.qyMfIt-dFQUdnna_3pGLlZPd84L_x5BrZZENjSlKrzs]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,103 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing indoorFuellingApproveOrDeny loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,105 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing indoorMessagesPost loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAyNDMpXC8ifQ.VjMrZXqW2P2iibWafePBj1IPYi7F9nKHqHtRHntAE2Q]
+Body: ={"filterType":"string996"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:55,108 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing indoorFuellingApproveOrDeny loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,110 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing indoorMessagesPost loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAzNTMpXC8ifQ.h7B4T4pf32eXOse4Cu0-wCX25PbrNqn93eWD8ImkSy4]
+Body: ={"filterType":"string946"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:55,113 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing indoorFuellingApproveOrDeny loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,114 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing indoorMessagesPost loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NjIpXC8ifQ.6JpZ6_82oi7w2vlzWC95BeTgHhrC0wEmCU6odYFPhvg]
+Body: ={"filterType":"string116"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:55,146 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing indoorMessagesPost loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,147 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing indoorFuellingApproveOrDeny loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.Riln6YSpDR7fIkGDw0P1f0Wj4mgRe8yQcRJ0qKJeQW8]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,181 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing indoorMessagesPost loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,182 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing indoorFuellingApproveOrDeny loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.p5tQz5-TUE-vgt3seM_PGZXYlPjOCHIMT1Fw-vW64cQ]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,192 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing indoorMessagesPost loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,193 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing indoorFuellingApproveOrDeny loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzOSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.XFvRqwM2JFT7COZ6sv2uaQCyrZ5LRoEfXWq1kt-ZkM8]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,197 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing indoorMessagesPost loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,198 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing indoorFuellingApproveOrDeny loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ._ALr2k9xDNSG4YIFD4G167-s1KDSHikDHi4DXIpnuj4]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,201 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing indoorMessagesPost loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,202 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing indoorFuellingApproveOrDeny loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAxMDMpXC8ifQ.bEc57N1Q7EhlAayTfG6_t2vlhWV32yK-08-pPYfjVGA]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,205 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing indoorFuellingApproveOrDeny loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,207 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing indoorMessagesPost loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NzgpXC8ifQ.1_uoXbCxai-ZRlNwX2JKQ3P2p-Op6MBYrLlMZLqQVlg]
+Body: ={"filterType":"string805"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:55,217 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing indoorMessagesPost loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,218 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing indoorFuellingApproveOrDeny loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAyNDMpXC8ifQ.VjMrZXqW2P2iibWafePBj1IPYi7F9nKHqHtRHntAE2Q]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,220 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing indoorMessagesPost loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,221 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing indoorFuellingApproveOrDeny loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NywiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAzNTMpXC8ifQ.h7B4T4pf32eXOse4Cu0-wCX25PbrNqn93eWD8ImkSy4]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,238 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing indoorMessagesPost loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,239 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing indoorFuellingApproveOrDeny loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NjIpXC8ifQ.6JpZ6_82oi7w2vlzWC95BeTgHhrC0wEmCU6odYFPhvg]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,261 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #7 executing indoorFuellingApproveOrDeny loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,262 INFO o.a.j.t.JMeterThread: Thread is done: Indoor 1-7
+2018-02-07 12:02:55,262 INFO o.a.j.t.JMeterThread: Thread finished: Indoor 1-7
+2018-02-07 12:02:55,287 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #3 executing indoorFuellingApproveOrDeny loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,288 INFO o.a.j.t.JMeterThread: Thread is done: Indoor 1-3
+2018-02-07 12:02:55,288 INFO o.a.j.t.JMeterThread: Thread finished: Indoor 1-3
+2018-02-07 12:02:55,296 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #4 executing indoorFuellingApproveOrDeny loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,297 INFO o.a.j.t.JMeterThread: Thread is done: Indoor 1-4
+2018-02-07 12:02:55,297 INFO o.a.j.t.JMeterThread: Thread finished: Indoor 1-4
+2018-02-07 12:02:55,321 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #6 executing indoorFuellingApproveOrDeny loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,321 INFO o.a.j.t.JMeterThread: Thread is done: Indoor 1-6
+2018-02-07 12:02:55,322 INFO o.a.j.t.JMeterThread: Thread finished: Indoor 1-6
+2018-02-07 12:02:55,324 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing indoorMessagesPost loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,326 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing indoorFuellingApproveOrDeny loop#1 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjIzNiwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODAwODcpXC8ifQ.VLSbFpZTHTV8WfjKLjo_mMIekaSBmTYKa7b7Efx7iYw]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,328 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #1 executing indoorFuellingApproveOrDeny loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,328 INFO o.a.j.t.JMeterThread: Thread is done: Indoor 1-1
+2018-02-07 12:02:55,328 INFO o.a.j.t.JMeterThread: Thread finished: Indoor 1-1
+2018-02-07 12:02:55,329 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing indoorFuellingApproveOrDeny loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,330 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing indoorMessagesPost loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1NzEpXC8ifQ.24sz_2MZIG_LdCsZ7lLTXWHcI1ul9sZyDiE0UPHeP2I]
+Body: ={"filterType":"string530"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:55,332 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing indoorMessagesPost loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,333 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing indoorFuellingApproveOrDeny loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0NSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA0NzgpXC8ifQ.1_uoXbCxai-ZRlNwX2JKQ3P2p-Op6MBYrLlMZLqQVlg]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,335 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #2 executing indoorFuellingApproveOrDeny loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,335 INFO o.a.j.t.JMeterThread: Thread is done: Indoor 1-2
+2018-02-07 12:02:55,335 INFO o.a.j.t.JMeterThread: Thread finished: Indoor 1-2
+2018-02-07 12:02:55,363 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #5 executing indoorFuellingApproveOrDeny loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,364 INFO o.a.j.t.JMeterThread: Thread is done: Indoor 1-5
+2018-02-07 12:02:55,364 INFO o.a.j.t.JMeterThread: Thread finished: Indoor 1-5
+2018-02-07 12:02:55,438 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing indoorFuellingApproveOrDeny loop#1 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,439 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing indoorMessagesPost loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/messages/get
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI1MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1ODcpXC8ifQ.PeO3Z-ITM1Mml0AyvUrqV2mOQQWBIhlexjvW4Vup6jA]
+Body: ={"filterType":"string616"}
+()
+****************************************************************************************************
+
+2018-02-07 12:02:55,444 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #8 executing indoorFuellingApproveOrDeny loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,445 INFO o.a.j.t.JMeterThread: Thread is done: Indoor 1-8
+2018-02-07 12:02:55,445 INFO o.a.j.t.JMeterThread: Thread finished: Indoor 1-8
+2018-02-07 12:02:55,447 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing indoorMessagesPost loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,448 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing indoorFuellingApproveOrDeny loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0OSwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1NzEpXC8ifQ.24sz_2MZIG_LdCsZ7lLTXWHcI1ul9sZyDiE0UPHeP2I]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,554 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing indoorMessagesPost loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/messages/get
+Response Data:
+{"custom":null,"errorCode":0,"errorMessage":null,"body":[]}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,555 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing indoorFuellingApproveOrDeny loop#2 ---
+Sending POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Headers: [content-type	application/json, Accept	application/json, accesstoken	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI1MCwiZXhwIjoiXC9EYXRlKDE1NDk1MDY0ODA1ODcpXC8ifQ.PeO3Z-ITM1Mml0AyvUrqV2mOQQWBIhlexjvW4Vup6jA]
+Body: ={"isApproved":true,"dapiSessionId":0}()
+****************************************************************************************************
+
+2018-02-07 12:02:55,562 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #9 executing indoorFuellingApproveOrDeny loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,563 INFO o.a.j.t.JMeterThread: Thread is done: Indoor 1-9
+2018-02-07 12:02:55,563 INFO o.a.j.t.JMeterThread: Thread finished: Indoor 1-9
+2018-02-07 12:02:55,666 INFO o.a.j.u.BeanShellTestElement: 
+****************************************************************************************************
+--- Thread #10 executing indoorFuellingApproveOrDeny loop#2 ---
+Sent POST request to https://ltdapi.paz.co.il/api/fuelling/approveOrDenyIndoorRequest
+Response Data:
+{"custom":null,"errorCode":10001,"errorMessage":" בקשה לתשלום לא נמצאה, יש לחדש את הבקשה בקופה","body":null}
+Failed Assertions: 
+****************************************************************************************************
+
+
+2018-02-07 12:02:55,666 INFO o.a.j.t.JMeterThread: Thread is done: Indoor 1-10
+2018-02-07 12:02:55,666 INFO o.a.j.t.JMeterThread: Thread finished: Indoor 1-10
+2018-02-07 12:02:55,672 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-02-07 12:02:55,673 INFO o.a.j.s.FileServer: Close: usersInfo.csv
+2018-02-07 12:02:55,674 INFO o.a.j.r.Summariser: summary =     40 in 00:00:03 =   15.7/s Avg:   306 Min:   101 Max:  1495 Err:     0 (0.00%)
